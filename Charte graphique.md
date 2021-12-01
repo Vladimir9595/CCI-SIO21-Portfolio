@@ -12,23 +12,23 @@ Ici je présente les codes couleurs, les polices pour le texte, le logo de la pa
 
 #### **CODE COULEURS**  								
 
-<img src="C:\Users\vladi\AppData\Roaming\Typora\typora-user-images\image-20211201082420592.png" alt="image-20211201082420592" style="float: left;zoom:70%"/>
+<img src="D:\Cours de la CCI\Atelier 1\portfolio\CCI-SIO21-Portfolio\Images\img-gris.jpg" alt="image-20211201082420592" style="float: left;zoom:35%"/>
 
 ​														**RGB** (248 – 249 – 249)
 
-<img src="C:\Users\vladi\AppData\Roaming\Typora\typora-user-images\image-20211201083227732.png" alt="image-20211201083227732" style="float: left;zoom:70%"/>
+<img src="D:\Cours de la CCI\Atelier 1\portfolio\CCI-SIO21-Portfolio\Images\img-jaune.jpg" alt="image-20211201082420592" style="float: left;zoom:35%"/>
 
 ​														**RGB** (232 – 230 – 135)
 
-<img src="C:\Users\vladi\AppData\Roaming\Typora\typora-user-images\image-20211201083335892.png" alt="image-20211201083335892" style="float: left;zoom:70%"/>
+<img src="D:\Cours de la CCI\Atelier 1\portfolio\CCI-SIO21-Portfolio\Images\img-orange.jpg" alt="image-20211201082420592" style="float: left;zoom:45%"/>
 
 ​														**RGB**(231 – 174 – 96)
 
-<img src="C:\Users\vladi\AppData\Roaming\Typora\typora-user-images\image-20211201083346642.png" alt="image-20211201083346642" style="float: left;zoom:70%"/>
+<img src="D:\Cours de la CCI\Atelier 1\portfolio\CCI-SIO21-Portfolio\Images\img-violet.jpg" alt="image-20211201082420592" style="float: left;zoom:35%"/>
 
 ​														**RGB** (204 – 56 – 97)
 
-<img src="C:\Users\vladi\AppData\Roaming\Typora\typora-user-images\image-20211201083357674.png" alt="image-20211201083357674" style="float: left;zoom:70%"/>
+<img src="D:\Cours de la CCI\Atelier 1\portfolio\CCI-SIO21-Portfolio\Images\img-rouge.jpg" alt="image-20211201082420592" style="float: left;zoom:35%"/>
 
 ​														**RGB** (198 – 52 – 9)
 
