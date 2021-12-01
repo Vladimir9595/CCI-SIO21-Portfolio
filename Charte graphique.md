@@ -12,9 +12,9 @@ Ici je présente les codes couleurs, les polices pour le texte, le logo de la pa
 
 #### **CODE COULEURS**  								
 
-<img src="D:\Cours de la CCI\Atelier 1\portfolio\CCI-SIO21-Portfolio\Images\img-gris.jpg" alt="image-20211201082420592" style="float: left;zoom:35%"/>
 
-​														**RGB** (248 – 249 – 249)
+
+![img-gris](D:\Cours de la CCI\Atelier 1\portfolio\CCI-SIO21-Portfolio\Images\img-gris.jpg)**RGB** (248 – 249 – 249)
 
 <img src="D:\Cours de la CCI\Atelier 1\portfolio\CCI-SIO21-Portfolio\Images\img-jaune.jpg" alt="image-20211201082420592" style="float: left;zoom:35%"/>
 
