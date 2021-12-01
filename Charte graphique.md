@@ -1,0 +1,74 @@
+# CCI-SIO21-Portfolio
+
+Je vais rédiger une charte graphique où je renseigne les informations nécessaires afin de créer mon Portfolio en langage HTML + CSS.
+
+Cette Charte est présente dans le dossier : D:\Cours de la CCI\Atelier 1\portfolio\CCI-SIO21-Portfolio
+
+Ici je présente les codes couleurs, les polices pour le texte, le logo de la page web, les logos présents dans la page ainsi qu'une structure de la page web.
+
+
+
+# CHARTE GRAPHIQUE
+
+#### **CODE COULEURS**  								
+
+<img src="C:\Users\vladi\AppData\Roaming\Typora\typora-user-images\image-20211201082420592.png" alt="image-20211201082420592" style="float: left;zoom:70%"/>
+
+​														**RGB** (248 – 249 – 249)
+
+<img src="C:\Users\vladi\AppData\Roaming\Typora\typora-user-images\image-20211201083227732.png" alt="image-20211201083227732" style="float: left;zoom:70%"/>
+
+​														**RGB** (232 – 230 – 135)
+
+<img src="C:\Users\vladi\AppData\Roaming\Typora\typora-user-images\image-20211201083335892.png" alt="image-20211201083335892" style="float: left;zoom:70%"/>
+
+​														**RGB**(231 – 174 – 96)
+
+<img src="C:\Users\vladi\AppData\Roaming\Typora\typora-user-images\image-20211201083346642.png" alt="image-20211201083346642" style="float: left;zoom:70%"/>
+
+​														**RGB** (204 – 56 – 97)
+
+<img src="C:\Users\vladi\AppData\Roaming\Typora\typora-user-images\image-20211201083357674.png" alt="image-20211201083357674" style="float: left;zoom:70%"/>
+
+​														**RGB** (198 – 52 – 9)
+
+
+
+
+
+#### **POLICES**
+
+Pour les paragraphes : Para Type SS https://www.fontsquirrel.com/fonts/pt-sans
+
+Pour les titres : Alex Brush https://www.fontsquirrel.com/fonts/alex-brush
+
+
+
+
+
+#### **LOGOS ET IMAGES**
+
+<img src="D:\Cours de la CCI\Atelier 1\portfolio\CCI-SIO21-Portfolio\Images\ECDL logo.png" alt="image-20211201082420592" style="float: left;zoom:70%"/>
+
+<img src="D:\Cours de la CCI\Atelier 1\portfolio\CCI-SIO21-Portfolio\Images\logo-1.jpg" alt="image-20211201082420592" style="float: left;zoom:30%"/>
+
+<img src="D:\Cours de la CCI\Atelier 1\portfolio\CCI-SIO21-Portfolio\Images\Office word.png" alt="image-20211201082420592" style="float: left;zoom:30%"/>
+
+<img src="D:\Cours de la CCI\Atelier 1\portfolio\CCI-SIO21-Portfolio\Images\Html css JS.png" alt="image-20211201082420592" style="float: left;zoom:30%"/>
+
+<img src="D:\Cours de la CCI\Atelier 1\portfolio\CCI-SIO21-Portfolio\Images\grigio.jpg" alt="image-20211201082420592" style="float: left;zoom:30%"/>
+
+<img src="D:\Cours de la CCI\Atelier 1\portfolio\CCI-SIO21-Portfolio\Images\lodyas.png" alt="image-20211201082420592" style="float: left;zoom:30%"/>
+
+<img src="D:\Cours de la CCI\Atelier 1\portfolio\CCI-SIO21-Portfolio\Images\PhotoID.png" alt="image-20211201082420592" style="float: left;zoom:60%"/>
+
+
+
+#### **FAVICON (Logo de la page web)**
+
+<img src="D:\Cours de la CCI\Atelier 1\portfolio\CCI-SIO21-Portfolio\Images\Favicon.jpg" alt="Favicon" style="zoom:50%;" />
+
+#### **STRUCTURE DE LA PAGE WEB**
+
+<img src="D:\Cours de la CCI\Atelier 1\portfolio\CCI-SIO21-Portfolio\Images\Structure page Web.png" alt="Favicon" style="zoom:50%;" />
+
