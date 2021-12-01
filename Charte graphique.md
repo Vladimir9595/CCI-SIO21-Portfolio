@@ -78,7 +78,9 @@ Pour les titres : Alex Brush https://www.fontsquirrel.com/fonts/alex-brush
 
 <img src=".\Images\lodyas.png" alt="image-20211201082420592" style="float: left;zoom:30%"/>
 
-<img src=".\Images\PhotoID.png" alt="image-20211201082420592" style="float: left;zoom:60%"/>
+<img src="\Images\PhotoID.png" alt="image-20211201082420592" style="float: left;zoom:60%"/>
+
+
 
 
 
