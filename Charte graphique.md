@@ -14,29 +14,41 @@ Ici je présente les codes couleurs, les polices pour le texte, le logo de la pa
 
 
 
-<img src=".\Images\img-gris.jpg" style="float: left;zoom:35%"/>  **RGB** (248 – 249 – 249)
+<img src=".\Images\img-gris.jpg" style="float: left;zoom:35%"/>  
+
+​		**RGB** (248 – 249 – 249)
 
 
 
 
 
+<img src=".\Images\img-jaune.jpg" alt="img-jaune" style="float: left;zoom:35%"/>  
+
+​		**RGB** (232 – 230 – 135)
 
 
-<img src=".\Images\img-jaune.jpg" alt="img-jaune" style="float: left;zoom:35%"/>
 
-​														**RGB** (232 – 230 – 135)
 
-<img src="D:\Cours de la CCI\Atelier 1\portfolio\CCI-SIO21-Portfolio\Images\img-orange.jpg" alt="image-20211201082420592" style="float: left;zoom:45%"/>
 
-​														**RGB**(231 – 174 – 96)
+<img src=".\Images\img-orange.jpg" alt="image-20211201082420592" style="float: left;zoom:45%"/>  
 
-<img src="D:\Cours de la CCI\Atelier 1\portfolio\CCI-SIO21-Portfolio\Images\img-violet.jpg" alt="image-20211201082420592" style="float: left;zoom:35%"/>
+​		**RGB**(231 – 174 – 96)
 
-​														**RGB** (204 – 56 – 97)
 
-<img src="D:\Cours de la CCI\Atelier 1\portfolio\CCI-SIO21-Portfolio\Images\img-rouge.jpg" alt="image-20211201082420592" style="float: left;zoom:35%"/>
 
-​														**RGB** (198 – 52 – 9)
+
+
+<img src=".\Images\img-violet.jpg" alt="image-20211201082420592" style="float: left;zoom:35%"/>  
+
+​		**RGB** (204 – 56 – 97)
+
+
+
+
+
+<img src=".\Images\img-rouge.jpg" alt="image-20211201082420592" style="float: left;zoom:35%"/>		
+
+​		**RGB** (198 – 52 – 9)
 
 
 
@@ -54,27 +66,27 @@ Pour les titres : Alex Brush https://www.fontsquirrel.com/fonts/alex-brush
 
 #### **LOGOS ET IMAGES**
 
-<img src="D:\Cours de la CCI\Atelier 1\portfolio\CCI-SIO21-Portfolio\Images\ECDL logo.png" alt="image-20211201082420592" style="float: left;zoom:70%"/>
+<img src=".\Images\ECDL logo.png" alt="image-20211201082420592" style="float: left;zoom:70%"/>
 
-<img src="D:\Cours de la CCI\Atelier 1\portfolio\CCI-SIO21-Portfolio\Images\logo-1.jpg" alt="image-20211201082420592" style="float: left;zoom:30%"/>
+<img src=".\Images\logo-1.jpg" alt="image-20211201082420592" style="float: left;zoom:30%"/>
 
-<img src="D:\Cours de la CCI\Atelier 1\portfolio\CCI-SIO21-Portfolio\Images\Office word.png" alt="image-20211201082420592" style="float: left;zoom:30%"/>
+<img src=".\Images\Office word.png" alt="image-20211201082420592" style="float: left;zoom:30%"/>
 
-<img src="D:\Cours de la CCI\Atelier 1\portfolio\CCI-SIO21-Portfolio\Images\Html css JS.png" alt="image-20211201082420592" style="float: left;zoom:30%"/>
+<img src=".\Images\Html css JS.png" alt="image-20211201082420592" style="float: left;zoom:30%"/>
 
-<img src="D:\Cours de la CCI\Atelier 1\portfolio\CCI-SIO21-Portfolio\Images\grigio.jpg" alt="image-20211201082420592" style="float: left;zoom:30%"/>
+<img src=".\Images\grigio.jpg" alt="image-20211201082420592" style="float: left;zoom:30%"/>
 
-<img src="D:\Cours de la CCI\Atelier 1\portfolio\CCI-SIO21-Portfolio\Images\lodyas.png" alt="image-20211201082420592" style="float: left;zoom:30%"/>
+<img src=".\Images\lodyas.png" alt="image-20211201082420592" style="float: left;zoom:30%"/>
 
-<img src="D:\Cours de la CCI\Atelier 1\portfolio\CCI-SIO21-Portfolio\Images\PhotoID.png" alt="image-20211201082420592" style="float: left;zoom:60%"/>
+<img src=".\Images\PhotoID.png" alt="image-20211201082420592" style="float: left;zoom:60%"/>
 
 
 
 #### **FAVICON (Logo de la page web)**
 
-<img src="D:\Cours de la CCI\Atelier 1\portfolio\CCI-SIO21-Portfolio\Images\Favicon.jpg" alt="Favicon" style="zoom:50%;" />
+<img src=".\Images\Favicon.jpg" alt="Favicon" style="zoom:50%;" />
 
 #### **STRUCTURE DE LA PAGE WEB**
 
-<img src="D:\Cours de la CCI\Atelier 1\portfolio\CCI-SIO21-Portfolio\Images\Structure page Web.png" alt="Favicon" style="zoom:50%;" />
+<img src=".\Images\Structure page Web.png" alt="Favicon" style="zoom:50%;" />
 
