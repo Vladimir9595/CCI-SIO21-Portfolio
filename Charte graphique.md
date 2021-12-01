@@ -16,7 +16,13 @@ Ici je présente les codes couleurs, les polices pour le texte, le logo de la pa
 
 <img src=".\Images\img-gris.jpg" style="float: left;zoom:35%"/>  **RGB** (248 – 249 – 249)
 
-<img src="D:\Cours de la CCI\Atelier 1\portfolio\CCI-SIO21-Portfolio\Images\img-jaune.jpg" alt="image-20211201082420592" style="float: left;zoom:35%"/>
+
+
+
+
+
+
+<img src=".\Images\img-jaune.jpg" alt="img-jaune" style="float: left;zoom:35%"/>
 
 ​														**RGB** (232 – 230 – 135)
 
