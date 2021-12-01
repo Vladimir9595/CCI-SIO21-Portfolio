@@ -1,0 +1,108 @@
+body
+{
+ background-image: url("Images/grigio.jpg");
+ background-attachment: fixed;
+}
+
+@font-face {
+    font-family: 'pt_sansregular';
+    src: url('PTS55F-webfont.eot');
+    src: url('PTS55F-webfont.eot?#iefix') format('embedded-opentype'),
+         url('PTS55F-webfont.woff2') format('woff2'),
+         url('PTS55F-webfont.woff') format('woff'),
+         url('PTS55F-webfont.ttf') format('truetype'),
+         url('PTS55F-webfont.svg#pt_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media all and (max-width: 1024px){
+    section
+    {
+        display: block;
+        width: auto;
+    }
+    #contenu
+    {
+        width: auto;
+    }
+}
+
+h1
+{
+   color: rgb(189, 8, 33);
+   font-size: 5em;
+   text-align:start; 
+}
+
+.titolo h2
+{
+    color: rgb(189, 8, 33);
+    font-size: 3em;
+    text-align: center;
+}
+
+h2
+{
+    color: rgb(48, 100, 177);
+    font-size: auto;
+    padding: 8px;
+    text-align: center;
+}
+
+ul
+{
+    text-align: justify;
+    font-size: 16px;
+}
+
+img
+{
+    float: right;
+    border: 3px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #000000;
+    border: rgba(#000000);
+    margin: 40px;
+}
+
+img:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.Image 
+{
+    -webkit-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+}
+
+#lisere, #contenu
+{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#lisere
+{   
+    width: 100px;
+    margin-right: 30px;
+    height: 1200px;
+    background-image: url('verdepixel.jpg');
+    border-radius: 10px;
+    background-attachment: fixed;
+}
+
+#contenu
+{
+    width: 1180px;
+}
+section
+{
+    display: inline-block;
+    vertical-align: top;
+    width: 275px;
+    height: 100px;
+    margin-right: 22px;
+    padding: 4px;
+}
