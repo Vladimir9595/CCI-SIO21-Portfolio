@@ -59,8 +59,8 @@ Ici je présente les codes couleurs, les polices pour le texte, le favicon de la
 Pour les paragraphes : Para Type SS https://www.fontsquirrel.com/fonts/pt-sans
 
 Pour les titres : Alex Brush https://www.fontsquirrel.com/fonts/alex-brush
-
-
+							Tickle Gun https://www.dafont.com/fr/tickle-gun.font
+							Bronx https://www.dafont.com/fr/bronx.font
 
 
 

@@ -1,16 +1,14 @@
 body{
     background-image: url("Images/grigio.jpg");
     background-attachment: fixed;
+    background-size: 1920px 1080px;
     }
     
     @font-face {
         font-family: 'pt_sansregular';
-        src: url('PTS55F-webfont.eot');
-        src: url('PTS55F-webfont.eot?#iefix') format('embedded-opentype'),
-             url('PTS55F-webfont.woff2') format('woff2'),
+        src: url('PTS55F-webfont.eot') format('embedded-opentype'),
              url('PTS55F-webfont.woff') format('woff'),
-             url('PTS55F-webfont.ttf') format('truetype'),
-             url('PTS55F-webfont.svg#pt_sansregular') format('svg');
+             url('PTS55F-webfont.ttf') format('truetype');
         font-weight: normal;
         font-style: normal;
     }
@@ -18,6 +16,20 @@ body{
     @font-face {
         font-family: 'alex brush';
         src: url('AlexBrush-Regular.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+    
+    @font-face {
+        font-family: 'tickle gun';
+        src: url('Tickle\ Gun.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+    
+    @font-face {
+        font-family: 'bronx';
+        src: url('Bronx.otf') format('opentype');
         font-weight: normal;
         font-style: normal;
     }
@@ -33,22 +45,25 @@ body{
     }
     
     h1{
-       color: rgb(189, 8, 33);
-       font-size: 4em;
+       color: rgba(175, 10, 32, 0.918);
+       font-size: 5em;
        text-align:center;
-       font-family: 'AlexBrush-Regular', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+       font-family: 'tickle gun', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+       margin: auto;
     }
     
     .titre2{
-        color: rgb(189, 8, 33);
-        font-size: 3em;
+        color: rgba(175, 10, 32, 0.918);
+        font-size: 2em;
         text-align: center;
-        font-family: 'AlexBrush-Regular', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+        font-family: 'alex brush', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+        margin-top: 5px;
     }
     
     aside h2{
-        color: rgb(48, 100, 177);
-        font-size: auto;
+        color: rgb(23, 77, 158);
+        font-size: 25px;
+        font-family: 'bronx', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
         padding: 8px;
         text-align: center;
     }
@@ -59,13 +74,12 @@ body{
         font-family: 'pt_sansregular', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
     
-    .ImageID{
+    .imgID{
         float: right;
-        border: 5px solid black;
         border-radius: 10px;
-        box-shadow: 4px 4px 4px 4px #000000;
-        border: rgba(#000000);
-        margin: 40px;
+        box-shadow: 4px 4px 4px 4px rgb(231, 174, 96);
+        margin-right: 20px;
+        margin-top: 10px;
         width: 110px;
         height: 110px;
         object-fit: cover;
@@ -73,29 +87,40 @@ body{
         transition: .5s ease-in-out;
     }
     
-    
-    .ImageID:hover{
-        -webkit-transform: scale(1.5);
-        transform: scale(1.5);
+    .imgID:hover{
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
     }
     
-    #lisere, #contenu{
-        display: inline-block;
-        vertical-align: top;
+    .logo{
+        float: left;
+        box-shadow: 2px 2px 2px 2px rgb(198, 52, 9);
+        border-radius: 50%;
+        width: 110px;
     }
     
-    #lisere{   
-        width: 60px;
-        margin-right: 30px;
-        height: 1300px;
-        background-image: url('Images/lodyas.png');
-        border-radius: 10px;
-        background-attachment: scroll;
+    .logo:hover{
+        animation-name: logo;
+        animation-duration: 5000ms;
     }
     
-    #contenu{
-        width: 1180px;
-    }
+    @keyframes logo {
+        0% {
+            transform: scale(1);
+        }
+        17% {
+            transform: scale(1.10);
+        }
+        24% {
+            transform: scale(1.00);
+        }
+        46% {
+            transform: scale(1.10);
+        }
+        100% {
+            transform: scale(1.15);
+        }
+    } 
     
     aside{
         display: inline-table;
@@ -103,13 +128,15 @@ body{
         flex-wrap: wrap;
         justify-content: space-between;
         vertical-align: top;
-        width: 500px;
+        width: 700px;
         height: 100px;
         margin-right: 22px;
         padding: 4px;
     }
     
     .menu{
+        font-family: 'pt_sansregular';
         display: flex;
         justify-content: space-between;
     }
+    
