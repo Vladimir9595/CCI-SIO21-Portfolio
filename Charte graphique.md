@@ -22,14 +22,6 @@ Ici je présente les codes couleurs, les polices pour le texte, le favicon de la
 
 
 
-<img src=".\Images\img-jaune.jpg" alt="img-jaune" style="float: left;zoom:35%"/>  
-
-​		**RGB** (232 – 230 – 135)
-
-
-
-
-
 <img src=".\Images\img-orange.jpg" alt="image-20211201082420592" style="float: left;zoom:45%"/>  
 
 ​		**RGB**(231 – 174 – 96)
