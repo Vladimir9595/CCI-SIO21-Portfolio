@@ -34,50 +34,6 @@ body{
         font-style: normal;
     }
     
-    @media all and (max-width: 1024px){
-        section{
-            display: block;
-            width: auto;
-        }
-        #contenu{
-            width: auto;
-        }
-        .menu{
-            display: block;
-            flex-wrap: wrap;
-            flex-direction: column;
-            text-align: start;
-        }
-    }
-    
-    
-    h1{
-       color: rgba(175, 10, 32, 0.918);
-       font-size: 5em;
-       text-align:center;
-       font-family: 'tickle gun', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
-       margin: auto;
-       margin-top: 30px;
-    }
-    
-    .titre2{
-        color: rgba(175, 10, 32, 0.918);
-        font-size: 2em;
-        text-align: center;
-        font-family: 'alex brush', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
-        margin-top: 5px;
-    }
-    
-    section h2{
-        color: rgb(23, 77, 158);
-        font-size: 25px;
-        font-family: 'bronx', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
-        padding: 8px;
-        text-align: center;
-        box-shadow: 2px 2px 2px 2px rgb(204, 56, 97);
-        border-radius: 10px;
-    }
-    
     #Exp {
         -webkit-transition: .8s ease-in-out;
         transition: .8s ease-in-out;
@@ -111,11 +67,38 @@ body{
         transform: scale(1.1);
     }
     
-    ul{
+    p{
         text-align: justify;
         font-size: 18px;
         font-family: 'pt_sansregular', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
+    
+    h1{
+        color: rgba(175, 10, 32, 0.918);
+        font-size: 7em;
+        text-align: center;
+        font-family: 'tickle gun', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+        margin: auto;
+        margin-top: 30px;
+     }
+     
+     .titre2{
+         color: rgba(175, 10, 32, 0.918);
+         font-size: 2em;
+         text-align: center;
+         font-family: 'alex brush', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+         margin-top: 5px;
+     }
+     
+     section h2{
+         color: rgb(23, 77, 158);
+         font-size: 25px;
+         font-family: 'bronx', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+         padding: 8px;
+         text-align: center;
+         box-shadow: 2px 2px 2px 2px rgb(204, 56, 97);
+         border-radius: 10px;
+     }
     
     .imgID{
         float: right;
@@ -126,8 +109,8 @@ body{
         width: 110px;
         height: 110px;
         object-fit: cover;
-        -webkit-transition: .5s ease-in-out;
-        transition: .5s ease-in-out;
+        -webkit-transition: .7s ease-in-out;
+        transition: .7s ease-in-out;
     }
     
     .imgID:hover{
@@ -162,27 +145,13 @@ body{
         46% {
             transform: scale(1.10);
         }
-        100% {
+        64% {
             transform: scale(1.15);
         }
+        100% {
+            transform: scale(1.20);
+        }
     } 
-    
-    section{
-        display: inline-table;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        vertical-align: top;
-        width: 700px;
-        height: 100px;
-        margin-right: 22px;
-        padding: 4px;
-    }
-    
-    #imgcomp{
-        width: 20%;
-        margin-right: 80px;
-    }
     
     .menu{
         font-family: 'pt_sansregular', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -204,15 +173,21 @@ body{
         text-decoration:none; 
     } 
     
-    .logos{
-        text-align: center;
+    section{
+        display: inline-table;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        vertical-align: top;
+        width: 700px;
+        height: 100px;
+        margin-left: 80px;
+        padding: 4px;
     }
     
-    .fa-facebook, .fa-instagram, .fa-linkedin, .fa-facebook-messenger{
-        font-size: 50px;
-        color: whitesmoke;
-        text-align: center;
-        margin-right: 45px;
+    #imgcomp{
+        width: 20%;
+        margin-right: 80px;
     }
     
     footer{
@@ -222,12 +197,39 @@ body{
         margin-top: 20px;
     }
     
-    #contact{
+    h3{
         font-family: 'pt_sansregular';
         font-size: x-large;
         text-align: center;
         color: whitesmoke;
         width: 20%;
         margin: auto;
-        margin-bottom: 20px;
+        margin-bottom: 15px;
+        padding-top: 10px;
     }
+    
+    .logos{
+        text-align: center;
+        padding: 15px;
+    }
+    
+    .fa-facebook, .fa-instagram, .fa-linkedin, .fa-facebook-messenger{
+        font-size: 50px;
+        color: whitesmoke;
+        text-align: center;
+        margin-right: 50px;
+    }
+    
+    .fa-facebook:hover{
+        transform: scale(1.1)
+    }
+    .fa-instagram:hover{
+        transform: scale(1.1)
+    }
+    .fa-linkedin:hover{
+        transform: scale(1.1)
+    }
+    .fa-facebook-messenger:hover{
+        transform: scale(1.1)
+    }
+    
