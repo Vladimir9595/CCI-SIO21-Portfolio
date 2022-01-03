@@ -67,7 +67,7 @@ body{
         transform: scale(1.1);
     }
     
-    p{
+    p, li{
         text-align: justify;
         font-size: 18px;
         font-family: 'pt_sansregular', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -98,6 +98,7 @@ body{
          text-align: center;
          box-shadow: 2px 2px 2px 2px rgb(204, 56, 97);
          border-radius: 10px;
+         width: 80%;
      }
     
     .imgID{
@@ -153,6 +154,10 @@ body{
         }
     } 
     
+    #contenu{
+        width: auto;
+    }
+    
     .menu{
         font-family: 'pt_sansregular', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-style: normal;
@@ -179,10 +184,10 @@ body{
         flex-wrap: wrap;
         justify-content: space-between;
         vertical-align: top;
-        width: 700px;
+        width: 40%;
         height: 100px;
-        margin-left: 80px;
         padding: 4px;
+        margin-right: 60px;
     }
     
     #imgcomp{
@@ -232,4 +237,3 @@ body{
     .fa-facebook-messenger:hover{
         transform: scale(1.1)
     }
-    

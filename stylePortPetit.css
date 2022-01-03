@@ -32,4 +32,7 @@
         background-attachment: fixed;
         background-size: cover;
     }
+    p, li{
+        font-size: auto;
+    }
 }
