@@ -78,7 +78,7 @@ Pour les titres : Alex Brush https://www.fontsquirrel.com/fonts/alex-brush
 
 #### **FAVICON (Logo de la page web)**
 
-<img src=".\Images\Favicon.jpg" alt="Favicon" style="zoom:50%;" />
+<img src=".\Images\Favicon.png" alt="Favicon" style="zoom:50%;" />
 
 #### **STRUCTURE DE LA PAGE WEB**
 
