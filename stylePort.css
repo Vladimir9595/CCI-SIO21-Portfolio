@@ -182,10 +182,6 @@ body{
         box-shadow: 2px 2px 2px 2px rgb(204, 56, 97);
         width: 100%;
     }
-
-    .text{
-        text-align: justify;
-    }
     
     section h2{
         color: rgb(23, 77, 158);
