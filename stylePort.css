@@ -67,7 +67,7 @@ body{
         transform: scale(1.1);
     }
     
-    p, li{
+    p{
         text-align: justify;
         font-size: 18px;
         font-family: 'pt_sansregular', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -215,7 +215,7 @@ body{
     #imgcomp{
         width: 30%;
         margin-left: 35%;
-        border: solid 2px red;
+        margin-top: 5px;
     }
     
     footer{
