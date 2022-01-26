@@ -67,7 +67,7 @@ body{
         transform: scale(1.1);
     }
     
-    p{
+    p, li{
         text-align: justify;
         font-size: 18px;
         font-family: 'pt_sansregular', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -212,10 +212,26 @@ body{
         font-weight: bold;
     }
     
-    #imgcomp{
+    .imgcomp1{
+        width: 40%;
+        margin-top: 5px;
+        margin-right: 25px;
+    }
+    
+    .imgcomp2{
+        width: 35%;
+        margin-top: 5px;
+    }
+
+    .imgcomp3{
         width: 30%;
         margin-left: 35%;
         margin-top: 5px;
+    }
+
+    #imginf{
+        display: inline-flex;
+        justify-content: center;
     }
     
     footer{
