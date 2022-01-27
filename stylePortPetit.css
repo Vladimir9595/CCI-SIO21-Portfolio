@@ -1,13 +1,14 @@
 @media all and (max-width: 1024px){
+    body{
+        background-image: url("Images/grigio.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+    }
     section{
         display: block;
         width: auto;
         height: auto;
-        margin-right: 15px;
-        margin-left: 15px;
-    }
-    #contenu{
-        width: auto;
+
     }
     .menu{
         display: block;
@@ -27,12 +28,18 @@
     h3{
         text-align: center;
     }
-    body{
-        background-image: url("Images/grigio.jpg");
-        background-attachment: fixed;
-        background-size: cover;
-    }
+   
     p, li{
         font-size: auto;
+    }
+    section { 
+        width: 85%; 
+        top: auto; 
+        margin: 0 7%; 
+        }
+    .moi {
+        width: 70%; 
+        top: auto; 
+        margin: 0 13%;
     }
 }
