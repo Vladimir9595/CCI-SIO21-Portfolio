@@ -181,6 +181,12 @@ body{
         box-shadow: 2px 2px 2px 2px rgb(204, 56, 97);
         width: 100%;
     }
+
+    #prop{
+        width: 100%;
+        top: auto;
+        margin: 0 1%;
+    }
     
     section h2{
         color: rgb(23, 77, 158);
