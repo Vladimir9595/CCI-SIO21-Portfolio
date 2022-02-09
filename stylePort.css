@@ -2,6 +2,7 @@ body{
     background-image: url("Images/grigio.jpg");
     background-attachment: fixed;
     background-size: 1920px 1080px;
+    scroll-behavior:smooth;
     }
     
     @font-face {
