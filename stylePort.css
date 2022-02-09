@@ -256,6 +256,7 @@ body{
         margin: auto;
         margin-bottom: 15px;
         padding-top: 10px;
+        text-shadow: 3px 3px black;
     }
     
     .logos{
@@ -268,6 +269,7 @@ body{
         color: whitesmoke;
         text-align: center;
         margin-right: 50px;
+        text-shadow: 3px 3px black;
     }
     
     .fa-facebook:hover{
