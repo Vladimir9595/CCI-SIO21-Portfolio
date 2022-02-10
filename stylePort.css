@@ -257,9 +257,7 @@ h4{
     font-size: 30px;
     text-align: center;
     color: whitesmoke;
-    width: 20%;
     margin: auto;
-    margin-bottom: 15px;
     padding-top: 10px;
     text-shadow: 3px 3px black;
 }
@@ -267,6 +265,7 @@ h4{
 .logos{
     text-align: center;
     padding: 15px;
+    margin-left: 55px;
 }
     
 .fa-facebook, .fa-instagram, .fa-linkedin, .fa-facebook-messenger{
@@ -274,6 +273,16 @@ h4{
     color: whitesmoke;
     text-align: center;
     margin-right: 50px;
+    text-shadow: 3px 3px black;
+}
+
+#copyright{
+    font-size: 15px;
+    font-family: 'pt_sansregular', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    color: whitesmoke;
+    text-align: center;
+    margin-right: auto;
+    padding-bottom: 5px;
     text-shadow: 3px 3px black;
 }
     
