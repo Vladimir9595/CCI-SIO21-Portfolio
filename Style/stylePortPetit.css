@@ -4,27 +4,35 @@
         background-attachment: fixed;
         background-size: cover;
     }
+    
+    html{
+        scroll-behavior: smooth;
+    }
+
     section{
         display: block;
         width: auto;
         height: auto;
-
     }
+
     .menu{
         display: block;
         flex-wrap: wrap;
         flex-direction: column;
         text-align: start;
     }
+
     nav li {
         margin-right: 15px;
     }
+
     .fa-facebook, .fa-instagram, .fa-linkedin, .fa-facebook-messenger{
         font-size: 50px;
         color: whitesmoke;
         text-align: center;
         margin-right: 30px;
     }
+
     h3{
         text-align: center;
     }
@@ -38,11 +46,13 @@
     p, li{
         font-size: auto;
     }
+
     section { 
         width: 85%; 
         top: auto; 
         margin: 0 7%; 
-        }
+    }
+    
     .moi {
         width: 70%; 
         top: auto; 
