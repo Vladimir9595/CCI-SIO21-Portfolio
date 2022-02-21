@@ -4,17 +4,13 @@
         background-attachment: fixed;
         background-size: cover;
     }
-    section{
-        display: block;
-        width: auto;
-        height: auto;
-
-    }
+    
     .menu{
         display: block;
         flex-wrap: wrap;
         flex-direction: column;
         text-align: start;
+        width: 30%;
     }
     nav li {
         margin-right: 15px;
@@ -25,35 +21,25 @@
         text-align: center;
         margin-right: 30px;
     }
-    h3{
+    h2{
         text-align: center;
     }
 
-    h4{
+    h3{
         text-align: center;
         font-size: 15px;
         margin: auto;
     }
    
     p, li{
-        font-size: auto;
+        font-size: 15px;
     }
-    section { 
-        width: 85%; 
-        top: auto; 
-        margin: 0 7%; 
-        }
-    .moi {
-        width: 70%; 
-        top: auto; 
-        margin: 0 13%;
-    }
-
+  
     .logos{
         margin-left: 38px;
     }
 
-    #copyright{
+    #accueil{
         font-size: 6px;
     }
 }
