@@ -58,13 +58,13 @@ Pour les titres : Alex Brush https://www.fontsquirrel.com/fonts/alex-brush
 
 #### **LOGOS ET IMAGES**
 
-<img src=".\Images\ECDL logo.png" alt="image-20211201082420592" style="float: left;zoom:70%"/>
+<img src=".\Images\ECDL_logo.png" alt="image-20211201082420592" style="float: left;zoom:70%"/>
 
 <img src=".\Images\logo-1.jpg" alt="image-20211201082420592" style="float: left;zoom:30%"/>
 
-<img src=".\Images\Office word.png" alt="image-20211201082420592" style="float: left;zoom:30%"/>
+<img src=".\Images\Office_word.png" alt="image-20211201082420592" style="float: left;zoom:30%"/>
 
-<img src=".\Images\Html css JS.png" alt="image-20211201082420592" style="float: left;zoom:30%"/>
+<img src=".\Images\Html_css_JS.png" alt="image-20211201082420592" style="float: left;zoom:30%"/>
 
 <img src=".\Images\grigio.jpg" alt="image-20211201082420592" style="float: left;zoom:30%"/>
 
