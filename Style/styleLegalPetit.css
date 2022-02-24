@@ -9,7 +9,7 @@
         scroll-behavior: smooth;
     }
     
-    .menu{
+    #menu{
         display: block;
         flex-wrap: wrap;
         flex-direction: column;
@@ -22,7 +22,7 @@
     }
 
     .fa-facebook, .fa-instagram, .fa-linkedin, .fa-facebook-messenger{
-        font-size: 50px;
+        font-size: 35px;
         color: whitesmoke;
         text-align: center;
         margin-right: 30px;
@@ -43,6 +43,6 @@
     }
 
     #accueil{
-        font-size: 9px;
+        font-size: 15px;
     }
 }

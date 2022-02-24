@@ -79,7 +79,7 @@ p, li{
     
 h1{
     color: rgba(175, 10, 32, 0.918);
-    font-size: 7em;
+    font-size: 8em;
     text-align: center;
     font-family: 'tickle gun', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
     margin: auto;
@@ -148,7 +148,7 @@ h1{
     }
 } 
     
-.menu{
+#menu{
     font-family: 'pt_sansregular', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: normal;
     font-size: 20px;
@@ -168,13 +168,12 @@ a:link{
     text-decoration:none; 
 } 
 
-.moi{
+#moi{
     width: 50%;
-    top: auto;
     margin: 0 25%;
 }
     
-h3{
+#moi h2{
     color: rgba(175, 10, 32, 0.918);
     font-size: 35px;
     font-family: 'bronx', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
@@ -216,7 +215,7 @@ section{
     margin-right: 20px;
 }
 
-h5{
+h3{
     text-align: justify;
     font-size: 18px;
     font-family: 'bronx', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
