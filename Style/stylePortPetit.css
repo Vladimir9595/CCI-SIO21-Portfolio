@@ -15,6 +15,10 @@
         height: auto;
     }
 
+    h1{
+        font-size: 6em;
+    }
+    
     #menu{
         display: block;
         flex-wrap: wrap;
@@ -35,6 +39,7 @@
 
     #moi h2{
         text-align: center;
+        font-size: 25px;
     }
 
     h4{
