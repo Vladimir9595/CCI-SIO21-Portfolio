@@ -1,4 +1,4 @@
-@media all and (max-width: 1024px){
+@media screen and (max-width: 1024px){
     body{
         background-image: url("../Images/grigio.jpg");
         background-attachment: fixed;
@@ -72,3 +72,30 @@
         font-size: 10px;
     }
 }
+
+@media screen and (max-width: 800px){
+    h1{
+        font-size: 4em;
+    }
+}
+
+@media screen and (max-width: 650px){
+   :is(.logo, .imgID){
+       transform: scale(0.5);
+   }
+
+   h1{
+    font-size: 2em;
+    }
+
+    .signature{
+        font-size: 1em;
+    }
+
+    #menu{
+        margin-top: 80px;
+    }
+
+}
+
+/* @media speech aide l'asistant vocale à lire notre site  */
