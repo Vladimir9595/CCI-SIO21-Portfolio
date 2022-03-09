@@ -276,6 +276,7 @@ h4{
 }
 
 #copyright{
+    display: block;
     font-size: 15px;
     font-family: 'pt_sansregular', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
     color: whitesmoke;
