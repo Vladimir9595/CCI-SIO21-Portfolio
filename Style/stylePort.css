@@ -169,6 +169,10 @@ h1 {
   list-style-type: none;
 }
 
+#menu a {
+  color: rgb(23, 77, 158);
+}
+
 a:link {
   text-decoration: none;
 }
@@ -257,6 +261,11 @@ footer {
   opacity: 0.8;
   box-shadow: 5px 5px 5px 5px;
   margin-top: 20px;
+}
+
+footer a {
+  color: whitesmoke;
+  text-shadow: 3px 3px black;
 }
 
 h4 {
@@ -399,6 +408,7 @@ h4 {
 @media screen and (max-width: 650px) {
   :is(.logo, .imgID) {
     transform: scale(0.5);
+    margin: 0px;
   }
 
   h1 {
@@ -407,10 +417,27 @@ h4 {
 
   .signature {
     font-size: 1em;
+    margin-left: 0px;
   }
 
   #menu {
     margin-top: 80px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  h1 {
+    font-size: 2em;
+  }
+
+  :is(.logo, .imgID) {
+    transform: scale(0.5);
+    margin: 0px;
+  }
+
+  .signature {
+    font-size: 1em;
+    margin-left: 0px;
   }
 }
 
