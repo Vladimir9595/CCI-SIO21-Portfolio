@@ -73,10 +73,14 @@ html {
 
 p,
 li {
-  text-align: justify;
   font-size: 18px;
   font-family: "pt_sansregular", "Trebuchet MS", "Lucida Sans Unicode",
     "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+p,
+li:not(li:first-child) {
+  text-align: justify;
 }
 
 h1 {
@@ -164,9 +168,18 @@ h1 {
   display: flex;
   justify-content: space-between;
   width: 50%;
+  flex-direction: row;
   top: auto;
   margin: auto;
   list-style-type: none;
+}
+
+#menu ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  width: 100%;
+  flex-wrap: wrap;
 }
 
 #menu a {
@@ -341,15 +354,19 @@ h4 {
     font-size: 6em;
   }
 
-  #menu {
+  #menu ul {
     display: block;
     flex-wrap: wrap;
     flex-direction: column;
-    text-align: start;
   }
 
-  nav li {
-    margin-right: 15px;
+  nav ul li {
+    font-size: 15px;
+    margin-right: 10px;
+  }
+
+  #menu {
+    width: 50%;
   }
 
   .fa-facebook,
