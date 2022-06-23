@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\MonController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +14,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::get('/', [MonController::class, 'index'])->name('accueil');
+Route::get('/posts/{id}', [MonController::class, 'show'])->name('id');
+Route::get('/contactez-nous', [MonController::class, 'contact'])->name('contact');
+Route::get('/informations', [MonController::class, 'information'])->name('info');
+
+/* Route::get('/', function () {
     return view('welcome');
-});
+}); */
