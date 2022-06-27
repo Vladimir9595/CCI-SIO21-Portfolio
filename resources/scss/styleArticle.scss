@@ -1,7 +1,7 @@
 .contain-all-articles {
-    margin-top: 30px;
+    margin-top: 60px;
     display: flex;
-    gap: 40px;
+    gap: 50px;
     flex-wrap: wrap;
 
     .contain-article {
@@ -11,14 +11,16 @@
             "Lucida Grande", "Lucida Sans", Arial, sans-serif;
         max-width: 600px;
         flex-wrap: wrap;
-        margin-left: 60px;
+        margin-left: 80px;
 
         .title,
         .content,
         .link {
             box-shadow: 2px 2px 2px 2px rgba(94, 26, 6, 0.81);
-            border: solid 3px blanchedalmond;
+            border: solid 3px rgba(255, 235, 205, 0.603);
             font-size: 20px;
+            background-color: rgba(245, 237, 239, 0.808);
+            padding: 10px;
         }
 
         .title {
@@ -26,12 +28,118 @@
                 "Lucida Grande", "Lucida Sans", Arial, sans-serif;
             font-size: 25px;
             color: rgba(175, 10, 32, 0.918);
+            text-shadow: 2px 2px rgb(215 199 201 / 92%);
             text-align: center;
         }
 
         .image img {
-            width: 100%;
-            object-fit: fill;
+            width: 99%;
+            box-shadow: 2px 2px 2px 2px rgba(94, 26, 6, 0.81);
+            border: solid 3px rgba(255, 235, 205, 0.603);
+        }
+
+        .link {
+            text-align: end;
+            font-weight: bold;
+            text-shadow: 1px 1px rgba(29, 27, 27, 0.61);
+        }
+
+        a {
+            color: rgb(23, 77, 158);
+        }
+
+        .content {
+            text-align: justify;
         }
     }
 }
+
+@media screen and (max-width: 1024px) {
+    body {
+        background-image: url("/Images/grigio.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    h1 {
+        font-size: 4em;
+    }
+
+    .contain-article {
+        display: block;
+        width: auto;
+        height: auto;
+    }
+
+    .title,
+    .content,
+    .link {
+        font-size: 15px;
+        width: auto;
+        top: auto;
+        margin-right: 75px;
+    }
+
+    .image {
+        width: auto;
+        margin-right: 77px;
+    }
+
+    .fa-facebook,
+    .fa-instagram,
+    .fa-linkedin,
+    .fa-facebook-messenger {
+        font-size: 35px;
+        color: whitesmoke;
+        text-align: center;
+        margin-right: 30px;
+    }
+
+    h4 {
+        text-align: center;
+        font-size: 12px;
+        margin: auto;
+    }
+
+    .logos {
+        margin-left: 38px;
+    }
+
+    #copyright {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    h1 {
+        font-size: 4em;
+    }
+
+    .image {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    :is(.logo, .imgID) {
+        transform: scale(0.5);
+        margin: 0px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    :is(.logo, .imgID) {
+        transform: scale(0.5);
+        margin: 0px;
+    }
+}
+
+/* @media speech aide l'asistant vocale à lire notre site  */

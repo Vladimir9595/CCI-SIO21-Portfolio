@@ -89,6 +89,7 @@ h1 {
     text-align: center;
     font-family: "tickle gun", "Trebuchet MS", "Lucida Sans Unicode",
         "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    text-shadow: 2px 2px rgb(215 199 201 / 92%);
     margin: auto;
     margin-top: 30px;
 }
@@ -174,12 +175,6 @@ h1 {
     list-style-type: none;
 }
 
-#veilletech {
-    color: violet;
-    text-align: center;
-    display: block;
-}
-
 #menu ul {
     display: flex;
     justify-content: space-between;
@@ -190,10 +185,22 @@ h1 {
 
 #menu a {
     color: rgb(23, 77, 158);
+    text-shadow: 2px 2px rgb(215 199 201 / 92%);
 }
 
 a:link {
     text-decoration: none;
+}
+
+#veilletech {
+    margin: auto;
+    margin-top: 25px;
+    font-size: 25px;
+}
+
+#veilletech a {
+    color: rgb(198, 52, 9);
+    text-shadow: 2px 2px rgb(215 199 201 / 92%);
 }
 
 #moi {
@@ -366,9 +373,11 @@ h4 {
         flex-direction: column;
     }
 
-    nav ul li {
+    nav ul li,
+    #veilletech {
         font-size: 15px;
         margin-right: 10px;
+        margin-top: auto;
     }
 
     #menu {

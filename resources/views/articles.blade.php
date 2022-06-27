@@ -23,10 +23,10 @@ Veille technologique
 
                 <div class="title">{{$article->title}}</div>
                 <div class="image"><img src="{{$article->image}}" alt="{{$article->title}}"></div>
-                <div class="content">{{substr($article->content, 0, 62)}} ...</div>
+                <div class="content">{{$article->content}}</div>
                 <div class="link"><a href="{{$article->link}}" target="_blank">Consulter l'article</a></div>
             </div>
-
+                {{-- {{substr($article->content, 0, 62)}} ... --}}
         @endforeach
     </div>
 
