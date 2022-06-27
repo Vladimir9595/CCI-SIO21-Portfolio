@@ -1,21 +1,12 @@
-<!DOCTYPE html>
-<html lang="fr">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, user-scalable=no"
-    />
-    <link rel="stylesheet" href="Style/styleLegal.css" type="text/css" />
-    <link rel="icon" href={{ asset('Images/Favicon.png') }} type="img/png" />
-    <script
-      src="https://kit.fontawesome.com/bfc2227d7e.js"
-      crossorigin="anonymous"
-    ></script>
-    <title>Mentions légales</title>
-  </head>
+@extends('layouts.app')
 
-  <body>
+@section('css')
+<link rel="stylesheet" href="{{ asset('css/styleLegal.css') }}">
+@endsection
+@section('title')
+Mentions légales
+@endsection
+    @section('content')
     <header>
       <a href="/"
         ><img src={{ asset('Images/logo-1.jpg') }} alt="logo" class="logo"
@@ -146,9 +137,8 @@
       </div>
       <div id="accueil">
         <span>
-          <a href="index.html">Accueil</a>
+          <a href="/">Accueil</a>
         </span>
       </div>
     </footer>
-  </body>
-</html>
+@endsection

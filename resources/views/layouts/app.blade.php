@@ -1,14 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Portfolio</title>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no"
+    />
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
-</head>
+    @yield('css')
+    <link rel="shortcut icon" type="image/png" href={{ asset('Images/Favicon.png') }} />
+
+    <script
+      src="https://kit.fontawesome.com/e051dd5741.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>@yield('title')</title>
+  </head>
 <body>
-    @include('partials.navbar')
+    {{-- @include('partials.navbar') --}}
     @yield('content')
     <script src="{{ asset('js/app.js') }}"></script>
 </body>

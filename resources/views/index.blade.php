@@ -1,22 +1,12 @@
-<!DOCTYPE html>
-<html lang="fr">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, user-scalable=no"
-    />
-    <link rel="stylesheet" href="Style/stylePort.css" />
-    <link rel="shortcut icon" type="image/png" href={{ asset('Images/Favicon.png') }} />
+@extends('layouts.app')
 
-    <script
-      src="https://kit.fontawesome.com/e051dd5741.js"
-      crossorigin="anonymous"
-    ></script>
-    <title>Portfolio de Vladimir Sacchetto</title>
-  </head>
-
-  <body>
+@section('css')
+<link rel="stylesheet" href="{{ asset('css/stylePort.css') }}">
+@endsection
+@section('title')
+Portfolio de Vladimir Sacchetto
+@endsection
+    @section('content')
     <header>
       <img src={{ asset('Images/logo-1.jpg') }} alt="logo" class="logo" />
       <a href={{ asset('Images/photoID.png') }}
@@ -242,9 +232,8 @@
       <div id="copyright">
         <span>
           © Vladimir Sacchetto; 2022 |
-          <a href="/mentions">Mentions Légales</a>
+          <a href="/mentions-légales">Mentions Légales</a>
         </span>
       </div>
     </footer>
-  </body>
-</html>
+@endsection
