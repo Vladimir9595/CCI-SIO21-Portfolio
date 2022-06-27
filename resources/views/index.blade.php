@@ -9,8 +9,7 @@ Portfolio de Vladimir Sacchetto
     @section('content')
     <header>
       <img src={{ asset('Images/logo-1.jpg') }} alt="logo" class="logo" />
-      <a href={{ asset('Images/photoID.png') }}
-        ><img src={{ asset('Images/photoID1.png') }} alt="Photo de Vladimir" class="imgID"
+      <a href="/veille-technologique"><img src={{ asset('Images/photoID1.png') }} alt="Photo de Vladimir" class="imgID"
       /></a>
       <h1><strong>Mon portfolio</strong></h1>
       <h2 class="signature"><strong>Vladimir Sacchetto</strong></h2>
@@ -233,6 +232,7 @@ Portfolio de Vladimir Sacchetto
         <span>
           © Vladimir Sacchetto; 2022 |
           <a href="/mentions-légales">Mentions Légales</a>
+
         </span>
       </div>
     </footer>

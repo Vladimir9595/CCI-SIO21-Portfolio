@@ -16,6 +16,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [MonController::class, 'index'])->name('accueil');
 Route::get('/mentions-légales', [MonController::class, 'mention'])->name('mentions');
+Route::get('/veille-technologique', [MonController::class, 'articles'])->name('articles');
 // Route::get('/posts/{id}', [MonController::class, 'show'])->name('id');
 // Route::get('/contactez-nous', [MonController::class, 'contact'])->name('contact');
 // Route::get('/informations', [MonController::class, 'information'])->name('info');

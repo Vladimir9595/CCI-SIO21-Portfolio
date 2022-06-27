@@ -137,7 +137,8 @@ Mentions légales
       </div>
       <div id="accueil">
         <span>
-          <a href="/">Accueil</a>
+          <a href="/">Accueil -</a>
+          <a href="/veille-technologique">Veille Technologique</a>
         </span>
       </div>
     </footer>

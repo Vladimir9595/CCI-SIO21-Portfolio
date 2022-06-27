@@ -1,0 +1,26 @@
+.contain-all-articles {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+
+    .contain-article {
+        display: flex;
+        flex-direction: column;
+        font-family: "pt_sansregular", "Trebuchet MS", "Lucida Sans Unicode",
+            "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+
+        .title,
+        .content,
+        .link {
+            box-shadow: 2px 2px 2px 2px rgb(198, 52, 9);
+            border: solid 6px blanchedalmond;
+        }
+
+        .image img {
+            width: 30%;
+            margin-top: 5px;
+            margin-right: 25px;
+            object-fit: cover;
+        }
+    }
+}

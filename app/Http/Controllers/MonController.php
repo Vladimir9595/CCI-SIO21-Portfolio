@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Article;
 use Illuminate\Http\Request;
 
 class MonController extends Controller
@@ -25,10 +26,22 @@ class MonController extends Controller
     public function mention()
     {
         return view(
-        'mentions'
+            'mentions'
 
         );
     }
+
+    public function articles()
+    {
+        $articles = Article::all();
+
+        return view(
+            'articles',
+            compact('articles')
+        );
+    }
+
+
     // public function show($id)
     // {
     //     $posts = [

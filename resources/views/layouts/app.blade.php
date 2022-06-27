@@ -8,8 +8,16 @@
     />
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     @yield('css')
-    <link rel="shortcut icon" type="image/png" href={{ asset('Images/Favicon.png') }} />
-
+    {{-- <link rel="shortcut icon" type="image/png" href={{ asset('Images/Favicon.png') }} /> --}}
+    <link rel="apple-touch-icon" sizes="180x180" href={{ asset('/Images/Favicon/apple-touch-icon.png') }}>
+    <link rel="icon" type="image/png" sizes="32x32" href={{ asset('/Images/Favicon/favicon-32x32.png') }}>
+    <link rel="icon" type="image/png" sizes="16x16" href={{ asset('/Images/Favicon/favicon-16x16.png') }}>
+    <link rel="manifest" href={{ asset('/Images/Favicon/site.webmanifest') }}>
+    <link rel="mask-icon" href={{ asset('/Images/Favicon/safari-pinned-tab.svg') }} color="#5bbad5">
+    <link rel="shortcut icon" href={{ asset('/Images/Favicon/favicon.ico') }}>
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="/Images/Favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
     <script
       src="https://kit.fontawesome.com/e051dd5741.js"
       crossorigin="anonymous"
