@@ -1,4 +1,5 @@
 .contain-all-articles {
+  margin-top: 30px;
   display: flex;
   gap: 40px;
   flex-wrap: wrap;
@@ -7,17 +8,25 @@
   display: flex;
   flex-direction: column;
   font-family: "pt_sansregular", "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  max-width: 600px;
+  flex-wrap: wrap;
+  margin-left: 60px;
 }
 .contain-all-articles .contain-article .title,
 .contain-all-articles .contain-article .content,
 .contain-all-articles .contain-article .link {
-  box-shadow: 2px 2px 2px 2px rgb(198, 52, 9);
-  border: solid 6px blanchedalmond;
+  box-shadow: 2px 2px 2px 2px rgba(94, 26, 6, 0.81);
+  border: solid 3px blanchedalmond;
+  font-size: 20px;
+}
+.contain-all-articles .contain-article .title {
+  font-family: "bronx", "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 25px;
+  color: rgba(175, 10, 32, 0.918);
+  text-align: center;
 }
 .contain-all-articles .contain-article .image img {
-  width: 30%;
-  margin-top: 5px;
-  margin-right: 25px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  width: 100%;
+  -o-object-fit: fill;
+     object-fit: fill;
 }

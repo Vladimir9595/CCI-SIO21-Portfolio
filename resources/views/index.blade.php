@@ -29,6 +29,11 @@ Portfolio de Vladimir Sacchetto
         <li>
           <a href="#Proj"><strong>Mes projets</strong></a>
         </li>
+        <div id="veilletech">
+            <li >
+            <a href="/veille-technologique"><strong>Veille Technologique</strong></a>
+            </li>
+        </div>
       </ul>
     </nav>
 

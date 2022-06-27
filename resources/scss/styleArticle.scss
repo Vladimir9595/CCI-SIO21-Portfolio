@@ -1,4 +1,5 @@
 .contain-all-articles {
+    margin-top: 30px;
     display: flex;
     gap: 40px;
     flex-wrap: wrap;
@@ -8,19 +9,29 @@
         flex-direction: column;
         font-family: "pt_sansregular", "Trebuchet MS", "Lucida Sans Unicode",
             "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+        max-width: 600px;
+        flex-wrap: wrap;
+        margin-left: 60px;
 
         .title,
         .content,
         .link {
-            box-shadow: 2px 2px 2px 2px rgb(198, 52, 9);
-            border: solid 6px blanchedalmond;
+            box-shadow: 2px 2px 2px 2px rgba(94, 26, 6, 0.81);
+            border: solid 3px blanchedalmond;
+            font-size: 20px;
+        }
+
+        .title {
+            font-family: "bronx", "Trebuchet MS", "Lucida Sans Unicode",
+                "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+            font-size: 25px;
+            color: rgba(175, 10, 32, 0.918);
+            text-align: center;
         }
 
         .image img {
-            width: 30%;
-            margin-top: 5px;
-            margin-right: 25px;
-            object-fit: cover;
+            width: 100%;
+            object-fit: fill;
         }
     }
 }
