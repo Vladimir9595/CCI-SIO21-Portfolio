@@ -1,47 +1,51 @@
 .contain-all-articles {
     margin-top: 60px;
+    margin-bottom: 60px;
     display: flex;
     gap: 50px;
     flex-wrap: wrap;
+    justify-content: center;
 
     .contain-article {
         display: flex;
         flex-direction: column;
         font-family: "pt_sansregular", "Trebuchet MS", "Lucida Sans Unicode",
             "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-        max-width: 600px;
+        max-width: 80%;
         flex-wrap: wrap;
-        margin-left: 80px;
+        box-shadow: 6px 6px 6px 6px rgba(94, 27, 6, 0.25);
 
         .title,
         .content,
         .link {
-            box-shadow: 2px 2px 2px 2px rgba(94, 26, 6, 0.81);
             border: solid 3px rgba(255, 235, 205, 0.603);
-            font-size: 20px;
+            font-size: auto;
             background-color: rgba(245, 237, 239, 0.808);
             padding: 10px;
+            max-width: 538px;
+            // max-height: 472px;
         }
 
         .title {
             font-family: "bronx", "Trebuchet MS", "Lucida Sans Unicode",
                 "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-            font-size: 25px;
+            font-size: 20px;
             color: rgba(175, 10, 32, 0.918);
             text-shadow: 2px 2px rgb(215 199 201 / 92%);
             text-align: center;
         }
 
         .image img {
-            width: 99%;
-            box-shadow: 2px 2px 2px 2px rgba(94, 26, 6, 0.81);
+            width: 558px;
+            height: 400px;
             border: solid 3px rgba(255, 235, 205, 0.603);
+            background-color: rgba(245, 237, 239, 0.808);
         }
 
         .link {
             text-align: end;
             font-weight: bold;
-            text-shadow: 1px 1px rgba(29, 27, 27, 0.61);
+            text-shadow: 1px 1px rgba(29, 27, 27, 0.2);
         }
 
         a {
@@ -67,22 +71,29 @@
 
     .contain-article {
         display: block;
-        width: auto;
+        // width: auto;
         height: auto;
     }
 
     .title,
     .content,
     .link {
-        font-size: 15px;
-        width: auto;
+        // width: auto;
         top: auto;
         margin-right: 75px;
     }
 
+    .title {
+        font-family: "bronx", "Trebuchet MS", "Lucida Sans Unicode",
+            "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+        font-size: 15px;
+        color: rgba(175, 10, 32, 0.918);
+        text-shadow: 2px 2px rgb(215 199 201 / 92%);
+        text-align: center;
+    }
+
     .image {
-        width: auto;
-        margin-right: 77px;
+        width: 100%;
     }
 
     .fa-facebook,
