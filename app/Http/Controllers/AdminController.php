@@ -3,22 +3,31 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class AdminController extends Controller
 {
     public function login()
     {
-        // $posts = [
-        //     'Mon titre',
-        //     'Mon second titre'
-        // ];
-
+        // return abort('404');
         return view(
-            'index'
-            // [
-            //     // 'posts' => $posts,
-            //     // 'id_1' => 3
-            // ]
+            'log'
+
         );
+    }
+
+    public function admin()
+    {
+        $user = [
+            'name' => $_POST['pseudo'],
+            'password' => $_POST['password']
+        ];
+        if (Auth::attempt($user)) {
+            return view(
+                'admin'
+            );
+        } else {
+            return back();
+        }
     }
 }
