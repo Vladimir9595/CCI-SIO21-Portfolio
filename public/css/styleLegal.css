@@ -123,6 +123,7 @@ h2 {
   margin: auto;
   margin-top: 26px;
   list-style-type: none;
+  background-color: rgba(233, 226, 228, 0.35);
 }
 
 #menu a {
@@ -190,8 +191,8 @@ h3 {
   text-shadow: 3px 3px black;
 }
 
-#accueil {
-  font-size: 25px;
+#redirection {
+  font-size: 15px;
   font-family: "pt_sansregular", "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   color: whitesmoke;
   text-align: center;
