@@ -15,4 +15,5 @@ mix.js("resources/js/app.js", "public/js")
     .sass("resources/scss/app.scss", "public/css/app.css")
     .sass("resources/scss/stylePort.scss", "public/css/")
     .sass("resources/scss/styleLegal.scss", "public/css/")
-    .sass("resources/scss/styleArticle.scss", "public/css/");
+    .sass("resources/scss/styleArticle.scss", "public/css/")
+    .sass("resources/scss/styleAdmin.scss", "public/css/");
