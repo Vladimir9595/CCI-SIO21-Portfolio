@@ -4,15 +4,15 @@
 <link rel="stylesheet" href="{{ asset('css/styleAdmin.css') }}">
 @endsection
 @section('title')
-Page d'admin
+Login
 @endsection
     @section('content')
     <header class="bloc">
-            <h1>Page d'administrateur</h1>
+            <h1>Page de connexion</h1>
     </header>
 
-    {{-- <form action="/admin" method="post" class="w-50 mx-auto">
-        @csrf
+    <form action="/admin" method="post" class="w-50 mx-auto">
+        @csrf 
        <div class="conteneur-pseudo form-floating mb-3">
             <input type="text" class="form-control" name="pseudo" id="pseudo" placeholder="Identifiant">
             <label for="pseudo"></label>
@@ -22,7 +22,7 @@ Page d'admin
             <label for="password"></label>
         </div>
         <button class="btn btn-primary mt-5 d-block mx-auto" type="submit">Submit</button>
-    </form> --}}
+    </form>
 
     <footer>
       <div id="copyright">

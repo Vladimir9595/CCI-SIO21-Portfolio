@@ -135,8 +135,9 @@ Mentions légales
         ></a>
         <i class="fab fa-facebook-messenger"></i>
       </div>
-      <div id="accueil">
+      <div id="redirection">
         <span>
+           © Vladimir Sacchetto; 2022 |
           <a href="/">Accueil -</a>
           <a href="/veille-technologique">Veille Technologique</a>
         </span>
