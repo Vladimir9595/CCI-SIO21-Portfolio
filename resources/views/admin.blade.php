@@ -21,23 +21,25 @@ Page d'admin
     </div>
 
     <table class="table table-bordered table-hover">
-        <thead>
+        <thead class="thead">
             <tr>
             <th scope="col">Id</th>
             <th scope="col">Titre</th>
+            <th scope="col">URL Image</th>
             <th scope="col">Contenu</th>
             <th scope="col">Lien</th>
             <th scope="col">Action</th>
             </tr>
         </thead>
-        <tbody>
+        <tbody class="tbody">
             @foreach ($articles as $article)
                 <tr>
                 <th>{{$article->id}}</th>
-                <td>{{$article->title}}</td>
-                <td>{{$article->content}}</td>
-                <td>{{$article->link}}</td>
-                <td>
+                <td>{{substr($article->title, 0, 11)}} ...</td>
+                <td>{{substr($article->image, 0, 11)}} ...</td>
+                <td>{{substr($article->content, 0, 40)}} ...</td>
+                <td>{{substr($article->link, 0, 11)}} ...</td>
+                <td id="butt">
                     <form action="/admin/edit/{{$article->id}}" method="POST" >
                         @csrf
                         <button type="submit" class="btn btn-primary mt-6 d-block-1 x-auto">Editer</button>

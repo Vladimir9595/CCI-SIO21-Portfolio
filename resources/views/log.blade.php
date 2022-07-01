@@ -30,7 +30,7 @@ Login
         </div>
     @endif
 
-    <footer>
+    <footer id="ftr">
       <div id="copyright">
         <span>
           © Vladimir Sacchetto; 2022 |

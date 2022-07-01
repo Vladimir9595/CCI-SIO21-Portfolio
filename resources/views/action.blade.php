@@ -47,20 +47,24 @@ Modification des articles
     <form action="/admin/edit/{{$article->id}}" method="post" class="w-50 mx-auto">
         @csrf
         <div class="conteneur-pseudo form-floating mb-3">
+            <label for="title" class="lab">Titre</label>
             <input type="text" class="form-control" name="title" id="title" placeholder="Titre" value="{{$article->title}}" >
-            <label for="title"></label>
+
         </div>
         <div class="conteneur-pseudo form-floating mb-3">
+            <label for="image" class="lab">URL Image</label>
             <input type="text" class="form-control" name="image" id="image" placeholder="URL Image" value="{{$article->image}}">
-            <label for="image"></label>
+
         </div>
         <div class="conteneur-pseudo form-floating mb-3">
+            <label for="content" class="lab">Contenu</label>
             <input type="text" class="form-control" name="content" id="content" placeholder="Contenu" value="{{$article->content}}">
-            <label for="content"></label>
+
         </div>
         <div class="conteneur-pseudo form-floating mb-3">
+            <label for="link" class="lab">Lien</label>
             <input type="text" class="form-control" name="link" id="link" placeholder="Lien" value="{{$article->link}}">
-            <label for="link"></label>
+
         </div>
         <button class="btn btn-primary mt-5 d-block mx-auto" type="submit">Modifier</button>
         </form>
