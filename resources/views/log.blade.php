@@ -12,7 +12,7 @@ Login
     </header>
 
     <form action="/admin" method="post" class="w-50 mx-auto">
-        @csrf 
+        @csrf
        <div class="conteneur-pseudo form-floating mb-3">
             <input type="text" class="form-control" name="pseudo" id="pseudo" placeholder="Identifiant">
             <label for="pseudo"></label>
@@ -23,6 +23,12 @@ Login
         </div>
         <button class="btn btn-primary mt-5 d-block mx-auto" type="submit">Submit</button>
     </form>
+    @if (Illuminate\Support\Facades\Session::get('connected') === false)
+    {{ Illuminate\Support\Facades\Session::remove('connected')}}
+        <div class="notadmin">
+            Vous n'êtes pas l'administrateur
+        </div>
+    @endif
 
     <footer>
       <div id="copyright">

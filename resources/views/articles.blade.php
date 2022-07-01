@@ -13,6 +13,7 @@ Veille technologique
       <a href="/"
         ><img src={{ asset('Images/logo-1.jpg') }} alt="logo" class="logo"
       /></a>
+      <a href="/login"><img src={{ asset('Images/roue_dentee.png') }} alt="Roue dentée" class="roue"/></a>
       <h1>Articles</h1>
     </header>
 
