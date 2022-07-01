@@ -114,6 +114,7 @@ h2 {
 
 #menu a {
     color: rgb(23, 77, 158);
+    text-shadow: 2px 2px rgb(215 199 201 / 92%);
 }
 
 #menu ul {
@@ -221,7 +222,7 @@ h3 {
         flex-wrap: wrap;
         flex-direction: column;
         text-align: start;
-        width: 30%;
+        width: 34%;
     }
 
     #menu ul {
@@ -249,9 +250,13 @@ h3 {
         margin-right: 30px;
     }
 
+    h2 {
+        font-size: 20px;
+    }
+
     h3 {
         text-align: center;
-        font-size: 12px;
+        font-size: 15px;
         margin: auto;
     }
 
@@ -267,11 +272,27 @@ h3 {
     #accueil {
         font-size: 13px;
     }
+    #redirection {
+        font-size: 13px;
+    }
 }
 
 @media screen and (max-width: 800px) {
     h1 {
         font-size: 4em;
+    }
+    h2 {
+        font-size: 17px;
+    }
+
+    h3 {
+        font-size: 15px;
+    }
+    nav ul li {
+        font-size: 12px;
+    }
+    #redirection {
+        font-size: 10px;
     }
 }
 
@@ -284,14 +305,27 @@ h3 {
     h1 {
         font-size: 2em;
     }
+    h2 {
+        font-size: 16px;
+    }
 
-    .signature {
-        font-size: 1em;
-        margin-left: 0px;
+    h3 {
+        font-size: 13px;
+    }
+    p,
+    li {
+        font-size: 13px;
+    }
+
+    nav ul li {
+        font-size: 12px;
     }
 
     #menu {
         margin-top: 80px;
+    }
+    #redirection {
+        font-size: 10px;
     }
 }
 

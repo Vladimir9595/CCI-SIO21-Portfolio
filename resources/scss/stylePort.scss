@@ -73,7 +73,7 @@ html {
 
 p,
 li {
-    font-size: 18px;
+    font-size: 17px;
     font-family: "pt_sansregular", "Trebuchet MS", "Lucida Sans Unicode",
         "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
@@ -114,6 +114,16 @@ h1 {
     height: 110px;
     object-fit: cover;
     -webkit-transition: 0.7s ease-in-out;
+    transition: 0.7s ease-in-out;
+}
+
+.roue {
+    float: right;
+    margin-right: 70px;
+    margin-top: 10px;
+    width: 27px;
+    height: 27px;
+    object-fit: cover;
     transition: 0.7s ease-in-out;
 }
 
@@ -260,6 +270,7 @@ h3 {
     font-family: "bronx", "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
         "Lucida Sans", Arial, sans-serif;
     font-weight: bold;
+    color: rgb(23, 77, 158);
 }
 
 .imgcomp1 {
@@ -274,9 +285,9 @@ h3 {
 }
 
 .imgcomp3 {
-    width: 30%;
+    width: 40%;
     margin-left: 35%;
-    margin-top: 5px;
+    margin-top: 20px;
 }
 
 #imginf {
@@ -396,9 +407,10 @@ h4 {
         margin-right: 30px;
     }
 
-    #moi h2 {
+    #moi h2,
+    section h2 {
         text-align: center;
-        font-size: 25px;
+        font-size: 20px;
     }
 
     h4 {
@@ -409,13 +421,27 @@ h4 {
 
     p,
     li {
-        font-size: auto;
+        font-size: 15px;
+    }
+
+    h3 {
+        font-size: 17px;
     }
 
     section {
         width: 85%;
         top: auto;
         margin: 0 7%;
+    }
+    #imginf {
+        width: 65%;
+        margin-left: 100px;
+        gap: 45px;
+    }
+    .imgcomp3 {
+        width: 25%;
+        margin-top: 25px;
+        margin-bottom: 25px;
     }
 
     #moi {
@@ -429,13 +455,24 @@ h4 {
     }
 
     #copyright {
-        font-size: 10px;
+        font-size: 12px;
     }
 }
 
 @media screen and (max-width: 800px) {
     h1 {
         font-size: 4em;
+    }
+    nav ul li,
+    #veilletech {
+        font-size: 13px;
+    }
+    p,
+    li {
+        font-size: 13px;
+    }
+    #copyright {
+        font-size: 10px;
     }
 }
 
@@ -456,6 +493,40 @@ h4 {
 
     #menu {
         margin-top: 80px;
+    }
+
+    nav ul li,
+    #veilletech {
+        font-size: 12px;
+    }
+
+    p,
+    li {
+        font-size: 13px;
+    }
+
+    #imginf {
+        width: 100%;
+        margin-left: 0px;
+        gap: 30px;
+    }
+
+    .imgcomp3 {
+        width: 30%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .roue {
+        float: right;
+        margin-left: 35px;
+        margin-right: 25px;
+        margin-top: 10px;
+        width: 27px;
+    }
+
+    #copyright {
+        font-size: 10px;
     }
 }
 
