@@ -114,7 +114,7 @@ h2 {
   font-size: 20px;
   color: rgb(23, 77, 158);
   border: solid 6px blanchedalmond;
-  border-radius: 5px;
+  border-radius: 20px;
   padding-right: 65px;
   display: flex;
   justify-content: space-between;
@@ -296,6 +296,15 @@ li {
   #redirection {
     font-size: 10px;
   }
+  .fa-facebook,
+.fa-instagram,
+.fa-linkedin,
+.fa-facebook-messenger {
+    font-size: 30px;
+  }
+  .logos {
+    font-size: 18px;
+  }
 }
 @media screen and (max-width: 650px) {
   :is(.logo, .imgID) {
@@ -323,6 +332,15 @@ li {
   }
   #redirection {
     font-size: 10px;
+  }
+  .fa-facebook,
+.fa-instagram,
+.fa-linkedin,
+.fa-facebook-messenger {
+    font-size: 25px;
+  }
+  .logos {
+    font-size: 15px;
   }
 }
 @media screen and (max-width: 320px) {

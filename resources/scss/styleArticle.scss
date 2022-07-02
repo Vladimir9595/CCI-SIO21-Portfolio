@@ -127,6 +127,15 @@
         width: 400px;
         height: 300px;
     }
+    .fa-facebook,
+    .fa-instagram,
+    .fa-linkedin,
+    .fa-facebook-messenger {
+        font-size: 30px;
+    }
+    .logos {
+        font-size: 18px;
+    }
 }
 @media screen and (max-width: 650px) {
     :is(.logo, .imgID) {
@@ -145,9 +154,25 @@
     .contain-all-articles .contain-article .link {
         max-width: 277px;
     }
+    .contain-all-articles .contain-article .title {
+        font-size: 15px;
+    }
+    .contain-all-articles .contain-article .content,
+    .contain-all-articles .contain-article .link {
+        font-size: 13px;
+    }
     .contain-all-articles .contain-article .image img {
         width: 296px;
-        height: 240px;
+        height: 210px;
+    }
+    .fa-facebook,
+    .fa-instagram,
+    .fa-linkedin,
+    .fa-facebook-messenger {
+        font-size: 25px;
+    }
+    .logos {
+        font-size: 15px;
     }
 }
 @media screen and (max-width: 320px) {
