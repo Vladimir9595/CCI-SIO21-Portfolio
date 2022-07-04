@@ -8,6 +8,7 @@ Modification des articles
 @endsection
 @section('content')
 
+
 @if($action === 'new')
     <header class="bloc">
         <h1>Création d'un article</h1>
@@ -18,6 +19,7 @@ Modification des articles
         </form>
         <a href="/login" class="deconnexion">Se deconnecter</a>
     </header>
+
     <form action="/admin/new" method="post" class="w-50 mx-auto">
         @csrf
         <div class="conteneur-pseudo form-floating mb-3">
@@ -38,12 +40,20 @@ Modification des articles
         </div>
         <button class="btn btn-primary mt-5 d-block mx-auto" type="submit">Créer</button>
     </form>
+    @if($message)
+        <p class="textaction"> L'action a bien été réalisée</p>
+    @endif
+
 @elseif($action === 'edit')
     <header class="bloc">
         <h1>Modification d'un article</h1>
-        <a href="/admin" class="deconnexion">Page d'admin</a>
+        <form action="/admin" method="POST" >
+            @csrf
+            <button type="submit" class="deconnexion" name="pseudo" name="password">Page d'admin</button>
+        </form>
         <a href="/login" class="deconnexion">Se deconnecter</a>
     </header>
+
     <form action="/admin/edit/{{$article->id}}" method="post" class="w-50 mx-auto">
         @csrf
         <div class="conteneur-pseudo form-floating mb-3">
@@ -68,11 +78,17 @@ Modification des articles
         </div>
         <button class="btn btn-primary mt-5 d-block mx-auto" type="submit">Modifier</button>
         </form>
+        @if($message)
+            <p class="textaction"> L'action a bien été réalisée</p>
+        @endif
 
 @elseif($action === 'delete')
     <header class="bloc">
         <h1>Suppression d'un article</h1>
-        <a href="/admin" class="deconnexion">Page d'admin</a>
+        <form action="/admin" method="POST" >
+            @csrf
+            <button type="submit" class="deconnexion" name="pseudo" name="password">Page d'admin</button>
+        </form>
         <a href="/login" class="deconnexion">Se deconnecter</a>
     </header>
     <p class="textaction">L'article a bien été supprimé</p>
