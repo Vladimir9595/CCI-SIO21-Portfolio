@@ -35,11 +35,18 @@ class AdminController extends Controller
                 Session::put('connected', false);
                 return back();
             }
+        } elseif (Session::get('connected') === true) {
+            return
+                view(
+                    'admin',
+                    compact('articles')
+                );
         }
     }
 
     public function new()
     {
+        $message = false;
         if (Session::get('connected') === false) {
             return abort('404');
         }
@@ -50,13 +57,15 @@ class AdminController extends Controller
                 'content' => $_POST['content'],
                 'link' => $_POST['link'],
             ]);
+            $message = true;
         }
         return view(
             'action'
-        )->with('action', 'new');
+        )->with('action', 'new')->with('message', $message);
     }
     public function edit($id, Request $request)
     {
+        $message = false;
         if (Session::get('connected') === false) {
             return abort('404');
         }
@@ -70,10 +79,11 @@ class AdminController extends Controller
             $update->content = $request->input("content");
             $update->link = $request->input("link");
             $update->save();
+            $message = true;
         }
         return view(
             'action'
-        )->with('action', 'edit')->with('article', $article);
+        )->with('action', 'edit')->with('article', $article)->with('message', $message);
     }
     public function delete($id)
     {
