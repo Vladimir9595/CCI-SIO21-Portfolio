@@ -13,7 +13,7 @@ class createUser extends Command
      *
      * @var string
      */
-    protected $signature = 'create:user {--user : Va créer un user dans la BDD}';
+    protected $signature = 'create:user {name} {email} {password}';
 
     /**
      * The console command description.
@@ -44,6 +44,7 @@ class createUser extends Command
 
         User::create([
             'name' => $this->argument()['name'],
+            'email' => $this->argument()['email'],
             'password' => $password
         ]);
 
