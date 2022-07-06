@@ -14,7 +14,7 @@ Page d'admin
 
     <h2>Liste des articles</h2>
     <div class="button">
-       <form action="/admin/new/" method="POST" >
+       <form action="/admin/new" method="POST" >
             @csrf
             <button type="submit" class="btn btn-primary mt-6 d-block-1 x-auto">Ajouter un nouvel article</button>
         </form>
