@@ -21,7 +21,7 @@ Route::get('/veille-technologique', [MonController::class, 'articles'])->name('a
 
 Route::get('/login', [AdminController::class, 'login'])->name('login');
 Route::post('/admin', [AdminController::class, 'admin'])->name('admin');
-Route::post('/admin/new/', [AdminController::class, 'new'])->name('new');
+Route::post('/admin/new', [AdminController::class, 'new'])->name('new');
 Route::post('/admin/edit/{id}', [AdminController::class, 'edit'])->name('edit');
 Route::post('/admin/delete/{id}', [AdminController::class, 'delete'])->name('delete');
 
