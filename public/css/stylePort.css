@@ -190,6 +190,7 @@ h1 {
   display: flex;
   justify-content: space-between;
   width: 55%;
+  max-width: 800px;
   flex-direction: row;
   top: auto;
   margin: auto;
