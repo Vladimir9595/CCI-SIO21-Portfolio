@@ -222,7 +222,7 @@ h3 {
         flex-wrap: wrap;
         flex-direction: column;
         text-align: start;
-        width: 34%;
+        width: 35%;
     }
 
     #menu ul {
@@ -234,6 +234,7 @@ h3 {
     nav ul li {
         font-size: 15px;
         margin-right: 10px;
+        margin-bottom: 8px;
     }
 
     nav li {
@@ -278,6 +279,26 @@ h3 {
 }
 
 @media screen and (max-width: 800px) {
+    @keyframes logo {
+        0% {
+            transform: scale(0.5);
+        }
+        17% {
+            transform: scale(0.6);
+        }
+        24% {
+            transform: scale(0.5);
+        }
+        46% {
+            transform: scale(0.6);
+        }
+        64% {
+            transform: scale(0.65);
+        }
+        100% {
+            transform: scale(0.7);
+        }
+    }
     h1 {
         font-size: 4em;
     }
@@ -306,9 +327,29 @@ h3 {
 }
 
 @media screen and (max-width: 650px) {
-    :is(.logo, .imgID) {
+    :is(.logo) {
         transform: scale(0.5);
         margin: 0px;
+    }
+    @keyframes logo {
+        0% {
+            transform: scale(0.5);
+        }
+        17% {
+            transform: scale(0.6);
+        }
+        24% {
+            transform: scale(0.5);
+        }
+        46% {
+            transform: scale(0.6);
+        }
+        64% {
+            transform: scale(0.65);
+        }
+        100% {
+            transform: scale(0.7);
+        }
     }
 
     h1 {

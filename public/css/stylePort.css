@@ -113,7 +113,7 @@ h1 {
   margin-right: 70px;
   margin-top: 10px;
   width: 27px;
-  height: 27px;
+  height: 20px;
   -o-object-fit: cover;
   object-fit: cover;
   transition: 0.7s ease-in-out;
@@ -189,7 +189,7 @@ h1 {
   padding-right: 35px;
   display: flex;
   justify-content: space-between;
-  width: 50%;
+  width: 55%;
   flex-direction: row;
   top: auto;
   margin: auto;
@@ -390,9 +390,11 @@ h4 {
     font-size: 15px;
     margin-right: 10px;
     margin-top: auto;
+    margin-bottom: 10px;
   }
-  #menu {
-    width: 50%;
+  #veilletech {
+    margin-bottom: 2px;
+    font-size: 18px;
   }
   #prop {
     width: 80%;
@@ -459,12 +461,58 @@ li {
   :is(.logo, .imgID) {
     transform: scale(0.5);
   }
+  @-webkit-keyframes logo {
+    0% {
+      transform: scale(0.5);
+    }
+    17% {
+      transform: scale(0.6);
+    }
+    24% {
+      transform: scale(0.5);
+    }
+    46% {
+      transform: scale(0.6);
+    }
+    64% {
+      transform: scale(0.65);
+    }
+    100% {
+      transform: scale(0.7);
+    }
+  }
+  @keyframes logo {
+    0% {
+      transform: scale(0.5);
+    }
+    17% {
+      transform: scale(0.6);
+    }
+    24% {
+      transform: scale(0.5);
+    }
+    46% {
+      transform: scale(0.6);
+    }
+    64% {
+      transform: scale(0.65);
+    }
+    100% {
+      transform: scale(0.7);
+    }
+  }
+  .imgID:hover {
+    transform: scale(0.7);
+  }
   h1 {
     font-size: 45px;
   }
   nav ul li,
 #veilletech {
     font-size: 13px;
+  }
+  #veilletech {
+    font-size: 15px;
   }
   p,
 li {
@@ -491,6 +539,49 @@ li {
     transform: scale(0.5);
     margin: -10px;
   }
+  @-webkit-keyframes logo {
+    0% {
+      transform: scale(0.5);
+    }
+    17% {
+      transform: scale(0.6);
+    }
+    24% {
+      transform: scale(0.5);
+    }
+    46% {
+      transform: scale(0.6);
+    }
+    64% {
+      transform: scale(0.65);
+    }
+    100% {
+      transform: scale(0.7);
+    }
+  }
+  @keyframes logo {
+    0% {
+      transform: scale(0.5);
+    }
+    17% {
+      transform: scale(0.6);
+    }
+    24% {
+      transform: scale(0.5);
+    }
+    46% {
+      transform: scale(0.6);
+    }
+    64% {
+      transform: scale(0.65);
+    }
+    100% {
+      transform: scale(0.7);
+    }
+  }
+  .imgID:hover {
+    transform: scale(0.6);
+  }
   h1 {
     font-size: 40px;
   }
@@ -510,6 +601,9 @@ li {
   nav ul li,
 #veilletech {
     font-size: 12px;
+  }
+  #veilletech {
+    font-size: 14px;
   }
   section {
     display: block;
@@ -549,10 +643,10 @@ section h2 {
   }
   .roue {
     float: right;
-    margin-left: 35px;
+    margin-left: 45px;
     margin-right: 25px;
     margin-top: 10px;
-    width: 27px;
+    width: 20px;
   }
   .fa-facebook,
 .fa-instagram,
