@@ -605,6 +605,7 @@ h4 {
         margin-left: 0px;
     }
     #menu {
+        width: 65%;
         margin-top: 40px;
     }
     #prop {
@@ -680,15 +681,35 @@ h4 {
 }
 @media screen and (max-width: 320px) {
     h1 {
-        font-size: 2em;
+        font-size: 30px;
     }
     :is(.logo, .imgID) {
-        transform: scale(0.5);
-        margin: 0px;
+        transform: scale(0.4);
+        margin: -15px;
     }
     .signature {
-        font-size: 1em;
-        margin-left: 0px;
+        font-size: 10px;
+        margin-left: 75px;
+        margin-top: 10px;
+    }
+    #menu {
+        width: 76%;
+    }
+    .roue {
+        margin-left: 45px;
+        margin-right: 25px;
+        margin-top: 10px;
+        width: 20px;
+    }
+    .fa-facebook,
+    .fa-instagram,
+    .fa-linkedin,
+    .fa-facebook-messenger {
+        font-size: 20px;
+    }
+
+    #copyright {
+        font-size: 6px;
     }
 }
 /* @media speech aide l'asistant vocale à lire notre site  */

@@ -107,7 +107,8 @@ h2 {
     width: 80%;
     top: auto;
     margin: auto;
-    margin-top: 26px;
+    margin-top: 70px;
+    margin-bottom: 20px;
     list-style-type: none;
     background-color: rgba(233, 226, 228, 0.35);
 }
@@ -329,7 +330,7 @@ h3 {
 @media screen and (max-width: 650px) {
     :is(.logo) {
         transform: scale(0.5);
-        margin: 0px;
+        margin: -10px;
     }
     @keyframes logo {
         0% {
@@ -354,6 +355,7 @@ h3 {
 
     h1 {
         font-size: 2em;
+        margin-top: 35px;
     }
     h2 {
         font-size: 16px;
@@ -372,7 +374,7 @@ h3 {
     }
 
     #menu {
-        margin-top: 80px;
+        margin-top: 55px;
     }
     #redirection {
         font-size: 10px;
@@ -390,16 +392,21 @@ h3 {
 
 @media screen and (max-width: 320px) {
     h1 {
-        font-size: 2em;
+        font-size: 30px;
     }
 
     :is(.logo, .imgID) {
         transform: scale(0.5);
-        margin: 0px;
+        margin: -20px;
+    }
+    #menu {
+        width: 60%;
     }
 
-    .signature {
-        font-size: 1em;
-        margin-left: 0px;
+    .fa-facebook,
+    .fa-instagram,
+    .fa-linkedin,
+    .fa-facebook-messenger {
+        font-size: 20px;
     }
 }
