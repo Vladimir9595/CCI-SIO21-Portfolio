@@ -38,24 +38,22 @@ Mentions légales
     </nav>
 
     <div id="mentions">
-      <h2 id="Edit">Editeur et propriétaire du site</h2>
+      <a href="#"><h2 id="Edit">Editeur et propriétaire du site</h2></a>
       <p>
-        M. Vladimir SACCHETTO <br />
-        Responsable éditorial : Vladimir SACCHETTO <br />
-        Email : vladisac@hotmail.it<br />
-        Site Web :
-        <a href="https://www.vladimir-portfolio.com " target="_blank"
-          >www.vladimir-portfolio.com</a
-        >
+            M. Vladimir SACCHETTO <br />
+            Responsable éditorial : Vladimir SACCHETTO <br />
+            Email : vladisac@hotmail.it<br />
+            Site Web :
+            <a href="https://www.vladimir-portfolio.com " target="_blank">www.vladimir-portfolio.com</a>
       </p>
-      <h2 id="Heberg">Hébergement</h2>
+      <a href="#"><h2 id="Heberg">Hébergement</h2></a>
       <p>
         Hébergeur : SAS OVH<br />
         2 rue Kellermann <br />
         BP 80157, 59100 Roubaix <br />
         Site Web : <a href="https://www.ovh.com" target="_blank">www.ovh.com</a>
       </p>
-      <h2 id="Cond">Conditions d'utilisation</h2>
+      <a href="#"><h2 id="Cond">Conditions d'utilisation</h2></a>
       <p>
         Ce site
         <a href="https://www.vladimir-portfolio.com " target="_blank"
@@ -73,7 +71,7 @@ Mentions légales
         découler.
       </p>
 
-      <h2 id="Propriete">Propriété intellectuelle</h2>
+      <a href="#"><h2 id="Propriete">Propriété intellectuelle</h2></a>
       <p>
         Tout le contenu du présent site incluant, les textes, animations, logos
         et icônes ainsi que leur mise en forme sont la propriété exclusive de M.
@@ -89,7 +87,7 @@ Mentions légales
         les propriétaires des contenus copiés pourraient intenter une action en
         justice à votre encontre.
       </p>
-      <h2 id="Lit">Litiges</h2>
+      <a href="#"><h2 id="Lit">Litiges</h2></a>
       <p>
         Les présentes conditions du site sont régies par les lois françaises et
         toute contestation ou litiges qui pourraient naître de l'interprétation
@@ -97,7 +95,7 @@ Mentions légales
         tribunaux. La langue de référence, pour le règlement de contentieux
         éventuels, est le français.
       </p>
-      <h2 id="Donnees">Données personnelles</h2>
+      <a href="#"><h2 id="Donnees">Données personnelles</h2></a>
       <p>
         De manière générale, vous n'êtes pas tenu de nous communiquer vos
         données personnelles lorsque vous visitez le site Internet
