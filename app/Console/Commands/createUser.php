@@ -36,7 +36,7 @@ class createUser extends Command
         if ($test_if_user_exist) {
             echo "\n";
             echo "\e[1;41m                                  \e[0m \n";
-            echo "\e[1;41m      Name already exist      \e[0m \n";
+            echo "\e[1;41m       Name already exist         \e[0m \n";
             echo "\e[1;41m                                  \e[0m \n";
             echo "\n";
             return;
