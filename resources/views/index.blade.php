@@ -48,7 +48,7 @@ Portfolio de Vladimir Sacchetto
     </section>
 
     <section>
-      <h2 id="Exp">Mon expérience professionnelles</h2>
+      <a href="#"><h2 id="Exp">Mon expérience professionnelles</h2></a>
       <p>
         D'origine italienne, je suis arrivé en France en octobre 2014 après
         avoir obtenu l'équivalent du Baccalauréat.
@@ -108,7 +108,7 @@ Portfolio de Vladimir Sacchetto
     </section>
 
     <section>
-      <h2 id="Comp">Mes compétences</h2>
+      <a href="#"><h2 id="Comp">Mes compétences</h2></a>
       <h3>Langues</h3>
       <p>
         L’italien est ma langue maternelle.<br />
@@ -123,7 +123,7 @@ Portfolio de Vladimir Sacchetto
         formations et expériences personnelles.
       </p>
       <p>
-        e suis en outre titulaire de l'European computer driving licence (ECDL)
+        Je suis en outre titulaire de l'European computer driving licence (ECDL)
         obtenu lors de ma formation au lycée. Je maîtrise également le Pack
         Office 365.
       </p>
@@ -140,7 +140,7 @@ Portfolio de Vladimir Sacchetto
     </section>
 
     <section>
-      <h2 id="Form">Ma formation</h2>
+      <a href="#"><h2 id="Form">Ma formation</h2></a>
       <p>
         J'ai effectué ma scolarité en Italie jusqu'à l'obtention de la
         "Maturità", l'équivalent du Baccalauréat français.
@@ -172,7 +172,7 @@ Portfolio de Vladimir Sacchetto
     </section>
 
     <section>
-      <h2 id="Proj">Mes projets</h2>
+      <a href="#"><h2 id="Proj">Mes projets</h2></a>
       <p>
         Lors de mes précédentes expériences professionnelles dans les domaines
         social et médico-social, j'ai réalisé différents projets répondant aux
