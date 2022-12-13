@@ -1,7 +1,7 @@
-@extends('layouts.app')
+&@extends('layouts.app')
 
 @section('css')
-<link rel="stylesheet" href="{{ asset('css/styleAdmin.css') }}">
+@vite('resources/scss/styleAdmin.scss')
 @endsection
 @section('title')
 Modification des articles
@@ -98,14 +98,5 @@ Modification des articles
     </header>
     <p class="textaction">L'article a bien été supprimé</p>
 @endif
-<footer>
-    <div id="copyright">
-        <span>
-          © Vladimir Sacchetto; 2022 |
-          <a href="/">Accueil -</a>
-          <a href="/mentions-légales">Mentions Légales -</a>
-          <a href="/veille-technologique">Veille Technologique</a>
-        </span>
-    </div>
-</footer>
+
 @endsection

@@ -6,7 +6,8 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, user-scalable=no"
     />
-    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    @vite('resources/scss/app.scss')
+    @vite('resources/scss/stylePort.scss')
     @yield('css')
 
     <link rel="apple-touch-icon" sizes="180x180" href={{ asset('/Images/Favi/apple-touch-icon.png') }}>
@@ -26,6 +27,32 @@
   </head>
 <body>
     @yield('content')
-    <script src="{{ asset('js/app.js') }}"></script>
+    <footer>
+      <h4><strong>CONTACT ME</strong></h4>
+      <div class="logos">
+        <a href="https://www.facebook.com/vladimir.sacchetto/" target="_blank"
+          ><i class="fab fa-facebook"></i
+        ></a>
+        <a href="https://www.instagram.com/vlado5991/" target="_blank"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/vladimir-sacchetto-16642b116/?locale=fr_FR"
+          target="_blank"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <i class="fab fa-facebook-messenger"></i>
+      </div>
+      <div id="copyright">
+        <span>
+          © Vladimir Sacchetto; 2022 |
+            <a href="/">Accueil -</a>
+          <a href="/mentions-légales">Mentions Légales -</a>
+          <a href="/veille-technologique">Veille Technologique</a>
+
+        </span>
+      </div>
+    </footer>
+    @vite('resources/js/app.js')
 </body>
 </html>

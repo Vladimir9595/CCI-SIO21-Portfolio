@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('css')
-<link rel="stylesheet" href="{{ asset('css/styleLegal.css') }}">
+@vite('resources/scss/styleLegal.scss')
 @endsection
 @section('title')
 Mentions légales
@@ -51,7 +51,9 @@ Mentions légales
         Hébergeur : SAS OVH<br />
         2 rue Kellermann <br />
         BP 80157, 59100 Roubaix <br />
-        Site Web : <a href="https://www.ovh.com" target="_blank">www.ovh.com</a>
+        Site Web : <a href="https://www.ovh.com" target="_blank">www.ovh.com</a><br />
+        Téléphone : +33 (0) 899 701 761 (1.349 € TTC l’appel, et 0.337 € TTC/mn) <br />
+        Fax : + 33 (0) 3 20 20 09 58
       </p>
       <a href="#"><h2 id="Cond">Conditions d'utilisation</h2></a>
       <p>
@@ -117,28 +119,4 @@ Mentions légales
       </p>
     </div>
 
-    <footer>
-      <h3><strong>CONTACT ME</strong></h3>
-      <div class="logos">
-        <a href="https://www.facebook.com/vladimir.sacchetto/" target="_blank"
-          ><i class="fab fa-facebook"></i
-        ></a>
-        <a href="https://www.instagram.com/vlado5991/" target="_blank"
-          ><i class="fab fa-instagram"></i
-        ></a>
-        <a
-          href="https://www.linkedin.com/in/vladimir-sacchetto-16642b116/?locale=fr_FR"
-          target="_blank"
-          ><i class="fab fa-linkedin"></i
-        ></a>
-        <i class="fab fa-facebook-messenger"></i>
-      </div>
-      <div id="redirection">
-        <span>
-           © Vladimir Sacchetto; 2022 |
-          <a href="/">Accueil -</a>
-          <a href="/veille-technologique">Veille Technologique</a>
-        </span>
-      </div>
-    </footer>
 @endsection

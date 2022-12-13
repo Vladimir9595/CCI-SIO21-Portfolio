@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('css')
-<link rel="stylesheet" href="{{ asset('css/stylePort.css') }}">
+@vite('resources/scss/stylePort.scss')
 @endsection
 @section('title')
 Portfolio de Vladimir Sacchetto
@@ -26,10 +26,11 @@ Portfolio de Vladimir Sacchetto
           <a href="#Form"><strong>Ma formation</strong></a>
         </li>
         <li>
-          <a href="#Proj"><strong>Mes projets</strong></a>
+          <a href="#Proj"><strong>Mes idées</strong></a>
         </li>
         <li id="veilletech">
-            <a href="/veille-technologique"><strong>Veille Technologique</strong></a>
+            <a href="/veille-technologique"><strong>Veille Technologique -</strong></a>
+            <a href="/projets"><strong>Projets</strong></a>
         </li>
       </ul>
     </nav>
@@ -172,7 +173,7 @@ Portfolio de Vladimir Sacchetto
     </section>
 
     <section>
-      <a href="#"><h2 id="Proj">Mes projets</h2></a>
+      <a href="#"><h2 id="Proj">Mes idées</h2></a>
       <p>
         Lors de mes précédentes expériences professionnelles dans les domaines
         social et médico-social, j'ai réalisé différents projets répondant aux
@@ -213,30 +214,4 @@ Portfolio de Vladimir Sacchetto
         d'atteindre toujours de nouveaux objectifs.
       </p>
     </section>
-
-    <footer>
-      <h4><strong>CONTACT ME</strong></h4>
-      <div class="logos">
-        <a href="https://www.facebook.com/vladimir.sacchetto/" target="_blank"
-          ><i class="fab fa-facebook"></i
-        ></a>
-        <a href="https://www.instagram.com/vlado5991/" target="_blank"
-          ><i class="fab fa-instagram"></i
-        ></a>
-        <a
-          href="https://www.linkedin.com/in/vladimir-sacchetto-16642b116/?locale=fr_FR"
-          target="_blank"
-          ><i class="fab fa-linkedin"></i
-        ></a>
-        <i class="fab fa-facebook-messenger"></i>
-      </div>
-      <div id="copyright">
-        <span>
-          © Vladimir Sacchetto; 2022 |
-          <a href="/mentions-légales">Mentions Légales -</a>
-          <a href="/veille-technologique">Veille Technologique</a>
-
-        </span>
-      </div>
-    </footer>
 @endsection
