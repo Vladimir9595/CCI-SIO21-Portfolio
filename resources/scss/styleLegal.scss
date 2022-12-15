@@ -93,7 +93,7 @@ h2 {
     }
 }
 
-#menu {
+#menu2 {
     font-family: "pt_sansregular", "Trebuchet MS", "Lucida Sans Unicode",
         "Lucida Grande", "Lucida Sans", Arial, sans-serif;
     font-style: normal;
@@ -113,12 +113,12 @@ h2 {
     background-color: rgba(233, 226, 228, 0.35);
 }
 
-#menu a {
+#menu2 a {
     color: rgb(23, 77, 158);
     text-shadow: 2px 2px rgb(215 199 201 / 92%);
 }
 
-#menu ul {
+#menu2 ul {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
@@ -218,7 +218,7 @@ h3 {
         font-size: 4em;
     }
 
-    #menu {
+    #menu2 {
         display: block;
         flex-wrap: wrap;
         flex-direction: column;
@@ -226,7 +226,7 @@ h3 {
         width: 35%;
     }
 
-    #menu ul {
+    #menu2 ul {
         display: block;
         flex-wrap: wrap;
         flex-direction: column;
@@ -373,7 +373,7 @@ h3 {
         font-size: 10px;
     }
 
-    #menu {
+    #menu2 {
         margin-top: 55px;
         width: 60%;
     }
@@ -400,7 +400,7 @@ h3 {
         transform: scale(0.5);
         margin: -20px;
     }
-    #menu {
+    #menu2 {
         width: 60%;
     }
 

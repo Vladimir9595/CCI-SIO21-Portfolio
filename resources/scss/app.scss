@@ -1,1 +1,120 @@
 @import "knacss/knacss.scss";
+
+footer {
+    background-image: url("/Images/lodyas.png");
+    opacity: 0.8;
+    box-shadow: 5px 5px 5px 5px;
+    margin-top: 20px;
+}
+
+footer a {
+    color: whitesmoke;
+    text-shadow: 3px 3px black;
+}
+
+h4 {
+    font-family: "pt_sansregular";
+    font-size: 30px;
+    text-align: center;
+    color: whitesmoke;
+    margin: auto;
+    padding-top: 10px;
+    text-shadow: 3px 3px black;
+}
+
+.logos {
+    text-align: center;
+    padding: 15px;
+    margin-left: 55px;
+}
+
+.fa-facebook,
+.fa-instagram,
+.fa-linkedin,
+.fa-facebook-messenger {
+    font-size: 50px;
+    color: whitesmoke;
+    text-align: center;
+    margin-right: 50px;
+    text-shadow: 3px 3px black;
+}
+
+#copyright {
+    display: block;
+    font-size: 15px;
+    font-family: "pt_sansregular", "Trebuchet MS", "Lucida Sans Unicode",
+        "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    color: whitesmoke;
+    text-align: center;
+    margin-right: auto;
+    padding-bottom: 5px;
+    text-shadow: 3px 3px black;
+}
+
+.fa-facebook:hover {
+    transform: scale(1.1);
+}
+
+.fa-instagram:hover {
+    transform: scale(1.1);
+}
+
+.fa-linkedin:hover {
+    transform: scale(1.1);
+}
+
+.fa-facebook-messenger:hover {
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 1024px) {
+    .logos {
+        margin-left: 38px;
+        font-size: 20px;
+    }
+    #copyright {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .fa-facebook,
+    .fa-instagram,
+    .fa-linkedin,
+    .fa-facebook-messenger {
+        font-size: 30px;
+    }
+    .logos {
+        font-size: 18px;
+    }
+    #copyright {
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 650px) {
+    .fa-facebook,
+    .fa-instagram,
+    .fa-linkedin,
+    .fa-facebook-messenger {
+        font-size: 25px;
+    }
+    .logos {
+        font-size: 15px;
+    }
+    #copyright {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .fa-facebook,
+    .fa-instagram,
+    .fa-linkedin,
+    .fa-facebook-messenger {
+        font-size: 20px;
+    }
+
+    #copyright {
+        font-size: 6px;
+    }
+}
