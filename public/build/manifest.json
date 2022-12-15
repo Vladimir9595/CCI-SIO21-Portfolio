@@ -5,13 +5,8 @@
     "isEntry": true
   },
   "resources/scss/styleLegal.scss": {
-    "file": "assets/styleLegal.b9db1b4f.css",
+    "file": "assets/styleLegal.05732ec5.css",
     "src": "resources/scss/styleLegal.scss",
-    "isEntry": true
-  },
-  "resources/scss/stylePort.scss": {
-    "file": "assets/stylePort.b8f86321.css",
-    "src": "resources/scss/stylePort.scss",
     "isEntry": true
   },
   "resources/scss/styleArticle.scss": {
@@ -19,13 +14,18 @@
     "src": "resources/scss/styleArticle.scss",
     "isEntry": true
   },
+  "resources/scss/stylePort.scss": {
+    "file": "assets/stylePort.c0c0071e.css",
+    "src": "resources/scss/stylePort.scss",
+    "isEntry": true
+  },
   "resources/scss/styleAdmin.scss": {
-    "file": "assets/styleAdmin.39202354.css",
+    "file": "assets/styleAdmin.a1fad338.css",
     "src": "resources/scss/styleAdmin.scss",
     "isEntry": true
   },
   "resources/scss/app.scss": {
-    "file": "assets/app.d2d961e1.css",
+    "file": "assets/app.a78d19a8.css",
     "src": "resources/scss/app.scss",
     "isEntry": true
   }
