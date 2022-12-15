@@ -1,8 +1,6 @@
 @extends('layouts.app')
+@extends('layouts.connection')
 
-@section('css')
-@vite('resources/scss/styleAdmin.scss')
-@endsection
 @section('title')
 Page d'admin
 @endsection

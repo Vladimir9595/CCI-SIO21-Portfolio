@@ -1,9 +1,7 @@
 @extends('layouts.app')
+@extends('layouts.connection')
+@extends('layouts.port')
 
-@section('css')
-
-@vite(['resources/scss/stylePort.scss', 'resources/scss/styleLegal.scss', 'resources/scss/styleArticle.scss'])
-@endsection
 @section('title')
 Veille technologique
 @endsection

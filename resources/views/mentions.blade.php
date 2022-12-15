@@ -14,7 +14,7 @@ Mentions légales
       <h1>Mentions légales</h1>
     </header>
 
-    <nav id="menu">
+    <nav id="menu2">
       <ul>
         <li>
           <a href="#Edit"><strong>Editeur et propriétaire du site</strong></a>
