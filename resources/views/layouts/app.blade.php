@@ -7,8 +7,9 @@
       content="width=device-width, initial-scale=1.0, user-scalable=no"
     />
     @vite('resources/scss/app.scss')
-    @vite('resources/scss/stylePort.scss')
     @yield('css')
+
+
 
     <link rel="apple-touch-icon" sizes="180x180" href={{ asset('/Images/Favi/apple-touch-icon.png') }}>
     <link rel="icon" type="image/png" sizes="32x32" href={{ asset('/Images/Favi/favicon-32x32.png') }}>
@@ -46,10 +47,10 @@
       <div id="copyright">
         <span>
           © Vladimir Sacchetto; 2022 |
-            <a href="/">Accueil -</a>
+          <a href="/">Accueil -</a>
           <a href="/mentions-légales">Mentions Légales -</a>
-          <a href="/veille-technologique">Veille Technologique</a>
-
+          <a href="/veille-technologique">Veille Technologique -</a>
+          <a href="/projets">Projets</a>
         </span>
       </div>
     </footer>
