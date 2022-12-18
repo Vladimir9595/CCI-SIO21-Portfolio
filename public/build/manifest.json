@@ -4,14 +4,9 @@
     "src": "resources/js/app.js",
     "isEntry": true
   },
-  "resources/scss/styleArticle.scss": {
-    "file": "assets/styleArticle.8e15619b.css",
-    "src": "resources/scss/styleArticle.scss",
-    "isEntry": true
-  },
-  "resources/scss/stylePort.scss": {
-    "file": "assets/stylePort.90d8ad98.css",
-    "src": "resources/scss/stylePort.scss",
+  "resources/scss/errors.scss": {
+    "file": "assets/errors.428c026f.css",
+    "src": "resources/scss/errors.scss",
     "isEntry": true
   },
   "resources/scss/styleAdmin.scss": {
@@ -19,8 +14,18 @@
     "src": "resources/scss/styleAdmin.scss",
     "isEntry": true
   },
+  "resources/scss/styleJobs.scss": {
+    "file": "assets/styleJobs.8e15619b.css",
+    "src": "resources/scss/styleJobs.scss",
+    "isEntry": true
+  },
+  "resources/scss/stylePort.scss": {
+    "file": "assets/stylePort.d8ff29e6.css",
+    "src": "resources/scss/stylePort.scss",
+    "isEntry": true
+  },
   "resources/scss/app.scss": {
-    "file": "assets/app.584cce6e.css",
+    "file": "assets/app.40716dc1.css",
     "src": "resources/scss/app.scss",
     "isEntry": true
   }
