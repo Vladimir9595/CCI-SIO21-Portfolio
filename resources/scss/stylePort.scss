@@ -36,6 +36,16 @@ html {
     font-style: normal;
 }
 #Exp {
+    color: rgb(23, 77, 158);
+    font-size: 25px;
+    font-family: "bronx", "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+    padding: 8px;
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px rgb(204, 56, 97);
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(241, 234, 236, 0.5);
     transition: 0.8s ease-in-out;
 }
 
@@ -44,6 +54,16 @@ html {
 }
 
 #Comp {
+    color: rgb(23, 77, 158);
+    font-size: 25px;
+    font-family: "bronx", "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+    padding: 8px;
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px rgb(204, 56, 97);
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(241, 234, 236, 0.5);
     transition: 0.8s ease-in-out;
 }
 
@@ -52,6 +72,16 @@ html {
 }
 
 #Form {
+    color: rgb(23, 77, 158);
+    font-size: 25px;
+    font-family: "bronx", "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+    padding: 8px;
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px rgb(204, 56, 97);
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(241, 234, 236, 0.5);
     transition: 0.8s ease-in-out;
 }
 
@@ -59,17 +89,28 @@ html {
     transform: scale(1.1);
 }
 
-#Proj {
+#Idée {
+    color: rgb(23, 77, 158);
+    font-size: 25px;
+    font-family: "bronx", "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+    padding: 8px;
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px rgb(204, 56, 97);
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(241, 234, 236, 0.5);
     transition: 0.8s ease-in-out;
 }
 
-#Proj:hover {
+#Idée:hover {
     transform: scale(1.1);
 }
 
 p,
 li {
-    font-size: 17px;
+    text-align: justify;
+    font-size: 18px;
     font-family: "pt_sansregular", "Trebuchet MS", "Lucida Sans Unicode",
         "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
@@ -98,6 +139,17 @@ h1 {
         "Lucida Grande", "Lucida Sans", Arial, sans-serif;
     margin-top: 5px;
     margin-left: 170px;
+}
+
+#menth1 {
+    color: rgba(175, 10, 32, 0.918);
+    font-size: 5em;
+    text-align: center;
+    font-family: "bronx", "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+    margin: auto;
+    margin-top: 30px;
+    text-shadow: 2px 2px rgb(215 199 201 / 92%);
 }
 
 .imgID {
@@ -217,15 +269,59 @@ h1 {
     color: rgb(23, 77, 158);
     text-shadow: 2px 2px rgba(215, 199, 201, 0.92);
 }
+#menu2 {
+    font-family: "pt_sansregular", "Trebuchet MS", "Lucida Sans Unicode",
+        "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    color: rgb(23, 77, 158);
+    border: solid 6px blanchedalmond;
+    border-radius: 20px;
+    padding-right: 65px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    top: auto;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    list-style-type: none;
+    background-color: rgba(233, 226, 228, 0.35);
+}
+
+#menu2 a {
+    color: rgb(23, 77, 158);
+    text-shadow: 2px 2px rgb(215 199 201 / 92%);
+}
+
+#menu2 ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 100%;
+    flex-wrap: wrap;
+}
 
 a:link {
     text-decoration: none;
+}
+
+#mentions p {
+    text-align: center;
+}
+
+#mentions {
+    padding: 5px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 #veilletech {
     margin: auto;
     margin-top: 25px;
     font-size: 25px;
+    display: flex;
+    gap: 5em;
 }
 
 #veilletech a {
@@ -257,19 +353,6 @@ a:link {
     margin: 0 1%;
 }
 
-section h2 {
-    color: rgb(23, 77, 158);
-    font-size: 25px;
-    font-family: "bronx", "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-        "Lucida Sans", Arial, sans-serif;
-    padding: 8px;
-    text-align: center;
-    box-shadow: 2px 2px 2px 2px rgb(204, 56, 97);
-    border-radius: 10px;
-    width: 100%;
-    background-color: rgba(241, 234, 236, 0.5);
-}
-
 section {
     display: inline-table;
     flex-direction: column;
@@ -281,6 +364,16 @@ section {
     padding: 4px;
     margin-left: 60px;
     margin-right: 20px;
+}
+
+#mentions h2 {
+    color: rgb(23, 77, 158);
+    font-size: 25px;
+    font-family: "bronx", "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+    padding: 8px;
+    text-align: center;
+    width: 100%;
 }
 
 h3 {
@@ -314,7 +407,6 @@ h3 {
     justify-content: center;
 }
 
-
 @media screen and (max-width: 1024px) {
     body {
         background-image: url("/Images/grigio.jpg");
@@ -333,6 +425,31 @@ h3 {
         flex-wrap: wrap;
         flex-direction: column;
     }
+
+    #menu2 {
+        display: block;
+        flex-wrap: wrap;
+        flex-direction: column;
+        text-align: start;
+        width: 35%;
+    }
+
+    #menu2 ul {
+        display: block;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    #menu2 ul li {
+        font-size: 15px;
+        margin-right: 10px;
+        margin-bottom: 8px;
+    }
+
+    #menu2 li {
+        margin-right: 15px;
+    }
+
     nav ul li,
     #veilletech {
         font-size: 15px;
@@ -350,32 +467,28 @@ h3 {
         top: auto;
         margin: 2% 12%;
     }
-    .fa-facebook,
-    .fa-instagram,
-    .fa-linkedin,
-    .fa-facebook-messenger {
-        font-size: 35px;
-        color: whitesmoke;
-        text-align: center;
-        margin-right: 30px;
-    }
+
     #moi h2,
     section h2 {
         text-align: center;
         font-size: 25px;
     }
-    h4 {
-        text-align: center;
+
+    #mentions h2 {
         font-size: 20px;
-        margin: auto;
     }
+
     p,
     li {
         font-size: 15px;
     }
+
     h3 {
-        font-size: 17px;
+        text-align: center;
+        font-size: 15px;
+        margin: auto;
     }
+
     section {
         display: block;
         width: 85%;
@@ -398,7 +511,6 @@ h3 {
         top: auto;
         margin: 0 13%;
     }
-
 }
 @media screen and (max-width: 800px) {
     :is(.logo, .imgID) {
@@ -450,10 +562,19 @@ h3 {
     h1 {
         font-size: 45px;
     }
+    #menth1 {
+        font-size: 4em;
+    }
+
+    #mentions h2 {
+        font-size: 17px;
+    }
     nav ul li,
+    #menu2 ul li,
     #veilletech {
         font-size: 13px;
     }
+
     #veilletech {
         font-size: 15px;
     }
@@ -464,7 +585,6 @@ h3 {
     section h2 {
         padding-right: 0px;
     }
-
 }
 @media screen and (max-width: 650px) {
     :is(.logo, .imgID) {
@@ -517,6 +637,14 @@ h3 {
     h1 {
         font-size: 40px;
     }
+    #menth1 {
+        font-size: 2em;
+        margin-top: 35px;
+    }
+
+    #menu2 h2 {
+        font-size: 16px;
+    }
     .signature {
         font-size: 1em;
         margin-left: 0px;
@@ -525,6 +653,11 @@ h3 {
         width: 65%;
         margin-top: 40px;
     }
+
+    #menu2 {
+        margin-top: 55px;
+        width: 60%;
+    }
     #prop {
         width: 100%;
         height: 250px;
@@ -532,6 +665,7 @@ h3 {
         margin: 2% 2%;
     }
     nav ul li,
+    #menu2 ul li,
     #veilletech {
         font-size: 12px;
     }
@@ -558,11 +692,7 @@ h3 {
         text-align: center;
         font-size: 18px;
     }
-    h4 {
-        text-align: center;
-        font-size: 14px;
-        margin: auto;
-    }
+
     section h2 {
         padding-right: 0px;
     }
@@ -582,10 +712,12 @@ h3 {
         width: 22px;
         height: 22px;
     }
-
 }
 @media screen and (max-width: 320px) {
     h1 {
+        font-size: 30px;
+    }
+    #menth1 {
         font-size: 30px;
     }
     :is(.logo, .imgID) {
@@ -600,6 +732,10 @@ h3 {
     #menu {
         width: 76%;
     }
+
+    #menu2 {
+        width: 60%;
+    }
     .roue {
         margin-left: 20px;
         margin-right: 20px;
@@ -607,6 +743,5 @@ h3 {
         width: 17px;
         height: 17px;
     }
-
 }
-/* @media speech aide l'asistant vocale à lire notre site  */
+// @media speech aide l'asistant vocale à lire notre site

@@ -86,26 +86,6 @@
         text-shadow: 2px 2px rgba(215, 199, 201, 0.92);
         text-align: center;
     }
-    .fa-facebook,
-    .fa-instagram,
-    .fa-linkedin,
-    .fa-facebook-messenger {
-        font-size: 35px;
-        color: whitesmoke;
-        text-align: center;
-        margin-right: 30px;
-    }
-    h4 {
-        text-align: center;
-        font-size: 12px;
-        margin: auto;
-    }
-    .logos {
-        margin-left: 38px;
-    }
-    #copyright {
-        font-size: 10px;
-    }
 }
 @media screen and (max-width: 800px) {
     .contain-article {
@@ -123,15 +103,6 @@
     .contain-all-articles .contain-article .image img {
         width: 400px;
         height: 300px;
-    }
-    .fa-facebook,
-    .fa-instagram,
-    .fa-linkedin,
-    .fa-facebook-messenger {
-        font-size: 30px;
-    }
-    .logos {
-        font-size: 18px;
     }
 }
 @media screen and (max-width: 650px) {
@@ -162,15 +133,6 @@
         width: 296px;
         height: 210px;
     }
-    .fa-facebook,
-    .fa-instagram,
-    .fa-linkedin,
-    .fa-facebook-messenger {
-        font-size: 25px;
-    }
-    .logos {
-        font-size: 15px;
-    }
 }
 @media screen and (max-width: 320px) {
     h1 {
@@ -200,11 +162,6 @@
         width: 220px;
         height: 170px;
     }
-    .fa-facebook,
-    .fa-instagram,
-    .fa-linkedin,
-    .fa-facebook-messenger {
-        font-size: 20px;
-    }
 }
-/* @media speech aide l'asistant vocale à lire notre site  */
+
+//  @media speech aide l'asistant vocale à lire notre site
