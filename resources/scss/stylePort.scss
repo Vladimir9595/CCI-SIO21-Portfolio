@@ -131,16 +131,6 @@ h1 {
     margin-top: 30px;
 }
 
-.signature {
-    color: rgba(175, 10, 32, 0.918);
-    font-size: 2em;
-    text-align: center;
-    font-family: "alex brush", "Trebuchet MS", "Lucida Sans Unicode",
-        "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-    margin-top: 5px;
-    margin-left: 170px;
-}
-
 #menth1 {
     color: rgba(175, 10, 32, 0.918);
     font-size: 5em;
@@ -152,91 +142,6 @@ h1 {
     text-shadow: 2px 2px rgb(215 199 201 / 92%);
 }
 
-.imgID {
-    float: right;
-    border-radius: 10px;
-    box-shadow: 4px 4px 4px 4px rgba(231, 174, 96, 0.35);
-    margin-right: 70px;
-    margin-top: 10px;
-    width: 110px;
-    height: 110px;
-    -o-object-fit: cover;
-    object-fit: cover;
-    transition: 0.7s ease-in-out;
-}
-
-.roue {
-    float: right;
-    margin-right: 70px;
-    margin-top: 10px;
-    width: 30px;
-    height: 30px;
-    -o-object-fit: cover;
-    object-fit: cover;
-    transition: 0.7s ease-in-out;
-}
-
-.imgID:hover {
-    transform: scale(1.2);
-}
-
-.logo {
-    float: left;
-    box-shadow: 2px 2px 2px 2px rgb(198, 52, 9);
-    border-radius: 50%;
-    width: 110px;
-    margin-left: 40px;
-    margin-top: 10px;
-}
-
-.logo:hover {
-    -webkit-animation-name: logo;
-    animation-name: logo;
-    -webkit-animation-duration: 5000ms;
-    animation-duration: 5000ms;
-}
-
-@-webkit-keyframes logo {
-    0% {
-        transform: scale(1);
-    }
-    17% {
-        transform: scale(1.1);
-    }
-    24% {
-        transform: scale(1);
-    }
-    46% {
-        transform: scale(1.1);
-    }
-    64% {
-        transform: scale(1.15);
-    }
-    100% {
-        transform: scale(1.2);
-    }
-}
-
-@keyframes logo {
-    0% {
-        transform: scale(1);
-    }
-    17% {
-        transform: scale(1.1);
-    }
-    24% {
-        transform: scale(1);
-    }
-    46% {
-        transform: scale(1.1);
-    }
-    64% {
-        transform: scale(1.15);
-    }
-    100% {
-        transform: scale(1.2);
-    }
-}
 #menu {
     font-family: "pt_sansregular", "Trebuchet MS", "Lucida Sans Unicode",
         "Lucida Grande", "Lucida Sans", Arial, sans-serif;
@@ -306,6 +211,36 @@ a:link {
     text-decoration: none;
 }
 
+#menu3 {
+    font-family: pt_sansregular, Trebuchet MS, Lucida Sans Unicode,
+        Lucida Grande, Lucida Sans, Arial, sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    color: #cc3861;
+    border: solid 6px blanchedalmond;
+    border-radius: 20px;
+    padding-right: 35px;
+    display: flex;
+    justify-content: space-around;
+    width: 55%;
+    max-width: 800px;
+    flex-direction: row;
+    margin: 70px auto auto;
+    list-style-type: none;
+    background-color: #e9e2e459;
+}
+
+#menu3 ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+
+#menu3 a {
+    color: rgb(23, 77, 158);
+    text-shadow: 2px 2px rgba(215, 199, 201, 0.92);
+}
 #mentions p {
     text-align: center;
 }
@@ -329,6 +264,18 @@ a:link {
     text-shadow: 2px 2px rgba(215, 199, 201, 0.92);
 }
 
+#veilletech2 {
+    margin: auto;
+    font-size: 25px;
+    display: flex;
+    gap: 5em;
+}
+
+#veilletech2 a {
+    color: rgb(198, 52, 9);
+    text-shadow: 2px 2px rgba(215, 199, 201, 0.92);
+}
+
 #moi {
     width: 50%;
     margin: 0 25%;
@@ -345,6 +292,17 @@ a:link {
     box-shadow: 2px 2px 2px 2px rgb(204, 56, 97);
     width: 100%;
     text-shadow: 2px 2px rgba(215, 199, 201, 0.92);
+}
+
+.roue {
+    float: right;
+    margin-right: -70px;
+    margin-top: 170px;
+    width: 30px;
+    height: 30px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    transition: 0.7s ease-in-out;
 }
 
 #prop {
@@ -420,11 +378,6 @@ h3 {
     h1 {
         font-size: 6em;
     }
-    #menu ul {
-        display: block;
-        flex-wrap: wrap;
-        flex-direction: column;
-    }
 
     #menu2 {
         display: block;
@@ -434,7 +387,27 @@ h3 {
         width: 35%;
     }
 
+    #menu3 {
+        display: block;
+        flex-wrap: wrap;
+        flex-direction: column;
+        text-align: start;
+        width: 35%;
+        margin-top: 70px;
+    }
+    #menu ul {
+        display: block;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
     #menu2 ul {
+        display: block;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    #menu3 ul {
         display: block;
         flex-wrap: wrap;
         flex-direction: column;
@@ -446,20 +419,35 @@ h3 {
         margin-bottom: 8px;
     }
 
+    #menu3 ul li {
+        font-size: 15px;
+        margin-right: 10px;
+        margin-bottom: 8px;
+    }
+
     #menu2 li {
         margin-right: 15px;
     }
 
+    #menu3 li {
+        margin-right: 15px;
+    }
+
     nav ul li,
-    #veilletech {
+    #veilletech,
+    #veilletech2 {
         font-size: 15px;
         margin-right: 10px;
         margin-top: auto;
         margin-bottom: 10px;
     }
-    #veilletech {
+    #veilletech,
+    #veilletech2 {
         margin-bottom: 2px;
         font-size: 18px;
+        display: block;
+        flex-wrap: wrap;
+        flex-direction: column;
     }
 
     #prop {
@@ -511,54 +499,14 @@ h3 {
         top: auto;
         margin: 0 13%;
     }
+    .roue {
+        margin-right: -65px;
+        margin-top: 125px;
+        width: 18px;
+        height: 18px;
+    }
 }
 @media screen and (max-width: 800px) {
-    :is(.logo, .imgID) {
-        transform: scale(0.5);
-    }
-    @-webkit-keyframes logo {
-        0% {
-            transform: scale(0.5);
-        }
-        17% {
-            transform: scale(0.6);
-        }
-        24% {
-            transform: scale(0.5);
-        }
-        46% {
-            transform: scale(0.6);
-        }
-        64% {
-            transform: scale(0.65);
-        }
-        100% {
-            transform: scale(0.7);
-        }
-    }
-    @keyframes logo {
-        0% {
-            transform: scale(0.5);
-        }
-        17% {
-            transform: scale(0.6);
-        }
-        24% {
-            transform: scale(0.5);
-        }
-        46% {
-            transform: scale(0.6);
-        }
-        64% {
-            transform: scale(0.65);
-        }
-        100% {
-            transform: scale(0.7);
-        }
-    }
-    .imgID:hover {
-        transform: scale(0.7);
-    }
     h1 {
         font-size: 45px;
     }
@@ -571,11 +519,17 @@ h3 {
     }
     nav ul li,
     #menu2 ul li,
-    #veilletech {
+    #veilletech,
+    #veilletech2 {
         font-size: 13px;
     }
 
-    #veilletech {
+    #menu3 ul li {
+        font-size: 13px;
+    }
+
+    #veilletech,
+    #veilletech2 {
         font-size: 15px;
     }
     p,
@@ -585,55 +539,14 @@ h3 {
     section h2 {
         padding-right: 0px;
     }
+    .roue {
+        margin-right: -65px;
+        margin-top: 125px;
+        width: 18px;
+        height: 18px;
+    }
 }
 @media screen and (max-width: 650px) {
-    :is(.logo, .imgID) {
-        transform: scale(0.5);
-        margin: -10px;
-    }
-    @-webkit-keyframes logo {
-        0% {
-            transform: scale(0.5);
-        }
-        17% {
-            transform: scale(0.6);
-        }
-        24% {
-            transform: scale(0.5);
-        }
-        46% {
-            transform: scale(0.6);
-        }
-        64% {
-            transform: scale(0.65);
-        }
-        100% {
-            transform: scale(0.7);
-        }
-    }
-    @keyframes logo {
-        0% {
-            transform: scale(0.5);
-        }
-        17% {
-            transform: scale(0.6);
-        }
-        24% {
-            transform: scale(0.5);
-        }
-        46% {
-            transform: scale(0.6);
-        }
-        64% {
-            transform: scale(0.65);
-        }
-        100% {
-            transform: scale(0.7);
-        }
-    }
-    .imgID:hover {
-        transform: scale(0.6);
-    }
     h1 {
         font-size: 40px;
     }
@@ -645,16 +558,17 @@ h3 {
     #menu2 h2 {
         font-size: 16px;
     }
-    .signature {
-        font-size: 1em;
-        margin-left: 0px;
-    }
+
     #menu {
         width: 65%;
         margin-top: 40px;
     }
 
     #menu2 {
+        margin-top: 55px;
+        width: 60%;
+    }
+    #menu3 {
         margin-top: 55px;
         width: 60%;
     }
@@ -666,7 +580,12 @@ h3 {
     }
     nav ul li,
     #menu2 ul li,
-    #veilletech {
+    #veilletech,
+    #veilletech2 {
+        font-size: 12px;
+    }
+
+    #menu3 ul li {
         font-size: 12px;
     }
 
@@ -707,10 +626,10 @@ h3 {
         margin-bottom: 20px;
     }
     .roue {
-        margin-left: 35px;
-        margin-right: 35px;
-        width: 22px;
-        height: 22px;
+        margin-top: 100px;
+        margin-right: -60px;
+        width: 13px;
+        height: 13px;
     }
 }
 @media screen and (max-width: 320px) {
@@ -720,15 +639,7 @@ h3 {
     #menth1 {
         font-size: 30px;
     }
-    :is(.logo, .imgID) {
-        transform: scale(0.4);
-        margin: -15px;
-    }
-    .signature {
-        font-size: 10px;
-        margin-left: 75px;
-        margin-top: 10px;
-    }
+
     #menu {
         width: 76%;
     }
@@ -736,12 +647,15 @@ h3 {
     #menu2 {
         width: 60%;
     }
+
+    #menu3 {
+        width: 60%;
+    }
     .roue {
-        margin-left: 20px;
-        margin-right: 20px;
-        margin-top: 20px;
-        width: 17px;
-        height: 17px;
+        margin-right: -45px;
+        margin-top: 73px;
+        width: 10px;
+        height: 10px;
     }
 }
 // @media speech aide l'asistant vocale à lire notre site
