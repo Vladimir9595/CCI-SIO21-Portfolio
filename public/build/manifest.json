@@ -4,18 +4,13 @@
     "src": "resources/js/app.js",
     "isEntry": true
   },
-  "resources/scss/styleLegal.scss": {
-    "file": "assets/styleLegal.05732ec5.css",
-    "src": "resources/scss/styleLegal.scss",
-    "isEntry": true
-  },
   "resources/scss/styleArticle.scss": {
-    "file": "assets/styleArticle.cd3a4de2.css",
+    "file": "assets/styleArticle.8e15619b.css",
     "src": "resources/scss/styleArticle.scss",
     "isEntry": true
   },
   "resources/scss/stylePort.scss": {
-    "file": "assets/stylePort.c0c0071e.css",
+    "file": "assets/stylePort.90d8ad98.css",
     "src": "resources/scss/stylePort.scss",
     "isEntry": true
   },
@@ -25,7 +20,7 @@
     "isEntry": true
   },
   "resources/scss/app.scss": {
-    "file": "assets/app.a78d19a8.css",
+    "file": "assets/app.584cce6e.css",
     "src": "resources/scss/app.scss",
     "isEntry": true
   }
