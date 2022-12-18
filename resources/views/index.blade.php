@@ -1,8 +1,6 @@
-@extends('layouts.app')
+@extends('layouts.port')
 
-@section('css')
-@vite('resources/scss/stylePort.scss')
-@endsection
+
 @section('title')
 Portfolio de Vladimir Sacchetto
 @endsection
@@ -26,10 +24,10 @@ Portfolio de Vladimir Sacchetto
           <a href="#Form"><strong>Ma formation</strong></a>
         </li>
         <li>
-          <a href="#Proj"><strong>Mes idées</strong></a>
+          <a href="#Idée"><strong>Mes idées</strong></a>
         </li>
         <li id="veilletech">
-            <a href="/veille-technologique"><strong>Veille Technologique -</strong></a>
+            <a href="/veille-technologique"><strong>Veille Technologique</strong></a>
             <a href="/projets"><strong>Projets</strong></a>
         </li>
       </ul>
@@ -173,7 +171,7 @@ Portfolio de Vladimir Sacchetto
     </section>
 
     <section>
-      <a href="#"><h2 id="Proj">Mes idées</h2></a>
+      <a href="#"><h2 id="Idée">Mes idées</h2></a>
       <p>
         Lors de mes précédentes expériences professionnelles dans les domaines
         social et médico-social, j'ai réalisé différents projets répondant aux

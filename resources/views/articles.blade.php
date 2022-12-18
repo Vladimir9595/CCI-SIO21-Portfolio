@@ -1,6 +1,5 @@
-@extends('layouts.app')
-@extends('layouts.connection')
-@extends('layouts.port')
+@extends('layouts.jobs')
+{{-- @extends('layouts.port') --}}
 
 @section('title')
 Veille technologique

@@ -1,8 +1,6 @@
-@extends('layouts.app')
+@extends('layouts.port')
 
-@section('css')
-@vite('resources/scss/styleLegal.scss')
-@endsection
+
 @section('title')
 Mentions légales
 @endsection
@@ -11,7 +9,7 @@ Mentions légales
       <a href="/"
         ><img src={{ asset('Images/logo-1.jpg') }} alt="logo" class="logo"
       /></a>
-      <h1>Mentions légales</h1>
+      <h1 id="menth1">Mentions légales</h1>
     </header>
 
     <nav id="menu2">
