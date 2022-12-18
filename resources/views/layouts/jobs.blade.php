@@ -2,5 +2,5 @@
 @section('css')
 
 @vite('resources/scss/stylePort.scss')
-@vite('resources/scss/styleArticle.scss')
+@vite('resources/scss/styleJobs.scss')
 @endsection
