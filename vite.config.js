@@ -12,4 +12,9 @@ export default defineConfig({
             "resources/scss/stylePort.scss",
         ]),
     ],
+    // server: {
+    //     hmr: {
+    //         host: "localhost",
+    //     }
+    // }
 });
