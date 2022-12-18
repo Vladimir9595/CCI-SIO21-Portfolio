@@ -6,9 +6,10 @@ export default defineConfig({
         laravel([
             "resources/js/app.js",
             "resources/scss/app.scss",
-            "resources/scss/stylePort.scss",
-            "resources/scss/styleArticle.scss",
+            "resources/scss/errors.scss",
             "resources/scss/styleAdmin.scss",
+            "resources/scss/styleJobs.scss",
+            "resources/scss/stylePort.scss",
         ]),
     ],
 });
