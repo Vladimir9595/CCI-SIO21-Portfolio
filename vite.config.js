@@ -7,7 +7,6 @@ export default defineConfig({
             "resources/js/app.js",
             "resources/scss/app.scss",
             "resources/scss/stylePort.scss",
-            "resources/scss/styleLegal.scss",
             "resources/scss/styleArticle.scss",
             "resources/scss/styleAdmin.scss",
         ]),
