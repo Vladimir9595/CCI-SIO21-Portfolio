@@ -4,13 +4,11 @@
 @section('title')
 Mentions légales
 @endsection
-    @section('content')
-    <header>
-      <a href="/"
-        ><img src={{ asset('Images/logo-1.jpg') }} alt="logo" class="logo"
-      /></a>
+
+@section('titreH1')
       <h1 id="menth1">Mentions légales</h1>
-    </header>
+@endsection
+@section('content')
 
     <nav id="menu2">
       <ul>

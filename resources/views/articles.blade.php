@@ -5,13 +5,22 @@
 Veille technologique
 @endsection
     @section('content')
-    <header>
-      <a href="/"
-        ><img src={{ asset('Images/logo-1.jpg') }} alt="logo" class="logo"
-      /></a>
-      <a href="/login"><img src={{ asset('Images/roue_dentee.png') }} alt="Roue dentée" class="roue"/></a>
-      <h1>Articles</h1>
-    </header>
+    @section('titreH1')
+    Articles
+    @endsection
+    @section('roue')
+    <img src={{ asset('Images/roue_dentee.png') }} alt="Roue dentée" class="roue"/>
+    @endsection
+    <nav id="menu3">
+        <ul>
+            <li id="veilletech2">
+                <a href="/"><strong>Accueil</strong></a>
+                <a href="/veille-technologique"><strong>Veille Technologique</strong></a>
+                <a href="/projets"><strong>Projets</strong></a>
+            </li>
+        </ul>
+    </nav>
+
 
     <div class="contain-all-articles">
 

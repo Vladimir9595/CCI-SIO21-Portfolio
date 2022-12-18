@@ -4,13 +4,12 @@
 @section('title')
 Portfolio de Vladimir Sacchetto
 @endsection
-    @section('content')
-    <header>
-      <img src={{ asset('Images/logo-1.jpg') }} alt="logo" class="logo" />
-      <a href="/login"><img src={{ asset('Images/photoID1.png') }} alt="Photo de Vladimir" class="imgID"/></a>
-      <h1><strong>Mon portfolio</strong></h1>
-      <h2 class="signature"><strong>Vladimir Sacchetto</strong></h2>
-    </header>
+
+@section('titreH1')
+    <strong>Mon portfolio</strong>
+@endsection
+@section('content')
+
 
     <nav id="menu">
       <ul>

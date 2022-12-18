@@ -1,4 +1,4 @@
-@extends('layouts.connection')
+@extends('layouts.administration')
 
 
 @section('title')
