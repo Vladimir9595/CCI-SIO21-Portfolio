@@ -212,33 +212,34 @@ a:link {
 }
 
 #menu3 {
-    font-family: pt_sansregular, Trebuchet MS, Lucida Sans Unicode,
-        Lucida Grande, Lucida Sans, Arial, sans-serif;
-    font-style: normal;
-    font-size: 20px;
-    color: #cc3861;
+    // font-family: pt_sansregular, Trebuchet MS, Lucida Sans Unicode,
+    //     Lucida Grande, Lucida Sans, Arial, sans-serif;
+    // font-style: normal;
+    // font-size: 20px;
+    // color: #cc3861;
     border: solid 6px blanchedalmond;
     border-radius: 20px;
-    padding-right: 35px;
-    display: flex;
-    justify-content: space-around;
+    // padding-right: 35px;
+    // display: flex;
+    // justify-content: space-around;
     width: 55%;
-    max-width: 800px;
-    flex-direction: row;
+    // max-width: 800px;
+    // flex-direction: row;
     margin: 70px auto auto;
-    list-style-type: none;
+    // list-style-type: none;
     background-color: #e9e2e459;
 }
 
 #menu3 ul {
     display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-    flex-wrap: wrap;
+    padding-left: unset;
+    // justify-content: space-between;
+    // list-style-type: none;
+    // flex-wrap: wrap;
 }
 
 #menu3 a {
-    color: rgb(23, 77, 158);
+    color: rgb(198, 52, 9);
     text-shadow: 2px 2px rgba(215, 199, 201, 0.92);
 }
 #mentions p {
@@ -268,12 +269,7 @@ a:link {
     margin: auto;
     font-size: 25px;
     display: flex;
-    gap: 5em;
-}
-
-#veilletech2 a {
-    color: rgb(198, 52, 9);
-    text-shadow: 2px 2px rgba(215, 199, 201, 0.92);
+    // gap: 5em;
 }
 
 #moi {
@@ -388,12 +384,12 @@ h3 {
     }
 
     #menu3 {
-        display: block;
-        flex-wrap: wrap;
-        flex-direction: column;
-        text-align: start;
-        width: 35%;
-        margin-top: 70px;
+        // display: block;
+        // flex-wrap: wrap;
+        // flex-direction: column;
+        // text-align: start;
+        width: 40%;
+        // margin-top: 70px;
     }
     #menu ul {
         display: block;
@@ -409,8 +405,10 @@ h3 {
 
     #menu3 ul {
         display: block;
-        flex-wrap: wrap;
-        flex-direction: column;
+        padding-left: 55px;
+
+        // flex-wrap: wrap;
+        // flex-direction: column;
     }
 
     #menu2 ul li {
@@ -420,34 +418,48 @@ h3 {
     }
 
     #menu3 ul li {
-        font-size: 15px;
-        margin-right: 10px;
-        margin-bottom: 8px;
+        // font-size: 15px;
+        // margin-right: 10px;
+        margin-bottom: 15px;
+        margin-left: 55px;
     }
 
     #menu2 li {
         margin-right: 15px;
     }
 
-    #menu3 li {
-        margin-right: 15px;
-    }
+    // #menu3 li {
+    //     margin-right: 15px;
+    // }
 
     nav ul li,
-    #veilletech,
-    #veilletech2 {
+    #veilletech {
         font-size: 15px;
         margin-right: 10px;
         margin-top: auto;
         margin-bottom: 10px;
     }
-    #veilletech,
+    #veilletech {
+        margin-bottom: 2px;
+        font-size: 18px;
+        display: block;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
     #veilletech2 {
         margin-bottom: 2px;
         font-size: 18px;
         display: block;
         flex-wrap: wrap;
         flex-direction: column;
+    }
+    .lx {
+        margin-left: -55px;
+    }
+
+    .dx {
+        margin-left: 145px;
     }
 
     #prop {
@@ -525,7 +537,19 @@ h3 {
     }
 
     #menu3 ul li {
-        font-size: 13px;
+        margin-bottom: 10px;
+    }
+
+    #menu3 ul {
+        padding-left: 5px;
+    }
+
+    .lx {
+        margin-left: -37px;
+    }
+
+    .dx {
+        margin-left: 110px;
     }
 
     #veilletech,
@@ -570,7 +594,7 @@ h3 {
     }
     #menu3 {
         margin-top: 55px;
-        width: 60%;
+        width: 45%;
     }
     #prop {
         width: 100%;
@@ -587,6 +611,9 @@ h3 {
 
     #menu3 ul li {
         font-size: 12px;
+    }
+    #menu3 ul {
+        padding-left: 10px;
     }
 
     #veilletech {
