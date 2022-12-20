@@ -19,7 +19,7 @@
         <meta name="msapplication-TileColor" content="#da532c">
         <meta name="msapplication-config" content="/Images/Favi/browserconfig.xml">
         <meta name="theme-color" content="#ffffff">
-        @yield('style')
+
         <script
         src="https://kit.fontawesome.com/e051dd5741.js"
         crossorigin="anonymous"

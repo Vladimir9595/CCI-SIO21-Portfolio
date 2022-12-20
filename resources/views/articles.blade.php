@@ -14,9 +14,13 @@ Veille technologique
     <nav id="menu3">
         <ul>
             <li id="veilletech2">
-                <a href="/"><strong>Accueil</strong></a>
+                <a href="/" class="lx"><strong>Accueil</strong></a>
+            </li>
+            <li id="veilletech2">
                 <a href="/veille-technologique"><strong>Veille Technologique</strong></a>
-                <a href="/projets"><strong>Projets</strong></a>
+            </li>
+            <li id="veilletech2">
+                <a href="/projets" class="dx"><strong>Projets</strong></a>
             </li>
         </ul>
     </nav>
