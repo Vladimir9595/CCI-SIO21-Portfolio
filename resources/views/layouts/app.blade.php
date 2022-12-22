@@ -28,7 +28,7 @@
     </head>
     <body>
         <header>
-            <a href="/"><img  class="logo" src={{ asset('Images/logo-1.jpg') }} alt="logo"  /></a>
+            <a href="/"><img  class="logo" src={{ asset('Images/Logos/logo-1.jpg') }} alt="logo"  /></a>
             <img class="imgID" src={{ asset('Images/photoID1.png') }} alt="Photo de Vladimir" />
             <a href="login">@yield('roue')</a>
             {{-- <a href="login">@yield('roue')</a> --}}
