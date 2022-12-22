@@ -5,18 +5,8 @@
     "isEntry": true
   },
   "resources/scss/errors.scss": {
-    "file": "assets/errors.aa0f0471.css",
+    "file": "assets/errors.6f44af83.css",
     "src": "resources/scss/errors.scss",
-    "isEntry": true
-  },
-  "resources/scss/stylePort.scss": {
-    "file": "assets/stylePort.e035cb12.css",
-    "src": "resources/scss/stylePort.scss",
-    "isEntry": true
-  },
-  "resources/scss/app.scss": {
-    "file": "assets/app.97e1619e.css",
-    "src": "resources/scss/app.scss",
     "isEntry": true
   },
   "resources/scss/styleAdmin.scss": {
@@ -27,6 +17,16 @@
   "resources/scss/styleJobs.scss": {
     "file": "assets/styleJobs.8e15619b.css",
     "src": "resources/scss/styleJobs.scss",
+    "isEntry": true
+  },
+  "resources/scss/stylePort.scss": {
+    "file": "assets/stylePort.73da3612.css",
+    "src": "resources/scss/stylePort.scss",
+    "isEntry": true
+  },
+  "resources/scss/app.scss": {
+    "file": "assets/app.97e1619e.css",
+    "src": "resources/scss/app.scss",
     "isEntry": true
   }
 }
