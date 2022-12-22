@@ -163,7 +163,7 @@ video {
     padding-right: 1.5rem;
 }
 .pt-8 {
-    padding-top: 17rem;
+    padding-top: 4rem;
 }
 .fixed {
     position: fixed;
@@ -219,6 +219,9 @@ video {
     --text-opacity: 1;
     color: #1a202c;
     color: rgba(26, 32, 44, var(--text-opacity));
+}
+.texto {
+    font-size: 25px;
 }
 .uppercase {
     text-transform: uppercase;
@@ -339,6 +342,15 @@ video {
     text-shadow: 2px 2px rgb(215 199 201 / 92%);
 }
 
+@media (min-width: 320px) {
+    .number {
+        font-size: 40px;
+    }
+    .texto {
+        font-size: 18px;
+    }
+}
+
 @media (min-width: 640px) {
     .sm\:rounded-lg {
         border-radius: 0.5rem;
@@ -377,6 +389,9 @@ video {
     .number {
         font-size: 40px;
     }
+    .texto {
+        font-size: 18px;
+    }
 }
 @media (min-width: 768px) {
     .md\:border-t-0 {
@@ -389,13 +404,19 @@ video {
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
     .number {
-        font-size: 4em;
+        font-size: 3em;
+    }
+    .texto {
+        font-size: 18px;
     }
 }
 @media (min-width: 1024px) {
     .lg\:px-8 {
         padding-left: 2rem;
         padding-right: 2rem;
+    }
+    .texto {
+        font-size: 21px;
     }
 }
 @media (prefers-color-scheme: dark) {
