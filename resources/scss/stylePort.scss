@@ -161,7 +161,7 @@ h1 {
     flex-wrap: wrap;
 }
 
-#menu a {
+.blue {
     color: rgb(23, 77, 158);
     text-shadow: 2px 2px rgba(215, 199, 201, 0.92);
 }
@@ -229,20 +229,22 @@ a:link {
     margin-right: 30px;
 }
 
-#veilletech {
+.btn-link {
     margin: auto;
     margin-top: 25px;
     font-size: 25px;
     display: flex;
     gap: 5em;
+    // color: rgb(198, 52, 9);
+    // text-shadow: 2px 2px rgba(215, 199, 201, 0.92);
 }
 
-#veilletech a {
+.btn-link a {
     color: rgb(198, 52, 9);
     text-shadow: 2px 2px rgba(215, 199, 201, 0.92);
 }
 
-#veilletech2 {
+.btn-link2 {
     margin: auto;
     font-size: 25px;
     display: flex;
@@ -402,18 +404,18 @@ h3 {
     }
 
     nav ul li,
-    #veilletech {
+    .btn-link {
         font-size: 15px;
         margin-right: 10px;
         margin-top: auto;
         margin-bottom: 10px;
     }
-    #veilletech {
+    .btn-link {
         margin-top: 20px;
         font-size: 18px;
     }
 
-    #veilletech2 {
+    .btn-link2 {
         margin-bottom: 2px;
         font-size: 18px;
         display: block;
@@ -496,8 +498,8 @@ h3 {
     }
     nav ul li,
     #menu2 ul li,
-    #veilletech,
-    #veilletech2 {
+    .btn-link,
+    .btn-link2 {
         font-size: 13px;
     }
 
@@ -521,8 +523,8 @@ h3 {
         margin-left: 110px;
     }
 
-    #veilletech,
-    #veilletech2 {
+    .btn-link,
+    .btn-link2 {
         font-size: 15px;
     }
     p,
@@ -573,8 +575,8 @@ h3 {
     }
     nav ul li,
     #menu2 ul li,
-    #veilletech,
-    #veilletech2 {
+    .btn-link,
+    .btn-link2 {
         font-size: 12px;
     }
 
@@ -585,7 +587,7 @@ h3 {
         padding-left: 0px;
     }
 
-    #veilletech {
+    .btn-link {
         font-size: 14px;
     }
 
