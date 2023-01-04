@@ -47,10 +47,10 @@
             <div id="copyright">
                 <span>
                     © Vladimir Sacchetto; 2022 |
-                    <a href="/">Accueil -</a>
-                    <a href="/mentions-légales">Mentions Légales -</a>
-                    <a href="/veille-technologique">Veille Technologique -</a>
-                    <a href="/projets">Projets</a>
+                    <a href="{{route("accueil")}}">Accueil -</a>
+                    <a href="{{route("mentions")}}">Mentions Légales -</a>
+                    <a href="{{route("articles")}}">Veille Technologique -</a>
+                    <a href="{{route("projects")}}">Projets</a>
                 </span>
             </div>
         </footer>
