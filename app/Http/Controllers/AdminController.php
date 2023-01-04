@@ -3,97 +3,89 @@
 namespace App\Http\Controllers;
 
 use App\Models\Article;
+use App\Models\Project;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Facades\Session;
 
 class AdminController extends Controller
 {
-    public function login()
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function index()
     {
+        $articles = Article::all();
+        $projects = Project::all();
         return view(
-            'auth'
+            'admin',
+            compact('articles', 'projects')
         );
     }
 
-    public function admin()
+    /**
+     * Show the form for creating a new resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function create()
     {
-        $articles = Article::all();
-        if (count($_POST) > 2) {
-            $user = [
-                'name' => $_POST['pseudo'],
-                'password' => $_POST['password']
-            ];
-
-            if (Auth::attempt($user)) {
-                Session::put('connected', true);
-                return view(
-                    'admin',
-                    compact('articles')
-                );
-            } else {
-                Session::put('connected', false);
-                return back();
-            }
-        } elseif (Session::get('connected') === true) {
-            return
-                view(
-                    'admin',
-                    compact('articles')
-                );
-        }
+        //
     }
 
-    public function new()
+    /**
+     * Store a newly created resource in storage.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @return \Illuminate\Http\Response
+     */
+    public function store(Request $request)
     {
-        $message = false;
-        if (Session::get('connected') === false) {
-            return abort('404');
-        }
-        if (count($_POST) > 3) {
-            Article::create([
-                'title' => $_POST['title'],
-                'image' => $_POST['image'],
-                'content' => $_POST['content'],
-                'link' => $_POST['link'],
-            ]);
-            $message = true;
-        }
-        return view(
-            'action'
-        )->with('action', 'new')->with('message', $message);
+        //
     }
-    public function edit($id, Request $request)
+
+    /**
+     * Display the specified resource.
+     *
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */
+    public function show($id)
     {
-        $message = false;
-        if (Session::get('connected') === false) {
-            return abort('404');
-        }
-        $article = Article::find($id);
-
-        if (count($_POST) > 3) {
-            $update = Article::find($id);
-
-            $update->title = $request->input("title");
-            $update->image = $request->input("image");
-            $update->content = $request->input("content");
-            $update->link = $request->input("link");
-            $update->save();
-            $message = true;
-        }
-        return view(
-            'action'
-        )->with('action', 'edit')->with('article', $article)->with('message', $message);
+        //
     }
-    public function delete($id)
+
+    /**
+     * Show the form for editing the specified resource.
+     *
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */
+    public function edit($id)
     {
-        if (Session::get('connected') === false) {
-            return abort('404');
-        }
-        $delete = Article::find($id);
-        $delete->delete();
-        return view(
-            'action'
-        )->with('action', 'delete');
+        //
+    }
+
+    /**
+     * Update the specified resource in storage.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */
+    public function update(Request $request, $id)
+    {
+        //
+    }
+
+    /**
+     * Remove the specified resource from storage.
+     *
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */
+    public function destroy($id)
+    {
+        //
     }
 }
