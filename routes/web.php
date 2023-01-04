@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Auth;
 use App\Http\Middleware\Authenticate;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\MonController;
+use App\Http\Controllers\HomeController;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\ArticleController;
@@ -20,10 +20,10 @@ use App\Http\Controllers\ProjectController;
 |
 */
 
-Route::get('/', [MonController::class, 'index'])->name('accueil');
-Route::get('/mentions-légales', [MonController::class, 'mention'])->name('mentions');
-Route::get('/veille-technologique', [MonController::class, 'articles'])->name('articles');
-Route::get('/mes-projets', [MonController::class, 'projects'])->name('projects');
+Route::get('/', [HomeController::class, 'index'])->name('accueil');
+Route::get('/mentions-légales', [HomeController::class, 'mention'])->name('mentions');
+Route::get('/veille-technologique', [HomeController::class, 'articles'])->name('articles');
+Route::get('/mes-projets', [HomeController::class, 'projects'])->name('projects');
 
 Route::middleware('guest')->group(function () {
     Route::get('/login', [AuthController::class, 'index'])->name('login');
@@ -47,9 +47,9 @@ Route::prefix('admin')->middleware('auth')->group(function () {
 // Route::post('/admin/edit/{id}', [AdminController::class, 'edit'])->name('edit');
 // Route::post('/admin/delete/{id}', [AdminController::class, 'delete'])->name('delete');
 
-// Route::get('/posts/{id}', [MonController::class, 'show'])->name('id');
-// Route::get('/contactez-nous', [MonController::class, 'contact'])->name('contact');
-// Route::get('/informations', [MonController::class, 'information'])->name('info');
+// Route::get('/posts/{id}', [HomeController::class, 'show'])->name('id');
+// Route::get('/contactez-nous', [HomeController::class, 'contact'])->name('contact');
+// Route::get('/informations', [HomeController::class, 'information'])->name('info');
 
 /* Route::get('/', function () {
     return view('welcome');
