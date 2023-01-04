@@ -184,19 +184,7 @@ h2 {
     width: 320px;
 }
 
-.textaction {
-    text-align: center;
-    font-family: "pt_sansregular", "Segoe UI", "Trebuchet MS",
-        "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-    color: rgb(77, 97, 215, 0.805);
-    font-size: 25px;
-    font-weight: bold;
-    text-shadow: 1px 1px 1px white;
-    margin-top: 220px;
-    margin-bottom: 180px;
-}
-
-.textaction_ {
+.text-msg {
     text-align: center;
     font-family: "pt_sansregular", "Segoe UI", "Trebuchet MS",
         "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
@@ -205,33 +193,7 @@ h2 {
     font-weight: bold;
     text-shadow: 1px 1px 1px white;
     margin-top: 80px;
-    margin-bottom: -60px;
 }
-
-// footer {
-//     background-image: url("/Images/lodyas.png");
-//     opacity: 0.8;
-//     box-shadow: 5px 5px 5px 5px;
-//     margin-top: 140px;
-//     padding: 30px;
-// }
-
-// footer a {
-//     color: whitesmoke;
-//     text-shadow: 3px 3px black;
-//     text-decoration: none;
-// }
-
-// #copyright {
-//     display: block;
-//     font-size: 15px;
-//     font-family: "pt_sansregular", "Trebuchet MS", "Lucida Sans Unicode",
-//         "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-//     color: whitesmoke;
-//     text-align: center;
-//     margin-right: auto;
-//     text-shadow: 3px 3px black;
-// }
 
 @media screen and (max-width: 1024px) {
     h1 {
@@ -262,12 +224,7 @@ h2 {
         height: calc(3rem + 2px);
     }
 
-    .textaction {
-        font-size: 20px;
-        margin-bottom: 255px;
-    }
-
-    .textaction_ {
+    .text-msg {
         font-size: 20px;
     }
 
@@ -281,10 +238,6 @@ h2 {
         margin-top: 150px;
         margin-bottom: 127px;
     }
-
-    // #copyright {
-    //     font-size: 13px;
-    // }
 }
 
 @media screen and (max-width: 800px) {
@@ -319,12 +272,7 @@ h2 {
         width: 255px;
     }
 
-    .textaction {
-        font-size: 15px;
-        margin-bottom: 235px;
-    }
-
-    .textaction_ {
+    .text-msg {
         font-size: 15px;
     }
 
@@ -332,13 +280,6 @@ h2 {
         margin-top: 150px;
         margin-bottom: 150px;
     }
-
-    // #ftr {
-    //     margin-top: 165px;
-    // }
-    // #copyright {
-    //     font-size: 13px;
-    // }
 }
 
 @media screen and (max-width: 650px) {
@@ -372,12 +313,7 @@ h2 {
         height: calc(2rem + 2px);
     }
 
-    .textaction {
-        font-size: 15px;
-        margin-bottom: 265px;
-    }
-
-    .textaction_ {
+    .text-msg {
         font-size: 12px;
     }
 
@@ -390,14 +326,6 @@ h2 {
         margin-top: 185px;
         margin-bottom: 195px;
     }
-
-    // #ftr {
-    //     margin-top: 240px;
-    // }
-
-    // #copyright {
-    //     font-size: 10px;
-    // }
 }
 
 @media screen and (max-width: 320px) {
@@ -423,11 +351,7 @@ h2 {
         padding: 0.2rem 0.5rem;
     }
 
-    .textaction {
-        font-size: 10px;
-    }
-
-    .textaction_ {
+    .text-msg {
         font-size: 10px;
     }
 
@@ -435,8 +359,4 @@ h2 {
         margin-top: 180px;
         margin-bottom: 180px;
     }
-
-    // #copyright {
-    //     font-size: 10px;
-    // }
 }
