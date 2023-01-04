@@ -19,13 +19,13 @@
         <nav id="menu3">
             <ul>
                 <li class="btn-link2">
-                    <a href="/" class="lx"><strong>Accueil</strong></a>
+                    <a href="{{route("accueil")}}" class="lx"><strong>Accueil</strong></a>
                 </li>
                 <li class="btn-link2">
-                    <a href="/veille-technologique"><strong>Veille Technologique</strong></a>
+                    <a href="{{route("articles")}}"><strong>Veille Technologique</strong></a>
                 </li>
                 <li class="btn-link2">
-                    <a href="/mes-projets" class="dx"><strong>Projets</strong></a>
+                    <a href="{{route("projects")}}" class="dx"><strong>Projets</strong></a>
                 </li>
             </ul>
         </nav>
