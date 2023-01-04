@@ -14,20 +14,22 @@ Portfolio de Vladimir Sacchetto
     <nav id="menu">
       <ul>
         <li>
-          <a href="#Exp"><strong>Mon expérience professionnelle</strong></a>
+          <a href="#Exp" class="blue"><strong>Mon expérience professionnelle</strong></a>
         </li>
         <li>
-          <a href="#Comp"><strong>Mes compétences</strong></a>
+          <a href="#Comp" class="blue"><strong>Mes compétences</strong></a>
         </li>
         <li>
-          <a href="#Form"><strong>Ma formation</strong></a>
+          <a href="#Form" class="blue"><strong>Ma formation</strong></a>
         </li>
         <li>
-          <a href="#Idée"><strong>Mes idées</strong></a>
+          <a href="#Proj" class="blue"><strong>Mes projets passés</strong></a>
         </li>
-        <li id="veilletech">
-            <a href="/veille-technologique"><strong>Veille Technologique</strong></a>
-            <a href="/projets"><strong>Projets</strong></a>
+        <li class="btn-link">
+            <a href="{{route("articles")}}"><strong>Veille Technologique</strong></a>
+        </li>
+        <li class="btn-link">
+            <a href="{{route("projects")}}"><strong>Projets</strong></a>
         </li>
       </ul>
     </nav>
@@ -96,7 +98,7 @@ Portfolio de Vladimir Sacchetto
         jeunes enfants âgés de 6 à 12 ans et d'un groupe de 12 filles
         adolescentes, âgées de 12 à 18 ans.
       </p>
-      <h3>Septembre 2021 – en cours</h3>
+      <h3>Septembre 2021 – Aout 2023</h3>
       <p>
         Je suis téléconseiller au sein du service SAT Clients. J'assiste les
         clients professionnels du groupe dans la gestion de leur banque à
@@ -106,35 +108,58 @@ Portfolio de Vladimir Sacchetto
     </section>
 
     <section>
-      <a href="#"><h2 id="Comp">Mes compétences</h2></a>
-      <h3>Langues</h3>
-      <p>
+        <a href="#"><h2 id="Comp">Mes compétences</h2></a>
+        <h3>Langues</h3>
+        <p>
         L’italien est ma langue maternelle.<br />
         J'ai appris d'autres langues grâce à mon parcours scolaire, ainsi que
         mes expériences personnelles et professionnelles. J'écris et je parle
         couramment le français et l'anglais. Je me suis récemment mis à
         l'apprentissage de l'espagnol.
-      </p>
-      <h3>Outils Informatiques</h3>
-      <p>
+        </p>
+        <h3>Outils Informatiques</h3>
+        <p>
         Je maîtrise certains outils informatiques utilisés tout au long de mes
         formations et expériences personnelles.
-      </p>
-      <p>
+         </p>
+        <p>
         Je suis en outre titulaire de l'European computer driving licence (ECDL)
         obtenu lors de ma formation au lycée. Je maîtrise également le Pack
         Office 365.
-      </p>
-      <div id="imginf">
-        <img src={{ asset('Images/ECDL_logo.png') }} alt="ECDL" class="imgcomp1" />
-        <img src={{ asset('Images/Office_word.png') }} alt="Office" class="imgcomp2" />
-      </div>
-      <p>
-        Je me suis formé moi-même aux langages de programmation, car je suis
+        </p>
+        <div class="imginf">
+            <img src={{ asset('Images/Logos/ECDL_logo.png') }} alt="ECDL" class="imgcomp1" />
+            <img src={{ asset('Images/Logos/Office_word.png') }} alt="Office" class="imgcomp2" />
+        </div>
+        <p>
+        Avant de commencer ma formation je me suis formé moi-même aux langages de programmation, car je suis
         passionné par la programmation web. A titre d'exemple, je maîtrise
         HTML5, CSS3 et JavaScript.
-      </p>
-      <img src={{ asset('Images/Html_css_JS.png') }} alt="Html-css-JS" class="imgcomp3" />
+        </p>
+        <div class="imginf">
+            <img src={{ asset('Images/Logos/Html_css_JS.png') }} alt="Html-css-JS" class="imgcomp3" />
+        </div>
+        <p>
+        Grâce aux cours en BTS aujourd'hui je maitrise plusieurs langages tels que PHP, PHPMyAdmin, MySQL, NodeJs, ViteJs.
+        </p>
+        <div class="imginf">
+            <img src="{{ asset('Images/Logos/Elephpant_PHP.png') }}" alt="Logo_PHP" class="imgcomp4">
+            <img src="{{ asset('Images/Logos/phpmyadmin_logo.png') }}" alt="Logo_PHPMyAdmin"class="imgcomp4">
+            <img src="{{ asset('Images/Logos/MySQL_logo.png') }}" alt="Logo_MySQL"class="imgcomp4">
+            <img src="{{ asset('Images/Logos/nodejs-logo.png') }}" alt="Logo_NodeJs"class="imgcomp4">
+            <img src="{{ asset('Images/Logos/vitejs-logo.png') }}" alt="Logo_ViteJs"class="imgcomp4">
+        </div>
+        <p> J'ai pu participer au suivi de projet et maitriser au mieux GitHub.</p>
+        <div class="imginf">
+            <img src="{{ asset('Images/Logos/GitHub-Logo.png') }}" alt="GitHub-Logo"class="imgcomp3">
+        </div>
+        <p>Le portfolio est entierement réalisé avec le framework Laravel ainsi que Tailwind et AlpineJs.<br/>
+            Je suis également capable de me servir de ces frameworks.</p>
+        <div class="imginf">
+            <img src="{{ asset('Images/Logos/Laravel_logo.png') }}" alt="Laravel-Logo"class="imgcomp4">
+            <img src="{{ asset('Images/Logos/Tailwind_logo.png') }}" alt="Tailwind-Logo"class="imgcomp4">
+            <img src="{{ asset('Images/Logos/AlpineJs-logo.png') }}" alt="AlpineJs-Logo"class="imgcomp4">
+        </div>
     </section>
 
     <section>
@@ -170,7 +195,7 @@ Portfolio de Vladimir Sacchetto
     </section>
 
     <section>
-      <a href="#"><h2 id="Idée">Mes idées</h2></a>
+      <a href="#"><h2 id="Proj">Mes projets passés</h2></a>
       <p>
         Lors de mes précédentes expériences professionnelles dans les domaines
         social et médico-social, j'ai réalisé différents projets répondant aux

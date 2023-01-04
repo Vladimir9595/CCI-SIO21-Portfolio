@@ -6,7 +6,7 @@ Mentions légales
 @endsection
 
 @section('titreH1')
-      <h1 id="menth1">Mentions légales</h1>
+    <h1 id="menth1">Mentions légales</h1>
 @endsection
 @section('content')
 
@@ -36,20 +36,20 @@ Mentions légales
     <div id="mentions">
       <a href="#"><h2 id="Edit">Editeur et propriétaire du site</h2></a>
       <p>
-            M. Vladimir SACCHETTO <br />
-            Responsable éditorial : Vladimir SACCHETTO <br />
-            Email : vladisac@hotmail.it<br />
-            Site Web :
+            <strong>M. Vladimir SACCHETTO</strong> <br />
+            <strong>Responsable éditorial :</strong> Vladimir SACCHETTO <br />
+            <strong>Email :</strong> vladisac@hotmail.it<br />
+            <strong>Site Web :</strong>
             <a href="https://www.vladimir-portfolio.com " target="_blank">www.vladimir-portfolio.com</a>
       </p>
       <a href="#"><h2 id="Heberg">Hébergement</h2></a>
       <p>
-        Hébergeur : SAS OVH<br />
+        <strong>Hébergeur :</strong> SAS OVH<br />
         2 rue Kellermann <br />
         BP 80157, 59100 Roubaix <br />
-        Site Web : <a href="https://www.ovh.com" target="_blank">www.ovh.com</a><br />
-        Téléphone : +33 (0) 899 701 761 (1.349 € TTC l’appel, et 0.337 € TTC/mn) <br />
-        Fax : + 33 (0) 3 20 20 09 58
+        <strong>Site Web :</strong> <a href="https://www.ovh.com" target="_blank">www.ovh.com</a><br />
+        <strong>Téléphone :</strong> +33 (0) 899 701 761 (1.349 € TTC l’appel, et 0.337 € TTC/mn) <br />
+        <strong>Fax :</strong> + 33 (0) 3 20 20 09 58
       </p>
       <a href="#"><h2 id="Cond">Conditions d'utilisation</h2></a>
       <p>
