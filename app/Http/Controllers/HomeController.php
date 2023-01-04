@@ -3,9 +3,10 @@
 namespace App\Http\Controllers;
 
 use App\Models\Article;
+use App\Models\Project;
 use Illuminate\Http\Request;
 
-class MonController extends Controller
+class HomeController extends Controller
 {
     public function index()
     {
@@ -28,6 +29,15 @@ class MonController extends Controller
         return view(
             'articles',
             compact('articles')
+        );
+    }
+    public function projects()
+    {
+        $projects = Project::all();
+
+        return view(
+            'projects',
+            compact('projects')
         );
     }
 }
