@@ -28,10 +28,9 @@
     </head>
     <body>
         <header>
-            <a href="/"><img  class="logo" src={{ asset('Images/Logos/logo-1.jpg') }} alt="logo"  /></a>
+            <a href="{{route("accueil")}}"><img  class="logo" src={{ asset('Images/Logos/logo-1.jpg') }} alt="logo"  /></a>
             <img class="imgID" src={{ asset('Images/photoID1.png') }} alt="Photo de Vladimir" />
-            <a href="login">@yield('roue')</a>
-            {{-- <a href="login">@yield('roue')</a> --}}
+            <a href="{{route("login")}}">@yield('roue')</a>
             <h1>@yield('titreH1')</h1>
             <h2 class="signature"><strong>Vladimir Sacchetto</strong></h2>
         </header>
@@ -56,10 +55,10 @@
             <div id="copyright">
                 <span>
                     © Vladimir Sacchetto; 2022 |
-                    <a href="/">Accueil -</a>
-                    <a href="/mentions-légales">Mentions Légales -</a>
-                    <a href="/veille-technologique">Veille Technologique -</a>
-                    <a href="/projets">Projets</a>
+                    <a href="{{route("accueil")}}">Accueil -</a>
+                    <a href="{{route("mentions")}}">Mentions Légales -</a>
+                    <a href="{{route("articles")}}">Veille Technologique -</a>
+                    <a href="{{route("projects")}}">Projets</a>
                 </span>
             </div>
         </footer>
