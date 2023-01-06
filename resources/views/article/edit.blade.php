@@ -7,8 +7,8 @@ Modification de l'article #{{$article->id}}
 @section('content')
     <header class="bloc">
         <h1>Modification d'un article</h1>
-        <a href="{{route("admin")}}" class="deconnexion">Page d'admin</a>
-        <a href="{{route("auth.logout")}}" class="deconnexion">Se deconnecter</a>
+        <a href="{{route("admin")}}" class="btn-admin">Page d'admin</a>
+        <a href="{{route("auth.logout")}}" class="btn-admin">Se deconnecter</a>
     </header>
     <form action="{{route("article.update", ['article' => $article->id])}}" method="post" class="w-50 mx-auto">
         @csrf
@@ -23,7 +23,7 @@ Modification de l'article #{{$article->id}}
         </div>
         <div class="conteneur-pseudo form-floating mb-3">
             <label for="content" class="lab">Contenu</label>
-            <input type="text" class="form-control" name="content" id="content" placeholder="Contenu" value="{{$article->content}}">
+            <textarea class="form-control-content" name="content" id="content" rows="5" cols="33" placeholder="Contenu">{{$article->content}}</textarea>
         </div>
         <div class="conteneur-pseudo form-floating mb-3">
             <label for="link" class="lab">Lien</label>

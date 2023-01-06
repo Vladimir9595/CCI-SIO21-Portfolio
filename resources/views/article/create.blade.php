@@ -7,8 +7,8 @@ Création d'un article
 @section('content')
     <header class="bloc">
         <h1>Création d'un article</h1>
-        <a href="{{route("admin")}}" class="deconnexion">Page d'admin</a>
-        <a href="{{route("auth.logout")}}" class="deconnexion">Se deconnecter</a>
+        <a href="{{route("admin")}}" class="btn-admin">Page d'admin</a>
+        <a href="{{route("auth.logout")}}" class="btn-admin">Se deconnecter</a>
     </header>
 
     {{-- @if($message)
@@ -25,7 +25,7 @@ Création d'un article
             <label for="image"></label>
         </div>
         <div class="conteneur-pseudo form-floating mb-3">
-            <input type="text" class="form-control" name="content" id="content" placeholder="Contenu">
+            <textarea class="form-control-content" name="content" id="content" rows="5" cols="33" placeholder="Contenu"></textarea>
             <label for="content"></label>
         </div>
         <div class="conteneur-pseudo form-floating mb-3">
