@@ -6,7 +6,7 @@ Page d'admin
 @section('content')
     <header class="bloc">
             <h1>Page d'administrateur</h1>
-            <a href="{{route("auth.logout")}}" class="deconnexion">Se deconnecter</a>
+            <a href="{{route("auth.logout")}}" class="btn-admin">Se deconnecter</a>
     </header>
     @if (session('message'))
         <div class="text-msg">
