@@ -17,7 +17,7 @@ Mes projets
                 <a href="{{route("accueil")}}" class="lx"><strong>Accueil</strong></a>
             </li>
             <li class="btn-link2">
-                <a href="{{route("articles")}}"><strong>Veille Technologique</strong></a>
+                <a href="{{route("articles")}}" class="cx"><strong>Veille Technologique</strong></a>
             </li>
             <li class="btn-link2">
                 <a href="{{route("projects")}}" class="dx"><strong>Projets</strong></a>
