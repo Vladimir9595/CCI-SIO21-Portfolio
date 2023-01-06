@@ -9,11 +9,6 @@
     "src": "resources/scss/errors.scss",
     "isEntry": true
   },
-  "resources/scss/app.scss": {
-    "file": "assets/app.97e1619e.css",
-    "src": "resources/scss/app.scss",
-    "isEntry": true
-  },
   "resources/scss/styleAdmin.scss": {
     "file": "assets/styleAdmin.21310ee6.css",
     "src": "resources/scss/styleAdmin.scss",
@@ -25,8 +20,13 @@
     "isEntry": true
   },
   "resources/scss/stylePort.scss": {
-    "file": "assets/stylePort.d629f32f.css",
+    "file": "assets/stylePort.8e188643.css",
     "src": "resources/scss/stylePort.scss",
+    "isEntry": true
+  },
+  "resources/scss/app.scss": {
+    "file": "assets/app.97e1619e.css",
+    "src": "resources/scss/app.scss",
     "isEntry": true
   }
 }
