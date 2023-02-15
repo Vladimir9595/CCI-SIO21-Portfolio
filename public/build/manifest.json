@@ -4,9 +4,9 @@
     "src": "resources/js/app.js",
     "isEntry": true
   },
-  "resources/scss/errors.scss": {
-    "file": "assets/errors.6f44af83.css",
-    "src": "resources/scss/errors.scss",
+  "resources/scss/styleJobs.scss": {
+    "file": "assets/styleJobs.8e15619b.css",
+    "src": "resources/scss/styleJobs.scss",
     "isEntry": true
   },
   "resources/scss/styleAdmin.scss": {
@@ -14,9 +14,9 @@
     "src": "resources/scss/styleAdmin.scss",
     "isEntry": true
   },
-  "resources/scss/styleJobs.scss": {
-    "file": "assets/styleJobs.8e15619b.css",
-    "src": "resources/scss/styleJobs.scss",
+  "resources/scss/errors.scss": {
+    "file": "assets/errors.6f44af83.css",
+    "src": "resources/scss/errors.scss",
     "isEntry": true
   },
   "resources/scss/stylePort.scss": {
@@ -25,7 +25,7 @@
     "isEntry": true
   },
   "resources/scss/app.scss": {
-    "file": "assets/app.97e1619e.css",
+    "file": "assets/app.5405b198.css",
     "src": "resources/scss/app.scss",
     "isEntry": true
   }
