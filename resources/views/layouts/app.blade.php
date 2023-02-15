@@ -50,7 +50,10 @@
                 target="_blank"
                 ><i class="fab fa-linkedin"></i
                 ></a>
-                <i class="fab fa-facebook-messenger"></i>
+                <a
+                href="https://github.com/Vladimir9595"
+                target="_blank"
+                ><i class="fab fa-github"></i></a>
             </div>
             <div id="copyright">
                 <span>
