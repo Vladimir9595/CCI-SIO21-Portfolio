@@ -77,7 +77,7 @@ nano .env  # put informations of your DB and mail;
 # Then you can follow the same steps from the setup commands
 ```
 
-**To upgrade DB**
+**To update DB**
 
 ```bash
 php artisan migrate # run all migrations
