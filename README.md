@@ -6,7 +6,7 @@
   <h1>vladimir-portfolio.com</h1>
 
 <h4>
-    <a href="https://www.vladimir-portfolio.com">Go to the site</a>
+    <a href="https://www.vladimir-portfolio.com" target="_blank">Go to the site</a>
   <span> · </span>
     <a href="https://github.com/Vladimir9595/CCI-SIO21-Portfolio/issues">Report a bug </a>
   <span> · </span>
