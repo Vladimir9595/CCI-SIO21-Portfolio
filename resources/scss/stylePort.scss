@@ -639,30 +639,44 @@ h3 {
         height: 13px;
     }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 400px) {
     h1 {
         font-size: 30px;
     }
+
     #menth1 {
         font-size: 30px;
     }
 
     #menu {
-        width: 76%;
+        width: 55%;
+        margin-top: 55px;
     }
 
     #menu2 {
-        width: 60%;
+        width: 55%;
+        margin-top: 80px;
     }
 
     #menu3 {
-        width: 60%;
+        width: 55%;
+        margin-top: 80px;
     }
+
+    #moi h2,
+    #Exp,
+    #Comp,
+    #Form,
+    #Proj {
+        text-align: center;
+        font-size: 16px;
+    }
+
     .roue {
-        margin-right: -45px;
-        margin-top: 73px;
-        width: 10px;
-        height: 10px;
+        margin-top: 100px;
+        margin-right: -75px;
+        width: 11px;
+        height: 11px;
     }
 }
 // @media speech aide l'asistant vocale à lire notre site
