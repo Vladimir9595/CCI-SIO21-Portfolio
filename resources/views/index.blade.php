@@ -50,60 +50,37 @@ Portfolio de Vladimir Sacchetto
     <section>
       <a href="#"><h2 id="Exp">Mon expérience professionnelles</h2></a>
       <p>
-        D'origine italienne, je suis arrivé en France en octobre 2014 après
-        avoir obtenu l'équivalent du Baccalauréat.
+        D'origine italienne, j'ai rejoint la France en octobre 2014 après avoir obtenu l'équivalent du Baccalauréat dans mon pays natal.
       </p>
       <h3>octobre 2014 - juin 2015</h3>
       <p>
-        Mon parcours professionnel a démarré par un an de bénévolat au sein
-        d’une Fondation accueillant des jeunes en situation de handicap, cela
-        dans le cadre d'un Service Civique français.<br />
-        Durant cette période, j’ai proposé des activités quotidiennes de sport
-        et de loisirs auprès des jeunes. J'étais le support d'éducateurs
-        encadrants.
+        J'ai commencé mon parcours professionnel par une expérience de bénévolat d'une année au sein d'une Fondation accueillant des jeunes en situation de handicap, dans le cadre d'un Service Civique français.<br />
+        Durant cette période, j'ai proposé des activités sportives et de loisirs quotidiennes aux jeunes, en étant le support des éducateurs encadrants. Cette expérience m'a permis d'acquérir des compétences en encadrement et en communication, ainsi qu'un sens de l'engagement et de l'empathie envers les personnes en difficulté.
       </p>
       <h3>octobre 2015 - mai 2017</h3>
       <p>
-        Lorsque l’année de bénévolat s'est terminée, j’ai signé un nouveau
-        contrat en alternance, auprès de la même fondation, et ce, afin
-        d’obtenir le diplôme d'Aide Médico-Psychologique (AMP).<br />
-        J’avais en charge un groupe de 8 jeunes adultes âgés de 16 à 21 ans la
-        première année et un groupe de 10 jeunes filles âgées de 15 à 20 ans la
-        deuxième année. Les deux groupes présentaient un handicap mental moyen
-        et/ou profond.
+        Après l'année de bénévolat, j'ai poursuivi mon parcours professionnel en signant un contrat en alternance avec la même Fondation pour obtenir mon diplôme d'Aide Médico-Psychologique (AMP).<br />
+        J'ai eu la responsabilité d'un groupe de 8 jeunes adultes âgés de 16 à 21 ans la première année, puis d'un groupe de 10 jeunes filles âgées de 15 à 20 ans la deuxième année. Les deux groupes étaient composés de personnes présentant un handicap mental moyen et/ou profond.
       </p>
       <h3>mai 2017 - avril 2018</h3>
       <p>
-        Après avoir obtenu le diplôme d'AMP, j’ai continué à exercer à la
-        Fondation dans différents groupes, me formant ainsi toujours plus.
+        Après l'obtention de mon diplôme d'AMP, j'ai poursuivi mon activité à la Fondation en travaillant avec différents groupes, ce qui m'a permis de continuer à me former et à développer mes compétences.
       </p>
 
       <p>
-        En avril 2018, j'ai rejoint une nouvelle institution accueillant des
-        enfants et des adolescents avec des difficultés sociales et familiales,
-        et pris en charge par le service de protection à l’enfance.
+        En avril 2018, j'ai intégré une nouvelle institution qui accueille des enfants et adolescents en difficulté sociale et familiale, pris en charge par le service de protection de l'enfance (SPE).
       </p>
       <h3>avril 2018 - octobre 2019</h3>
       <p>
-        J'ai exercé en tant que coordinateur santé au sein de cette Institution.
-        J'avais en charge le suivi médical des 80 jeunes accueillis. L'objectif
-        principal était de vérifier le dossier médical de chaque enfant, en
-        préparant les rendez-vous et en les accompagnant chez des spécialistes
-        (dentiste, ophtalmologue, orthodontiste, orthophoniste, etc.).
+        Je suis intervenu en tant que coordinateur santé au sein de cette institution, en charge du suivi médical des 80 jeunes accueillis. Mon rôle consistait à vérifier le dossier médical de chaque enfant, organiser les rendez-vous chez les spécialistes (dentiste, ophtalmologue, orthodontiste, orthophoniste, etc.) et les accompagner lors de ces visites. Mon objectif principal était d'assurer la meilleure prise en charge médicale possible pour les jeunes dont j'avais la charge.
       </p>
       <h3>octobre 2019 - août 2021</h3>
       <p>
-        J'ai ensuite occupé un poste d'éducateur et ai rejoint les groupes de
-        vie au sein de cette même institution. Le groupe était constitué de 12
-        jeunes enfants âgés de 6 à 12 ans et d'un groupe de 12 filles
-        adolescentes, âgées de 12 à 18 ans.
+        J'ai poursuivi mon parcours au sein de cette institution en occupant le poste d'éducateur au sein des groupes de vie. J'ai travaillé avec un groupe de 12 jeunes enfants âgés de 6 à 12 ans ainsi qu'avec un groupe de 12 adolescentes âgées de 12 à 18 ans. Mon rôle consistait à accompagner ces jeunes dans leur quotidien, à assurer leur sécurité, leur bien-être et leur épanouissement en leur proposant des activités éducatives et ludiques.
       </p>
       <h3>Septembre 2021 – Aout 2023</h3>
       <p>
-        Je suis téléconseiller au sein du service SAT Clients. J'assiste les
-        clients professionnels du groupe dans la gestion de leur banque à
-        distance, lorsqu'il s'agit de problèmes techniques liés à
-        l’informatique.
+        Je travaille actuellement en tant que téléconseiller au sein du service SAT Clients, avec un contrat d'alternance qui termine en août 2023, où je suis chargé d'assister les clients professionnels du groupe dans la gestion de leur banque à distance, notamment en cas de problèmes techniques liés à l'informatique.
       </p>
     </section>
 
@@ -111,36 +88,28 @@ Portfolio de Vladimir Sacchetto
         <a href="#"><h2 id="Comp">Mes compétences</h2></a>
         <h3>Langues</h3>
         <p>
-        L’italien est ma langue maternelle.<br />
-        J'ai appris d'autres langues grâce à mon parcours scolaire, ainsi que
-        mes expériences personnelles et professionnelles. J'écris et je parle
-        couramment le français et l'anglais. Je me suis récemment mis à
-        l'apprentissage de l'espagnol.
+        Je suis de langue maternelle italienne et j'ai appris d'autres langues tout au long de mon parcours scolaire ainsi que grâce à mes expériences personnelles et professionnelles.<br />
+        Je suis capable d'écrire et de parler couramment le français et l'anglais. Plus récemment, j'ai commencé à apprendre l'espagnol.
         </p>
         <h3>Outils Informatiques</h3>
         <p>
-        Je maîtrise certains outils informatiques utilisés tout au long de mes
-        formations et expériences personnelles.
+        Tout au long de mes formations et expériences personnelles, j'ai acquis une maîtrise de certains outils informatiques fréquemment utilisés. Je suis ainsi capable de les utiliser efficacement dans mon travail.
          </p>
         <p>
-        Je suis en outre titulaire de l'European computer driving licence (ECDL)
-        obtenu lors de ma formation au lycée. Je maîtrise également le Pack
-        Office 365.
+        Je suis titulaire de l'European Computer Driving Licence (ECDL), que j'ai obtenu pendant ma formation au lycée, et je suis également compétent dans l'utilisation de la suite Office 365.
         </p>
         <div class="imginf">
             <img src={{ asset('Images/Logos/ECDL_logo.png') }} alt="ECDL" class="imgcomp1" />
             <img src={{ asset('Images/Logos/Office_word.png') }} alt="Office" class="imgcomp2" />
         </div>
         <p>
-        Avant de commencer ma formation je me suis formé moi-même aux langages de programmation, car je suis
-        passionné par la programmation web. A titre d'exemple, je maîtrise
-        HTML5, CSS3 et JavaScript.
+        Avant de commencer ma formation, j'ai acquis des connaissances en langages de programmation de manière autodidacte car je suis passionné par la programmation web. Je maîtrise notamment HTML5, CSS3 et JavaScript, pour ne citer que quelques exemples.
         </p>
         <div class="imginf">
             <img src={{ asset('Images/Logos/Html_css_JS.png') }} alt="Html-css-JS" class="imgcomp3" />
         </div>
         <p>
-        Grâce aux cours en BTS aujourd'hui je maitrise plusieurs langages tels que PHP, PHPMyAdmin, MySQL, NodeJs, ViteJs.
+        Grâce à mes cours en BTS, j'ai acquis une maîtrise de plusieurs langages de programmation, notamment PHP, PHPMyAdmin, MySQL, NodeJs et ViteJs.
         </p>
         <div class="imginf">
             <img src="{{ asset('Images/Logos/Elephpant_PHP.png') }}" alt="Logo_PHP" class="imgcomp4">
@@ -149,12 +118,14 @@ Portfolio de Vladimir Sacchetto
             <img src="{{ asset('Images/Logos/nodejs-logo.png') }}" alt="Logo_NodeJs"class="imgcomp4">
             <img src="{{ asset('Images/Logos/vitejs-logo.png') }}" alt="Logo_ViteJs"class="imgcomp4">
         </div>
-        <p> J'ai pu participer au suivi de projet et maitriser au mieux GitHub.</p>
+        <p> Depuis le début de ma formation, j'ai eu l'opportunité de participer à plusieurs projets, dont certains étaient les miens, et de développer mes compétences dans l'utilisation de <a
+                href="https://github.com/Vladimir9595"
+                target="_blank"
+                >GitHub.</a></p>
         <div class="imginf">
             <img src="{{ asset('Images/Logos/GitHub-Logo.png') }}" alt="GitHub-Logo"class="imgcomp3">
         </div>
-        <p>Le portfolio est entierement réalisé avec le framework Laravel ainsi que Tailwind et AlpineJs.<br/>
-            Je suis également capable de me servir de ces frameworks.</p>
+        <p>Je suis compétent dans l'utilisation des frameworks Laravel, Tailwind et AlpineJS, comme en témoigne la réalisation de mon portfolio entièrement construit avec ces outils.</p>
         <div class="imginf">
             <img src="{{ asset('Images/Logos/Laravel_logo.png') }}" alt="Laravel-Logo"class="imgcomp4">
             <img src="{{ asset('Images/Logos/Tailwind_logo.png') }}" alt="Tailwind-Logo"class="imgcomp4">
@@ -165,75 +136,48 @@ Portfolio de Vladimir Sacchetto
     <section>
       <a href="#"><h2 id="Form">Ma formation</h2></a>
       <p>
-        J'ai effectué ma scolarité en Italie jusqu'à l'obtention de la
-        "Maturità", l'équivalent du Baccalauréat français.
+        Mon parcours scolaire s'est déroulé en Italie, où j'ai obtenu la "Maturità", l'équivalent du Baccalauréat français.
       </p>
       <h3>2009 - 2014</h3>
       <p>
-        J'ai étudié à l'Institut technique et commercial "ITES PITAGORA" à
-        Tarente en Italie. En juillet 2014, j'ai obtenu le diplôme d'Etat
-        intitulé "Programmeur comptable et expert commercial".
+        Je suis diplômé de l'Institut technique et commercial "ITES PITAGORA" situé à Tarente en Italie. <br/>
+        En juillet 2014, j'ai obtenu mon diplôme d'État en tant que "Programmeur comptable et expert commercial".
       </p>
       <h3>2015 - 2017</h3>
       <p>
-        Après avoir terminé mon année de bénévolat, j'ai préparé le diplôme
-        d'aide médico-psychologique (AMP) via un contrat de
-        professionnalisation. Je l'ai obtenu en mai 2017, via l'IFCAAD (Institut
-        de formation au travail éducatif et social - Schiltigheim).
+        Après avoir terminé mon année de bénévolat, j'ai préparé le diplôme d'aide médico-psychologique (AMP) en signant un contrat de professionnalisation. J'ai obtenu ce diplôme en mai 2017 via l'IFCAAD (Institut de formation au travail éducatif et social - Schiltigheim).
       </p>
-      <h3>2018 - en cours</h3>
+      <h3>2020 - en cours</h3>
       <p>
-        Depuis le portail informatique OpenClassrooms, je me forme en toute
-        autonomie, aux différents langages de programmation et à d'autres
-        formations en informatique.
+        Je suis des tutoriels via la plateforme OpenClassrooms, où j'ai la possibilité de me former de manière autonome à divers langages de programmation et autres formations liées à l'informatique.
       </p>
-      <h3>2019 - en cours</h3>
+      <h3>2021 - en cours</h3>
       <p>
-        Je prépare actuellement un BTS en informatique au sein du Campus de la
-        Chambre de Commerce et d'Industrie (CCI Campus) à Strasbourg.
+        Actuellement, je suis en train de suivre un cursus en BTS informatique au sein du Campus de la Chambre de Commerce et d'Industrie (CCI Campus) de Strasbourg.
       </p>
     </section>
 
     <section>
       <a href="#"><h2 id="Proj">Mes projets passés</h2></a>
       <p>
-        Lors de mes précédentes expériences professionnelles dans les domaines
-        social et médico-social, j'ai réalisé différents projets répondant aux
-        besoins du public accueilli.
+        Au cours de mes expériences professionnelles précédentes dans les secteurs social et médico-social, j'ai réalisé plusieurs projets adaptés aux besoins des personnes prises en charge.
       </p>
       <p>
-        Dans le milieu du handicap, j'organisais des ateliers hebdomadaires de
-        cuisine, afin de répondre à certains besoins tels que l’autonomie et
-        l'apprentissage de règles simples. Le but était que les jeunes
-        apprennent à utiliser les ustensiles de cuisine et à préparer des plats
-        et des gâteaux en suivant des recettes et des consignes précises. <br />
-        Ainsi, les enfants pouvaient être maîtres de leur réalisation et suivis
-        tout au long du processus, ce qui pouvait être rassurant pour certains.
+        Dans le domaine du handicap, j'ai animé des ateliers hebdomadaires de cuisine dans le but de promouvoir l'autonomie et l'apprentissage de compétences pratiques. <br />
+        Ces ateliers ont permis aux jeunes de découvrir les différentes étapes de la préparation de plats et de gâteaux en suivant des recettes précises et des consignes adaptées à leurs besoins.<br />
+        Grâce à cette expérience, j'ai appris à accompagner et à soutenir les enfants dans leurs réalisations en leur permettant de prendre confiance en eux.
       </p>
       <p>
-        Dans le foyer, j’organisais des séances de sport individuelles et en
-        équipe afin de travailler à la fois l’autonomie et la gestion des
-        émotions pour les enfants qui manquaient de confiance en eux. Cela avait
-        pour but de développer un esprit de partage et d’équipe chez les enfants
-        qui se retrouvaient souvent dans des situations de conflit et de refus
-        des règles.
+        Au sein du foyer, j'ai planifié et animé des séances de sport individuelles et en groupe, dans le but de favoriser l'autonomie et la gestion des émotions chez les enfants ayant des difficultés de confiance en eux. <br/>
+        Ces séances ont également contribué à développer un esprit d'équipe et de coopération parmi les enfants, qui étaient souvent confrontés à des conflits et à des difficultés à respecter les règles.
       </p>
       <p>
-        Toutes ces expériences m'ont permis de développer mon sens des
-        responsabilités ainsi que certaines compétences professionnelles telles
-        que l'esprit d'équipe, la prise d'initiative, la mise en place de
-        projets ou encore une bonne capacité d'adaptation.<br />
-        Ces compétences que j'ai pu acquérir ces dernières années pourront
-        également m'être utiles dans le domaine de l'informatique.
+        Grâce à ces expériences, j'ai pu développer mon sens des responsabilités et acquérir des compétences professionnelles telles que le travail en équipe, la prise d'initiative, la planification de projets et une grande capacité d'adaptation.<br />
+        Je suis convaincu que ces compétences pourront également être mises à profit dans le domaine de l'informatique et me permettre de m'épanouir dans mon futur métier.
       </p>
       <p>
-        Aujourd’hui, je construis mon avenir et avec ce bagage d’expériences, je
-        me sens plus fort et déterminé. Mon projet à court terme est d’obtenir
-        mon BTS afin de rentrer dans le monde professionnel de l’informatique.
-
-        <br />
-        Mon projet à plus long terme est de continuer dans les études et
-        d'atteindre toujours de nouveaux objectifs.
+        Je suis actuellement en train de construire mon avenir professionnel, et grâce à mon expérience et mes compétences, je me sens plus fort et déterminé que jamais. À court terme, mon objectif est d'obtenir mon BTS en informatique afin de pouvoir entrer dans le monde professionnel.<br />
+        À plus long terme, j'ai pour ambition de continuer mes études et d'atteindre de nouveaux objectifs pour progresser dans ma carrière et acquérir de nouvelles compétences.
       </p>
     </section>
 @endsection
