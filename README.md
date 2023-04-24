@@ -2,11 +2,11 @@
 
 <div align="center">
 
-  <img src="http://cdn.vladimir-portfolio.com/shared/images/Favicon_2.png" alt="logo" width="220" height="auto" />
-  <h1>vladimir-portfolio.com</h1>
+  <img src="http://cdn.vladimir-portfolio.com/shared/images/Favicon_1.png" alt="logo" width="220" height="auto" />
+  <h1>v1.vladimir-portfolio.com</h1>
 
 <h4>
-    <a href="https://www.vladimir-portfolio.com" target="_blank">Go to the site</a>
+    <a href="https://v1.vladimir-portfolio.com" target="_blank">Go to the site</a>
   <span> · </span>
     <a href="https://github.com/Vladimir9595/CCI-SIO21-Portfolio/issues">Report a bug </a>
   <span> · </span>
