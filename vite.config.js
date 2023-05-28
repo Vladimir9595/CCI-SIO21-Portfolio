@@ -14,7 +14,7 @@ export default defineConfig({
     ],
     // server: {
     //     hmr: {
-    //         host: "devslam.local",
+    //         open: "/resources/views/index.blade.php",
     //     },
     // },
 });

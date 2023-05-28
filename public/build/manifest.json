@@ -1,31 +1,63 @@
 {
+  "public/images/grigio.jpg": {
+    "file": "assets/grigio.adb57030.jpg",
+    "src": "public/images/grigio.jpg"
+  },
+  "public/font/PTS55F-webfont.eot": {
+    "file": "assets/PTS55F-webfont.6579ef30.eot",
+    "src": "public/font/PTS55F-webfont.eot"
+  },
+  "public/font/Bronx.otf": {
+    "file": "assets/Bronx.2185dcf7.otf",
+    "src": "public/font/Bronx.otf"
+  },
+  "public/font/JetBrainsMono-Regular.woff2": {
+    "file": "assets/JetBrainsMono-Regular.a9cb1cd8.woff2",
+    "src": "public/font/JetBrainsMono-Regular.woff2"
+  },
+  "public/images/lodyas.png": {
+    "file": "assets/lodyas.e1d6435f.png",
+    "src": "public/images/lodyas.png"
+  },
+  "public/font/JetBrainsMono-Regular.ttf": {
+    "file": "assets/JetBrainsMono-Regular.a0bf60ef.ttf",
+    "src": "public/font/JetBrainsMono-Regular.ttf"
+  },
+  "public/font/PTS55F-webfont.woff": {
+    "file": "assets/PTS55F-webfont.4061ac0d.woff",
+    "src": "public/font/PTS55F-webfont.woff"
+  },
+  "public/font/PTS55F-webfont.ttf": {
+    "file": "assets/PTS55F-webfont.d07da9a4.ttf",
+    "src": "public/font/PTS55F-webfont.ttf"
+  },
   "resources/js/app.js": {
     "file": "assets/app.a90aeddc.js",
     "src": "resources/js/app.js",
     "isEntry": true
   },
-  "resources/scss/errors.scss": {
-    "file": "assets/errors.6f44af83.css",
-    "src": "resources/scss/errors.scss",
-    "isEntry": true
-  },
   "resources/scss/styleAdmin.scss": {
-    "file": "assets/styleAdmin.ca0af838.css",
+    "file": "assets/styleAdmin.7d3b169e.css",
     "src": "resources/scss/styleAdmin.scss",
     "isEntry": true
   },
-  "resources/scss/styleJobs.scss": {
-    "file": "assets/styleJobs.6b0c57b9.css",
-    "src": "resources/scss/styleJobs.scss",
+  "resources/scss/errors.scss": {
+    "file": "assets/errors.0d6925f5.css",
+    "src": "resources/scss/errors.scss",
     "isEntry": true
   },
   "resources/scss/stylePort.scss": {
-    "file": "assets/stylePort.0fa08830.css",
+    "file": "assets/stylePort.2f23bd28.css",
     "src": "resources/scss/stylePort.scss",
     "isEntry": true
   },
+  "resources/scss/styleJobs.scss": {
+    "file": "assets/styleJobs.723f1bd1.css",
+    "src": "resources/scss/styleJobs.scss",
+    "isEntry": true
+  },
   "resources/scss/app.scss": {
-    "file": "assets/app.5405b198.css",
+    "file": "assets/app.db8eae25.css",
     "src": "resources/scss/app.scss",
     "isEntry": true
   }
