@@ -99,37 +99,37 @@ Portfolio de Vladimir Sacchetto
         Je suis titulaire de l'European Computer Driving Licence (ECDL), que j'ai obtenu pendant ma formation au lycée, et je suis également compétent dans l'utilisation de la suite Office 365.
         </p>
         <div class="imginf">
-            <img src={{ asset('Images/Logos/ECDL_logo.png') }} alt="ECDL" class="imgcomp1" />
-            <img src={{ asset('Images/Logos/Office_word.png') }} alt="Office" class="imgcomp2" />
+            <img src={{ asset('images/logos/ECDL_logo.png') }} alt="ECDL" class="imgcomp1" />
+            <img src={{ asset('images/logos/Office_word.png') }} alt="Office" class="imgcomp2" />
         </div>
         <p>
         Avant de commencer ma formation, j'ai acquis des connaissances en langages de programmation de manière autodidacte car je suis passionné par la programmation web. Je maîtrise notamment HTML5, CSS3 et JavaScript, pour ne citer que quelques exemples.
         </p>
         <div class="imginf">
-            <img src={{ asset('Images/Logos/Html_css_JS.png') }} alt="Html-css-JS" class="imgcomp3" />
+            <img src={{ asset('images/logos/Html_css_JS.png') }} alt="Html-css-JS" class="imgcomp3" />
         </div>
         <p>
         Grâce à mes cours en BTS, j'ai acquis une maîtrise de plusieurs langages de programmation, notamment PHP, PHPMyAdmin, MySQL, NodeJs et ViteJs.
         </p>
         <div class="imginf">
-            <img src="{{ asset('Images/Logos/Elephpant_PHP.png') }}" alt="Logo_PHP" class="imgcomp4">
-            <img src="{{ asset('Images/Logos/phpmyadmin_logo.png') }}" alt="Logo_PHPMyAdmin"class="imgcomp4">
-            <img src="{{ asset('Images/Logos/MySQL_logo.png') }}" alt="Logo_MySQL"class="imgcomp4">
-            <img src="{{ asset('Images/Logos/nodejs-logo.png') }}" alt="Logo_NodeJs"class="imgcomp4">
-            <img src="{{ asset('Images/Logos/vitejs-logo.png') }}" alt="Logo_ViteJs"class="imgcomp4">
+            <img src="{{ asset('images/logos/Elephpant_PHP.png') }}" alt="Logo_PHP" class="imgcomp4">
+            <img src="{{ asset('images/logos/phpmyadmin_logo.png') }}" alt="Logo_PHPMyAdmin"class="imgcomp4">
+            <img src="{{ asset('images/logos/MySQL_logo.png') }}" alt="Logo_MySQL"class="imgcomp4">
+            <img src="{{ asset('images/logos/nodejs-logo.png') }}" alt="Logo_NodeJs"class="imgcomp4">
+            <img src="{{ asset('images/logos/vuejs-logo.png') }}" alt="Logo_VueJs"class="imgcomp4">
         </div>
         <p> Depuis le début de ma formation, j'ai eu l'opportunité de participer à plusieurs projets, dont certains étaient les miens, et de développer mes compétences dans l'utilisation de <a
                 href="https://github.com/Vladimir9595"
                 target="_blank"
                 >GitHub.</a></p>
         <div class="imginf">
-            <img src="{{ asset('Images/Logos/GitHub-Logo.png') }}" alt="GitHub-Logo"class="imgcomp3">
+            <img src="{{ asset('images/logos/GitHub-Logo.png') }}" alt="GitHub-Logo"class="imgcomp3">
         </div>
         <p>Je suis compétent dans l'utilisation des frameworks Laravel, Tailwind et AlpineJS, comme en témoigne la réalisation de mon portfolio entièrement construit avec ces outils.</p>
         <div class="imginf">
-            <img src="{{ asset('Images/Logos/Laravel_logo.png') }}" alt="Laravel-Logo"class="imgcomp4">
-            <img src="{{ asset('Images/Logos/Tailwind_logo.png') }}" alt="Tailwind-Logo"class="imgcomp4">
-            <img src="{{ asset('Images/Logos/AlpineJs-logo.png') }}" alt="AlpineJs-Logo"class="imgcomp4">
+            <img src="{{ asset('images/logos/Laravel_logo.png') }}" alt="Laravel-Logo"class="imgcomp4">
+            <img src="{{ asset('images/logos/Tailwind_logo.png') }}" alt="Tailwind-Logo"class="imgcomp4">
+            <img src="{{ asset('images/logos/AlpineJs-logo.png') }}" alt="AlpineJs-Logo"class="imgcomp4">
         </div>
     </section>
 

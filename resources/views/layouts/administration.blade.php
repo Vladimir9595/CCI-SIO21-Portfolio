@@ -9,15 +9,15 @@
         @vite('resources/scss/app.scss')
         @vite('resources/scss/styleAdmin.scss')
 
-        <link rel="apple-touch-icon" sizes="57x57" href={{ asset('/Images/Favi/apple-touch-icon.png') }}>
-        <link rel="apple-touch-icon" sizes="180x180" href={{ asset('/Images/Favi/apple-touch-icon.png') }}>
-        <link rel="icon" type="image/png" sizes="32x32" href={{ asset('/Images/Favi/favicon-32x32.png') }}>
-        <link rel="icon" type="image/png" sizes="16x16" href={{ asset('/Images/Favi/favicon-16x16.png') }}>
-        <link rel="manifest" href={{ asset('/Images/Favi/site.webmanifest') }}>
-        <link rel="mask-icon" href={{ asset('/Images/Favi/safari-pinned-tab.svg') }} color="#5bbad5">
-        <link rel="shortcut icon" href={{ asset('/Images/Favi/favicon.ico') }}>
+        <link rel="apple-touch-icon" sizes="57x57" href={{ asset('/images/favicon/apple-touch-icon.png') }}>
+        <link rel="apple-touch-icon" sizes="180x180" href={{ asset('/images/favicon/apple-touch-icon.png') }}>
+        <link rel="icon" type="image/png" sizes="32x32" href={{ asset('/images/favicon/favicon-32x32.png') }}>
+        <link rel="icon" type="image/png" sizes="16x16" href={{ asset('/images/favicon/favicon-16x16.png') }}>
+        <link rel="manifest" href={{ asset('/images/favicon/site.webmanifest') }}>
+        <link rel="mask-icon" href={{ asset('/images/favicon/safari-pinned-tab.svg') }} color="#5bbad5">
+        <link rel="shortcut icon" href={{ asset('/images/favicon/favicon.ico') }}>
         <meta name="msapplication-TileColor" content="#da532c">
-        <meta name="msapplication-config" content="/Images/Favi/browserconfig.xml">
+        <meta name="msapplication-config" content="/images/favicon/browserconfig.xml">
         <meta name="theme-color" content="#ffffff">
         <script
         src="https://kit.fontawesome.com/e051dd5741.js"

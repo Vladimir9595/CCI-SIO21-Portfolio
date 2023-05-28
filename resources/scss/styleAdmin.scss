@@ -2,22 +2,6 @@ body {
     background-color: rgba(173, 170, 170, 0.608);
 }
 
-@font-face {
-    font-family: "bronx";
-    src: url("/Font/Bronx.otf") format("opentype");
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "pt_sansregular";
-    src: url("/Font/PTS55F-webfont.eot") format("embedded-opentype"),
-        url("/Font/PTS55F-webfont.woff") format("woff"),
-        url("/Font/PTS55F-webfont.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal;
-}
-
 .bloc {
     background-color: rgba(77, 97, 215, 0.805);
     margin: -5px;

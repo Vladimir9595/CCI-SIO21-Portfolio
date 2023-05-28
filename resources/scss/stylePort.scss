@@ -1,6 +1,6 @@
 @charset "UTF-8";
 body {
-    background-image: url("/Images/grigio.jpg");
+    background-image: url("/public/images/grigio.jpg");
     background-attachment: fixed;
     background-size: cover;
 }
@@ -9,32 +9,6 @@ html {
     scroll-behavior: smooth;
 }
 
-@font-face {
-    font-family: "pt_sansregular";
-    src: url("/Font/PTS55F-webfont.eot") format("embedded-opentype"),
-        url("/Font/PTS55F-webfont.woff") format("woff"),
-        url("/Font/PTS55F-webfont.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: "alex brush";
-    src: url("/Font/AlexBrush-Regular.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: "tickle gun";
-    src: url("/Font/Tickle Gun.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: "bronx";
-    src: url("/Font/Bronx.otf") format("opentype");
-    font-weight: normal;
-    font-style: normal;
-}
 #Exp {
     color: rgb(23, 77, 158);
     font-size: 25px;
@@ -107,25 +81,18 @@ html {
     transform: scale(1.1);
 }
 
-p,
-li {
-    text-align: justify;
-    font-size: 18px;
-    font-family: "pt_sansregular", "Trebuchet MS", "Lucida Sans Unicode",
-        "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-}
-
+section p,
 p,
 li:not(li:first-child) {
     text-align: justify;
 }
 
-h1 {
+.titre {
     color: rgba(175, 10, 32, 0.918);
-    font-size: 8em;
+    font-size: 5.5em;
     text-align: center;
-    font-family: "tickle gun", "Trebuchet MS", "Lucida Sans Unicode",
-        "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    font-family: "bronx", "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
     text-shadow: 2px 2px rgba(215, 199, 201, 0.92);
     margin: auto;
     margin-top: 30px;
@@ -204,6 +171,8 @@ a:link {
 }
 
 #menu3 {
+    font-family: "pt_sansregular", "Trebuchet MS", "Lucida Sans Unicode",
+        "Lucida Grande", "Lucida Sans", Arial, sans-serif;
     border: solid 6px blanchedalmond;
     border-radius: 20px;
     width: 55%;
@@ -221,6 +190,8 @@ a:link {
     text-shadow: 2px 2px rgba(215, 199, 201, 0.92);
 }
 #mentions p {
+    font-family: "pt_sansregular", "Trebuchet MS", "Lucida Sans Unicode",
+        "Lucida Grande", "Lucida Sans", Arial, sans-serif;
     text-align: center;
 }
 
@@ -360,17 +331,8 @@ h3 {
 }
 
 @media screen and (max-width: 1024px) {
-    body {
-        background-image: url("/Images/grigio.jpg");
-        background-attachment: fixed;
-        background-size: cover;
-    }
-    html {
-        scroll-behavior: smooth;
-    }
-
-    h1 {
-        font-size: 6em;
+    .titre {
+        font-size: 4.5em;
     }
 
     #menu2 {
@@ -467,6 +429,7 @@ h3 {
         font-size: 20px;
     }
 
+    section p,
     p,
     li {
         font-size: 15px;
@@ -507,7 +470,7 @@ h3 {
     }
 }
 @media screen and (max-width: 800px) {
-    h1 {
+    .titre {
         font-size: 45px;
     }
     #menth1 {
@@ -561,6 +524,7 @@ h3 {
     .btn-link2 {
         font-size: 15px;
     }
+    section p,
     p,
     li {
         font-size: 13px;
@@ -576,7 +540,7 @@ h3 {
     }
 }
 @media screen and (max-width: 650px) {
-    h1 {
+    .titre {
         font-size: 40px;
     }
     #menth1 {
@@ -634,6 +598,7 @@ h3 {
     h3 {
         font-size: 15px;
     }
+    section p,
     p,
     li {
         font-size: 13px;
@@ -682,7 +647,7 @@ h3 {
     }
 }
 @media screen and (max-width: 400px) {
-    h1 {
+    .titre {
         font-size: 30px;
     }
 

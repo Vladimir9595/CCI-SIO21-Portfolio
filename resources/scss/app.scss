@@ -1,5 +1,33 @@
 @import "knacss/knacss.scss";
 
+body {
+    background-image: url("./images/grigio.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: "pt_sansregular";
+    src: url("/public/font/PTS55F-webfont.eot") format("embedded-opentype"),
+        url("/public/font/PTS55F-webfont.woff") format("woff"),
+        url("/public/font/PTS55F-webfont.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "bronx";
+    src: url("/public/font/Bronx.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "jet_brains";
+    src: url("/public/font/JetBrainsMono-Regular.ttf") format("opentype");
+    src: url("/public/font/JetBrainsMono-Regular.woff2") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
 .imgID {
     float: right;
     border-radius: 10px;
@@ -73,17 +101,25 @@
         transform: scale(1.2);
     }
 }
+
 .signature {
     color: rgba(175, 10, 32, 0.918);
-    font-size: 2em;
+    font-size: 1.5em;
     text-align: center;
-    font-family: "alex brush", "Trebuchet MS", "Lucida Sans Unicode",
+    font-family: "pt_sansregular", "Trebuchet MS", "Lucida Sans Unicode",
         "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-    margin-top: 5px;
     margin-left: 170px;
 }
+
+section p,
+li {
+    text-align: justify;
+    font-size: 18px;
+    font-family: "pt_sansregular", "Trebuchet MS", "Lucida Sans Unicode",
+        "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
 footer {
-    background-image: url("/Images/lodyas.png");
+    background-image: url("/public/images/lodyas.png");
     opacity: 0.8;
     box-shadow: 5px 5px 5px 5px;
     margin-top: 20px;
@@ -331,6 +367,7 @@ h4 {
     .imgID:hover {
         transform: scale(0.6);
     }
+
     .signature {
         font-size: 1em;
         margin-left: 0px;

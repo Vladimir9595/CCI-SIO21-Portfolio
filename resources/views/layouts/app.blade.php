@@ -9,15 +9,15 @@
         @vite('resources/scss/app.scss')
         @yield('css')
 
-        <link rel="apple-touch-icon" sizes="57x57" href={{ asset('/Images/favicon/apple-touch-icon.png') }}>
-        <link rel="apple-touch-icon" sizes="180x180" href={{ asset('/Images/favicon/apple-touch-icon.png') }}>
-        <link rel="icon" type="image/png" sizes="32x32" href={{ asset('/Images/favicon/favicon-32x32.png') }}>
-        <link rel="icon" type="image/png" sizes="16x16" href={{ asset('/Images/favicon/favicon-16x16.png') }}>
-        <link rel="manifest" href={{ asset('/Images/favicon/site.webmanifest') }}>
-        <link rel="mask-icon" href={{ asset('/Images/favicon/safari-pinned-tab.svg') }} color="#5bbad5">
-        <link rel="shortcut icon" href={{ asset('/Images/favicon/favicon.ico') }}>
+        <link rel="apple-touch-icon" sizes="57x57" href={{ asset('/images/favicon/apple-touch-icon.png') }}>
+        <link rel="apple-touch-icon" sizes="180x180" href={{ asset('/images/favicon/apple-touch-icon.png') }}>
+        <link rel="icon" type="image/png" sizes="32x32" href={{ asset('/images/favicon/favicon-32x32.png') }}>
+        <link rel="icon" type="image/png" sizes="16x16" href={{ asset('/images/favicon/favicon-16x16.png') }}>
+        <link rel="manifest" href={{ asset('/images/favicon/site.webmanifest') }}>
+        <link rel="mask-icon" href={{ asset('/images/favicon/safari-pinned-tab.svg') }} color="#5bbad5">
+        <link rel="shortcut icon" href={{ asset('/images/favicon/favicon.ico') }}>
         <meta name="msapplication-TileColor" content="#da532c">
-        <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+        <meta name="msapplication-config" content="/images/favicon/browserconfig.xml">
         <meta name="theme-color" content="#ffffff">
 
         <script
@@ -28,10 +28,10 @@
     </head>
     <body>
         <header>
-            <a href="{{route("accueil")}}"><img  class="logo" src={{ asset('Images/Logos/logo-1.jpg') }} alt="logo"  /></a>
-            <img class="imgID" src={{ asset('Images/photoID1.png') }} alt="Photo de Vladimir" />
+            <a href="{{route("accueil")}}"><img  class="logo" src={{ asset('images/logos/logo-1.jpg') }} alt="logo"  /></a>
+            <img class="imgID" src={{ asset('images/photoID1.png') }} alt="Photo de Vladimir" />
             <a href="{{route("login")}}">@yield('roue')</a>
-            <h1>@yield('titreH1')</h1>
+            <h1 class="titre">@yield('titreH1')</h1>
             <h2 class="signature"><strong>Vladimir Sacchetto</strong></h2>
         </header>
         @yield('content')
@@ -46,7 +46,7 @@
                 ><i class="fab fa-instagram"></i
                 ></a>
                 <a
-                href="https://www.linkedin.com/in/vladimir-sacchetto-16642b116/?locale=fr_FR"
+                href="https://www.linkedin.com/in/vladimir-sacchetto"
                 target="_blank"
                 ><i class="fab fa-linkedin"></i
                 ></a>
