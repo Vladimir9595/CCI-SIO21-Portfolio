@@ -49,7 +49,7 @@
             </div>
             <div id="copyright">
                 <span>
-                    © Vladimir Sacchetto; 2022 |
+                    © Vladimir Sacchetto; <?= date('Y') ?> |
                     <a href="{{route("accueil")}}">Accueil -</a>
                     <a href="{{route("mentions")}}">Mentions Légales -</a>
                     <a href="{{route("articles")}}">Veille Technologique -</a>
