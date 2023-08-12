@@ -11,17 +11,17 @@
     "file": "assets/Bronx.2185dcf7.otf",
     "src": "public/font/Bronx.otf"
   },
-  "public/font/JetBrainsMono-Regular.woff2": {
-    "file": "assets/JetBrainsMono-Regular.a9cb1cd8.woff2",
-    "src": "public/font/JetBrainsMono-Regular.woff2"
+  "public/font/JetBrainsMono-Regular.ttf": {
+    "file": "assets/JetBrainsMono-Regular.a0bf60ef.ttf",
+    "src": "public/font/JetBrainsMono-Regular.ttf"
   },
   "public/images/lodyas.png": {
     "file": "assets/lodyas.e1d6435f.png",
     "src": "public/images/lodyas.png"
   },
-  "public/font/JetBrainsMono-Regular.ttf": {
-    "file": "assets/JetBrainsMono-Regular.a0bf60ef.ttf",
-    "src": "public/font/JetBrainsMono-Regular.ttf"
+  "public/font/JetBrainsMono-Regular.woff2": {
+    "file": "assets/JetBrainsMono-Regular.a9cb1cd8.woff2",
+    "src": "public/font/JetBrainsMono-Regular.woff2"
   },
   "public/font/PTS55F-webfont.woff": {
     "file": "assets/PTS55F-webfont.4061ac0d.woff",
@@ -36,19 +36,9 @@
     "src": "resources/js/app.js",
     "isEntry": true
   },
-  "resources/scss/styleAdmin.scss": {
-    "file": "assets/styleAdmin.7d3b169e.css",
-    "src": "resources/scss/styleAdmin.scss",
-    "isEntry": true
-  },
   "resources/scss/errors.scss": {
     "file": "assets/errors.0d6925f5.css",
     "src": "resources/scss/errors.scss",
-    "isEntry": true
-  },
-  "resources/scss/stylePort.scss": {
-    "file": "assets/stylePort.2f23bd28.css",
-    "src": "resources/scss/stylePort.scss",
     "isEntry": true
   },
   "resources/scss/styleJobs.scss": {
@@ -56,8 +46,18 @@
     "src": "resources/scss/styleJobs.scss",
     "isEntry": true
   },
+  "resources/scss/styleAdmin.scss": {
+    "file": "assets/styleAdmin.7d3b169e.css",
+    "src": "resources/scss/styleAdmin.scss",
+    "isEntry": true
+  },
+  "resources/scss/stylePort.scss": {
+    "file": "assets/stylePort.975733d1.css",
+    "src": "resources/scss/stylePort.scss",
+    "isEntry": true
+  },
   "resources/scss/app.scss": {
-    "file": "assets/app.db8eae25.css",
+    "file": "assets/app.6536584d.css",
     "src": "resources/scss/app.scss",
     "isEntry": true
   }
