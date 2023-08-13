@@ -15,13 +15,13 @@
     "file": "assets/JetBrainsMono-Regular.a0bf60ef.ttf",
     "src": "public/font/JetBrainsMono-Regular.ttf"
   },
-  "public/images/lodyas.png": {
-    "file": "assets/lodyas.e1d6435f.png",
-    "src": "public/images/lodyas.png"
-  },
   "public/font/JetBrainsMono-Regular.woff2": {
     "file": "assets/JetBrainsMono-Regular.a9cb1cd8.woff2",
     "src": "public/font/JetBrainsMono-Regular.woff2"
+  },
+  "public/images/lodyas.png": {
+    "file": "assets/lodyas.e1d6435f.png",
+    "src": "public/images/lodyas.png"
   },
   "public/font/PTS55F-webfont.woff": {
     "file": "assets/PTS55F-webfont.4061ac0d.woff",
@@ -36,19 +36,19 @@
     "src": "resources/js/app.js",
     "isEntry": true
   },
-  "resources/scss/errors.scss": {
-    "file": "assets/errors.0d6925f5.css",
-    "src": "resources/scss/errors.scss",
-    "isEntry": true
-  },
   "resources/scss/styleJobs.scss": {
     "file": "assets/styleJobs.723f1bd1.css",
     "src": "resources/scss/styleJobs.scss",
     "isEntry": true
   },
   "resources/scss/styleAdmin.scss": {
-    "file": "assets/styleAdmin.7d3b169e.css",
+    "file": "assets/styleAdmin.4e6c4551.css",
     "src": "resources/scss/styleAdmin.scss",
+    "isEntry": true
+  },
+  "resources/scss/errors.scss": {
+    "file": "assets/errors.0d6925f5.css",
+    "src": "resources/scss/errors.scss",
     "isEntry": true
   },
   "resources/scss/stylePort.scss": {
